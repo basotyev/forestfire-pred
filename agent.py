@@ -54,9 +54,6 @@ class FirePredictionAgent:
             )
             grid_search.fit(X_train_scaled, y_train)
 
-            print("[INFO] Лучшие параметры для SVM:", grid_search.best_params_)
-            print("[INFO] Лучший результат (cv mean accuracy):", grid_search.best_score_)
-
             self.model = grid_search.best_estimator_
 
             y_pred = self.model.predict(X_test_scaled)
