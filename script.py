@@ -117,11 +117,21 @@ def process_images_by_day(start_date, end_date, grid_cells):
                 temperature = properties.get('B12', None)
                 fire_index = properties.get('B8', None)
 
-                fire_status = 0
-                if fire_index:
-                    fire_index = fire_index / 10000  # Normalize to reflectance
-                    if fire_index > 0.15:
-                        fire_status = 1
+                fire_status = 0  # Default: No fire
+
+                if fire_index is not None and fire_index > 0:  # Ensure fire_index is valid
+                    fire_index_normalized = fire_index / 10000  # Normalize to reflectance
+                    log(f"Raw Fire Index: {fire_index}, Normalized: {fire_index_normalized}")
+
+                    if 0 <= fire_index_normalized <= 1:  # Valid reflectance range
+                        if fire_index_normalized > 0.2:  # Adjust threshold based on analysis
+                            fire_status = 1
+                        else:
+                            log(f"Fire index {fire_index_normalized} below threshold.")
+                    else:
+                        log(f"Invalid normalized fire index: {fire_index_normalized}")
+                else:
+                    log("Fire index is None or invalid.")
 
                 if humidity and temperature:
                     results.append({
