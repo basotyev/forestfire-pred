@@ -18,13 +18,13 @@ def predict():
         data = request.get_json()
         
         # Validate required fields
-        required_fields = ['Date', 'Latitude', 'Longitude', 'Humidity', 'Temperature', 'Fire', 'DistanceFromReference']
+        required_fields = ['Latitude', 'Longitude', 'Humidity', 'Temperature', 'DistanceFromReference']
         for field in required_fields:
             if field not in data:
                 return jsonify({'error': f'Missing required field: {field}'}), 400
         
         # Convert string values to float
-        for field in ['Latitude', 'Longitude', 'Humidity', 'Temperature', 'DistanceFromReference']:
+        for field in required_fields:
             try:
                 data[field] = float(data[field])
             except ValueError:

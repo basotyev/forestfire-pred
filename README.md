@@ -70,12 +70,10 @@ curl -X POST http://localhost:5000/train
 curl -X POST http://localhost:5000/predict \
 -H "Content-Type: application/json" \
 -d '{
-    "Date": "2023-04-01",
     "Latitude": 50.42,
     "Longitude": 80.23,
     "Humidity": 0.5,
     "Temperature": 25.0,
-    "Fire": 0,
     "DistanceFromReference": 0.0
 }'
 ```
@@ -87,12 +85,10 @@ curl -X POST http://localhost:5000/predict \
     "probability": 0.75,
     "prediction": 1,
     "input_data": {
-        "Date": "2023-04-01",
         "Latitude": 50.42,
         "Longitude": 80.23,
         "Humidity": 0.5,
         "Temperature": 25.0,
-        "Fire": 0,
         "DistanceFromReference": 0.0
     }
 }
