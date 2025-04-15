@@ -56,6 +56,25 @@ docker build -t forest-fire-prediction .
 docker run -p 5000:5000 forest-fire-prediction
 ```
 
+### Использование готового образа из Docker Hub
+
+```bash
+docker pull yourusername/forest-fire-prediction:latest
+docker run -p 5000:5000 yourusername/forest-fire-prediction:latest
+```
+
+## CI/CD
+
+Проект использует GitHub Actions для автоматической сборки и публикации Docker-образов:
+
+- При каждом пуше в ветки `main` или `develop` автоматически собирается и публикуется Docker-образ
+- Образы тегируются в соответствии с веткой, версией и SHA коммита
+- Используется кэширование слоев для ускорения сборки
+
+Для настройки CI/CD необходимо добавить следующие секреты в настройках GitHub репозитория:
+- `DOCKERHUB_USERNAME` - имя пользователя Docker Hub
+- `DOCKERHUB_TOKEN` - токен доступа Docker Hub
+
 ## Использование API
 
 ### Обучение модели
