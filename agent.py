@@ -24,7 +24,7 @@ class FirePredictionAgent:
 
             required_columns = ["Latitude", "Longitude", "Humidity", "Temperature", "DistanceFromReference", "Fire"]
             if not all(col in data.columns for col in required_columns):
-                raise ValueError(f"Данные должны содержать следующие колонки: {required_columns}")
+                raise ValueError(f"Data must contain the following columns: {required_columns}")
 
             X = data[["Latitude", "Longitude", "Humidity", "Temperature", "DistanceFromReference"]]
             y = data["Fire"]
@@ -34,7 +34,7 @@ class FirePredictionAgent:
             )
 
             if self.algorithm == "svm":
-                logger.info("[INFO] Обучаем SVM-модель...")
+                logger.info("[INFO] Training SVM model...")
 
                 self.scaler = StandardScaler()
                 X_train_scaled = self.scaler.fit_transform(X_train)
@@ -67,7 +67,7 @@ class FirePredictionAgent:
 
             else:
                 # Random Forest
-                logger.info("[INFO] Обучаем Random Forest...")
+                logger.info("[INFO] Training Random Forest...")
                 self.model = RandomForestClassifier(n_estimators=100, random_state=42)
                 self.model.fit(X_train, y_train)
 
@@ -79,7 +79,7 @@ class FirePredictionAgent:
                     save_model_path = "fire_model_rf.joblib"
 
             dump(self.model, save_model_path)
-            logger.info(f"Модель сохранена в {save_model_path}")
+            logger.info(f"Model saved in {save_model_path}")
             
             return True
             
@@ -89,7 +89,7 @@ class FirePredictionAgent:
 
     def predict(self, input_data):
         if self.model is None:
-            raise ValueError("Модель не загружена. Сначала обучите или загрузите модель.")
+            raise ValueError("Model is not loaded. Please train or load the model first.")
 
         # Convert dictionary to DataFrame if needed
         if isinstance(input_data, dict):
@@ -99,7 +99,7 @@ class FirePredictionAgent:
 
         required_columns = ["Latitude", "Longitude", "Humidity", "Temperature", "DistanceFromReference"]
         if not all(col in input_data.columns for col in required_columns):
-            raise ValueError(f"Входные данные должны содержать следующие колонки: {required_columns}")
+            raise ValueError(f"Input data must contain the following columns: {required_columns}")
 
         X = input_data[["Latitude", "Longitude", "Humidity", "Temperature", "DistanceFromReference"]]
 
@@ -116,20 +116,20 @@ class FirePredictionAgent:
 
 
 if __name__ == "__main__":
-    new_data = [
-        {"Latitude": 49.0,
-         "Longitude": 80.0,
-         "Humidity": 35.0,
-         "Temperature": 25.0,
-         "DistanceFromReference": 120.3
-         },
-        {"Latitude": 49.5,
-         "Longitude": 80.5,
-         "Humidity": 45.0,
-         "Temperature": 22.0,
-         "DistanceFromReference": 150.7
-         }
-    ]
+    # new_data = [
+    #     {"Latitude": 49.0,
+    #      "Longitude": 80.0,
+    #      "Humidity": 35.0,
+    #      "Temperature": 25.0,
+    #      "DistanceFromReference": 120.3
+    #      },
+    #     {"Latitude": 49.5,
+    #      "Longitude": 80.5,
+    #      "Humidity": 45.0,
+    #      "Temperature": 22.0,
+    #      "DistanceFromReference": 150.7
+    #      }
+    # ]
 
     # RF
     rf_agent = FirePredictionAgent(algorithm="rf")
