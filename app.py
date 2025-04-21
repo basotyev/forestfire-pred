@@ -4,36 +4,29 @@ import logging
 
 app = Flask(__name__)
 
-# Configure logging
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
-# Initialize the agent
 agent = FirePredictionAgent()
 
 @app.route('/predict', methods=['POST'])
 def predict():
     try:
-        # Get data from request
         data = request.get_json()
         
-        # Validate required fields
         required_fields = ['Latitude', 'Longitude', 'Humidity', 'Temperature', 'DistanceFromReference']
         for field in required_fields:
             if field not in data:
                 return jsonify({'error': f'Missing required field: {field}'}), 400
         
-        # Convert string values to float
         for field in required_fields:
             try:
                 data[field] = float(data[field])
             except ValueError:
                 return jsonify({'error': f'Invalid value for {field}. Must be a number.'}), 400
-        
-        # Get prediction
+
         result = agent.predict(data)
         
-        # Return result
         return jsonify({
             'probability': float(result['Fire_Probability'].iloc[0]),
             'prediction': int(result['Fire_Prediction'].iloc[0]),

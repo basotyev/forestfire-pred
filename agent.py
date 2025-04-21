@@ -11,7 +11,7 @@ logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
 class FirePredictionAgent:
-    def __init__(self, model_path=None, algorithm="rf"):
+    def __init__(self, model_path=None, algorithm="svm"):
         self.model = None
         self.algorithm = algorithm
         self.scaler = None
@@ -91,7 +91,6 @@ class FirePredictionAgent:
         if self.model is None:
             raise ValueError("Model is not loaded. Please train or load the model first.")
 
-        # Convert dictionary to DataFrame if needed
         if isinstance(input_data, dict):
             input_data = pd.DataFrame([input_data])
         elif isinstance(input_data, list):
@@ -116,20 +115,20 @@ class FirePredictionAgent:
 
 
 if __name__ == "__main__":
-    # new_data = [
-    #     {"Latitude": 49.0,
-    #      "Longitude": 80.0,
-    #      "Humidity": 35.0,
-    #      "Temperature": 25.0,
-    #      "DistanceFromReference": 120.3
-    #      },
-    #     {"Latitude": 49.5,
-    #      "Longitude": 80.5,
-    #      "Humidity": 45.0,
-    #      "Temperature": 22.0,
-    #      "DistanceFromReference": 150.7
-    #      }
-    # ]
+    new_data = [
+        {"Latitude": 49.0,
+         "Longitude": 80.0,
+         "Humidity": 35.0,
+         "Temperature": 25.0,
+         "DistanceFromReference": 120.3
+         },
+        {"Latitude": 49.5,
+         "Longitude": 80.5,
+         "Humidity": 45.0,
+         "Temperature": 22.0,
+         "DistanceFromReference": 150.7
+         }
+    ]
 
     # RF
     rf_agent = FirePredictionAgent(algorithm="rf")
