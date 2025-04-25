@@ -1,4 +1,4 @@
 .idea/
 venv/
-./satellite_images/
-./results/
+satellite_images/
+results/
