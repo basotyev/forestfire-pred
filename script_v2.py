@@ -12,20 +12,16 @@ import threading
 
 ee.Initialize(project='forestfire-pred')
 
-# Увеличиваем область поиска и проверяем координаты
 aoi = ee.Geometry.Polygon([
     [[80.107, 50.482], [81.214, 50.335], [81.159, 51.207]]
 ])
 
-# Расширяем период до летних месяцев 2018-2023
-# Все летние месяцы (июнь, июль, август) за 2018-2023 годы
 YEARS = [2018, 2019, 2020, 2021, 2022, 2023]
 SUMMER_MONTHS = [6, 7, 8]  # Июнь, июль, август
 
 SCALE = 20  # Разрешение SWIR каналов (20 метров)
-OUTPUT_DIR = "satellite_images"  # Directory to save images
-# Обновляем коллекцию на рекомендуемую версию
-COLLECTION = 'COPERNICUS/S2_HARMONIZED'  # Используем актуальную версию Sentinel-2
+OUTPUT_DIR = "satellite_images"
+COLLECTION = 'COPERNICUS/S2_HARMONIZED'
 
 # Оптимизация и улучшение качества
 MAX_IMAGES_PER_YEAR = 90  # 90 изображений для каждого года
@@ -51,8 +47,7 @@ def fetch_images_for_period(start_date, end_date, max_images):
     """Получить список изображений за указанный период"""
     try:
         log(f"Fetching images from {start_date} to {end_date}")
-        
-        # Используем актуальную версию Sentinel-2
+
         collection = ee.ImageCollection(COLLECTION) \
             .filterBounds(aoi) \
             .filterDate(start_date, end_date) \
@@ -64,8 +59,7 @@ def fetch_images_for_period(start_date, end_date, max_images):
         if count == 0:
             log(f"No images found for period {start_date} to {end_date}")
             return []
-        
-        # Ограничиваем количество изображений для ускорения
+
         count_to_get = min(count, max_images)
         log(f"Found {count} images for period {start_date} to {end_date}, processing {count_to_get}")
         
@@ -139,8 +133,7 @@ def fetch_images_for_years(years, months, max_per_year, max_per_month):
             year_images = year_images[:max_per_year]
         
         log(f"Total images for {year}: {len(year_images)}")
-        
-        # Создаем подпапку для года
+
         year_dir = os.path.join(OUTPUT_DIR, str(year))
         if not os.path.exists(year_dir):
             os.makedirs(year_dir)
@@ -170,10 +163,9 @@ def save_image(image_data, vis_type, file_prefix):
         image = image_data['image']
         date_str = image_data['date']
         year = date_str.split('-')[0]  # Извлекаем год из даты
-        
-        # Различные типы визуализации для разных целей
+
         if vis_type == 'fire':
-            # SWIR2 (B12) / NIR (B8) - хорошо показывает пожары
+            # SWIR2 (B12) / NIR (B8) - пожар
             rgb_image = image.select(['B12', 'B8'], ['red', 'green'])
             rgb_image = rgb_image.addBands(rgb_image.select(['green']).rename('blue'))
             
@@ -187,7 +179,7 @@ def save_image(image_data, vis_type, file_prefix):
                 'gamma': 1.2  # Усиливаем контраст
             })
         elif vis_type == 'drought':
-            # SWIR1 (B11) / NIR (B8) - хорошо показывает сухостоя
+            # SWIR1 (B11) / NIR (B8) - сухостой
             rgb_image = image.select(['B11', 'B8'], ['red', 'green'])
             rgb_image = rgb_image.addBands(rgb_image.select(['green']).rename('blue'))
             
@@ -201,7 +193,7 @@ def save_image(image_data, vis_type, file_prefix):
                 'gamma': 1.1
             })
         elif vis_type == 'nbr':
-            # Normalized Burn Ratio - специально для обнаружения гарей
+            # Normalized Burn Ratio - обнаружения гари
             # Используем цветовую палитру от зеленого (здоровая растительность) к красному (гарь)
             nbr_palette = ['#1a9850', '#91cf60', '#d9ef8b', '#ffffbf', '#fee08b', '#fc8d59', '#d73027']
             
@@ -214,7 +206,6 @@ def save_image(image_data, vis_type, file_prefix):
                 'palette': nbr_palette
             })
         elif vis_type == 'natural':
-            # Естественная цветовая композиция (RGB)
             rgb_image = image.select(['B4', 'B3', 'B2'], ['red', 'green', 'blue'])
             
             url = rgb_image.getThumbURL({
@@ -228,15 +219,13 @@ def save_image(image_data, vis_type, file_prefix):
         else:
             log(f"Unknown visualization type: {vis_type}")
             return False
-        
-        # Скачиваем и сохраняем изображение
+
         response = requests.get(url)
         if response.status_code == 200:
             cloud_info = ""
             if image_data['cloud_percent'] is not None:
                 cloud_info = f"_cloud{image_data['cloud_percent']:.1f}"
-            
-            # Сохраняем в подпапку соответствующего года
+
             year_dir = os.path.join(OUTPUT_DIR, year)    
             img_path = os.path.join(year_dir, f"{file_prefix}_{date_str}{cloud_info}.png")
             with open(img_path, 'wb') as f:
@@ -251,10 +240,8 @@ def save_image(image_data, vis_type, file_prefix):
         return False
 
 def process_image(img_data, idx, total):
-    """Обработка одного изображения в отдельном потоке"""
     log(f"Processing image {idx+1}/{total}: {img_data['date']}")
     try:
-        # Сохраняем все типы визуализации
         save_image(img_data, 'fire', 'fire')
         save_image(img_data, 'drought', 'drought')
         save_image(img_data, 'nbr', 'nbr')
@@ -266,7 +253,6 @@ def process_image(img_data, idx, total):
         return False
 
 def process_available_images():
-    # Получаем изображения за все летние месяцы 2018-2023
     available_images = fetch_images_for_years(YEARS, SUMMER_MONTHS, MAX_IMAGES_PER_YEAR, MAX_IMAGES_PER_MONTH)
     
     if not available_images:
@@ -285,7 +271,6 @@ def process_available_images():
         
         # Ждем завершения всех задач
         for future in concurrent.futures.as_completed(futures):
-            # Здесь можно обработать результат, если нужно
             pass
 
 # Create output directory
