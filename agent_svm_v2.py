@@ -139,6 +139,9 @@ def prepare_dataset():
         os.path.join(RESULTS_DIR, 'dataset_info.csv'), index=False)
     return X, y, filenames
 
+from sklearn.svm import LinearSVC
+from sklearn.preprocessing import StandardScaler
+
 def train_model(X, y):
     if len(np.unique(y)) < 2:
         print("ОШИБКА: только один класс в данных.")
@@ -146,33 +149,35 @@ def train_model(X, y):
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, test_size=0.3, random_state=42)
 
-    print("Обучение модели SVM.")
+    print("Обучение модели LinearSVC.")
     scaler = StandardScaler()
     X_train_scaled = scaler.fit_transform(X_train)
     X_test_scaled = scaler.transform(X_test)
 
-    model = SVC(kernel='rbf', C=1.0, gamma='scale', class_weight='balanced', probability=True)
+    model = LinearSVC(class_weight='balanced', max_iter=10000, random_state=42)
     model.fit(X_train_scaled, y_train)
 
     with open(MODEL_PATH, 'wb') as f:
         pickle.dump((model, scaler), f)
 
     y_pred = model.predict(X_test_scaled)
-    print(f"Точность: {accuracy_score(y_test, y_pred):.4f}")
+    acc = accuracy_score(y_test, y_pred)
+    print(f"Точность: {acc:.4f}")
     print("Классификационный отчет:")
     print(classification_report(y_test, y_pred))
 
     cm = confusion_matrix(y_test, y_pred)
     plt.figure(figsize=(8, 6))
-    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Oranges',
                 xticklabels=['Нет пожара', 'Пожар'],
                 yticklabels=['Нет пожара', 'Пожар'])
-    plt.title('Матрица ошибок SVM')
-    plt.savefig(os.path.join(RESULTS_DIR, 'confusion_matrix_svm.png'))
+    plt.title('Матрица ошибок (LinearSVC)')
+    plt.savefig(os.path.join(RESULTS_DIR, 'confusion_matrix_linear_svc.png'))
     return model, X_test_scaled, y_test
 
-def predict_fire(image_path, model=None):
-    if model is None:
+
+def predict_fire(image_path, model=None, scaler=None):
+    if model is None or scaler is None:
         if os.path.exists(MODEL_PATH):
             with open(MODEL_PATH, 'rb') as f:
                 model, scaler = pickle.load(f)
@@ -189,13 +194,13 @@ def predict_fire(image_path, model=None):
     features, red_percentage, bright_percentage = extract_features(img)
     features_scaled = scaler.transform([features])
     prediction = model.predict(features_scaled)[0]
-    prob = model.predict_proba(features_scaled)[0][1]
+    prob = None
     label = "Пожар" if prediction == 1 else "Нет пожара"
 
     return {
         'path': image_path,
         'prediction': label,
-        'probability': prob,
+        'probability': "N/A",
         'red_pct': red_percentage,
         'bright_pct': bright_percentage
     }
