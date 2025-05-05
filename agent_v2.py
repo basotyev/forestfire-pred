@@ -36,15 +36,15 @@ def extract_features(image):
     """Извлекает признаки из изображения для классификации"""
     # Преобразуем в HSV цветовое пространство
     hsv = cv2.cvtColor(image, cv2.COLOR_BGR2HSV)
-    
+
     # Средние значения по каналам (BGR и HSV)
     bgr_means = np.mean(image, axis=(0,1))
     hsv_means = np.mean(hsv, axis=(0,1))
-    
+
     # Стандартные отклонения по каналам
     bgr_std = np.std(image, axis=(0,1))
     hsv_std = np.std(hsv, axis=(0,1))
-    
+
     # Доминирующие цвета (используем K-means)
     pixels = image.reshape(-1, 3)
     pixels = np.float32(pixels)
@@ -52,35 +52,34 @@ def extract_features(image):
     k = 5  # количество кластеров
     _, labels, centers = cv2.kmeans(pixels, k, None, criteria, 10, cv2.KMEANS_RANDOM_CENTERS)
     dominant_colors = centers
-    
+
     # Гистограммы
     hist_b = cv2.calcHist([image], [0], None, [32], [0, 256])
     hist_g = cv2.calcHist([image], [1], None, [32], [0, 256])
     hist_r = cv2.calcHist([image], [2], None, [32], [0, 256])
-    
     hist_h = cv2.calcHist([hsv], [0], None, [32], [0, 180])
     hist_s = cv2.calcHist([hsv], [1], None, [32], [0, 256])
     hist_v = cv2.calcHist([hsv], [2], None, [32], [0, 256])
-    
+
     # Процент красных пикселей (потенциальное пламя)
     lower_red1 = np.array([0, 100, 100])
     upper_red1 = np.array([10, 255, 255])
     lower_red2 = np.array([160, 100, 100])
     upper_red2 = np.array([180, 255, 255])
-    
+
     mask1 = cv2.inRange(hsv, lower_red1, upper_red1)
     mask2 = cv2.inRange(hsv, lower_red2, upper_red2)
     red_mask = mask1 + mask2
-    
+
     red_pixels = np.sum(red_mask > 0)
     total_pixels = image.shape[0] * image.shape[1]
     red_percentage = red_pixels / total_pixels
-    
+
     # Сегментация по яркости для обнаружения потенциальных пожаров
     gray = cv2.cvtColor(image, cv2.COLOR_BGR2GRAY)
     _, bright_mask = cv2.threshold(gray, 200, 255, cv2.THRESH_BINARY)
     bright_percentage = np.sum(bright_mask > 0) / total_pixels
-    
+
     # Объединяем все признаки в один вектор
     features = np.concatenate([
         bgr_means, bgr_std,                         # 6 признаков
@@ -94,49 +93,49 @@ def extract_features(image):
         hist_v.flatten() / np.sum(hist_v),          # 32 признака
         [red_percentage, bright_percentage]         # 2 признака
     ])
-    
+
     return features, red_percentage, bright_percentage
 
 def prepare_dataset():
     """Готовит датасет для обучения модели"""
     # Ищем все типы изображений
     all_images = []
-    
+
     for year in os.listdir(DATA_DIR):
         year_dir = os.path.join(DATA_DIR, year)
         if not os.path.isdir(year_dir):
             continue
-            
+
         # Поиск всех типов изображений
         for vis_type in ['fire', 'drought', 'nbr', 'natural']:
             image_files = glob.glob(os.path.join(year_dir, f"{vis_type}_*.png"))
             all_images.extend(image_files)
-    
+
     print(f"Найдено {len(all_images)} изображений всего")
-    
+
     # Подготовка данных
     X = []  # признаки
     y = []  # метки (1 - пожар, 0 - нет пожара)
     filenames = []  # сохраняем имена файлов для анализа
-    
+
     # Создаем датасет с балансом классов
     fire_count = 0
     no_fire_count = 0
-    
+
     # Ручная разметка или полуавтоматическая по имени файла
     print("Формирование датасета...")
     for img_path in tqdm(all_images):
         img = load_image(img_path)
         if img is None:
             continue
-            
+
         # Извлекаем признаки из изображения
         features, red_percentage, bright_percentage = extract_features(img)
-        
+
         # Классифицируем на основе порогов цвета и яркости
         # Эмпирически подобранные пороги для определения пожара
         is_fire = False
-        
+
         # Для fire типа изображений - более высокая вероятность пожара
         if 'fire_' in os.path.basename(img_path):
             is_fire = red_percentage > 0.05 and bright_percentage > 0.02
@@ -146,7 +145,7 @@ def prepare_dataset():
         # Для остальных типов - более строгие условия
         else:
             is_fire = red_percentage > 0.08 and bright_percentage > 0.05
-        
+
         # Балансируем классы (добавляем не более 200 примеров каждого класса)
         if is_fire and fire_count < 200:
             X.append(features)
@@ -158,13 +157,13 @@ def prepare_dataset():
             y.append(0)
             filenames.append(img_path)
             no_fire_count += 1
-    
-    print(f"Создан датасет: {fire_count} изображений с пожарами, {no_fire_count} без пожаров")
-    
+
+    print(f"Dataset created: {fire_count} images with forestfire, {no_fire_count} without foresfire")
+
     # Гарантируем что у нас есть оба класса
     unique_classes = np.unique(y)
     if len(unique_classes) < 2:
-        print("ВНИМАНИЕ: Датасет содержит только один класс. Добавляем синтетические примеры...")
+        print("Adding synthetic examples...")
         if 1 not in unique_classes:  # Если нет пожаров
             # Создаем синтетический пример пожара
             x_avg = np.mean(np.array(X), axis=0)
@@ -183,18 +182,18 @@ def prepare_dataset():
             X.append(x_avg)
             y.append(0)
             filenames.append("synthetic_no_fire.png")
-    
+
     # Преобразуем в numpy массивы
     X = np.array(X)
     y = np.array(y)
-    
+
     # Сохраняем информацию о датасете
     dataset_info = pd.DataFrame({
         'filename': filenames,
         'label': y
     })
     dataset_info.to_csv(os.path.join(RESULTS_DIR, 'dataset_info.csv'), index=False)
-    
+
     return X, y, filenames
 
 def train_model(X, y):
@@ -202,13 +201,13 @@ def train_model(X, y):
     # Проверяем, что есть примеры обоих классов
     unique_classes = np.unique(y)
     if len(unique_classes) < 2:
-        print(f"ОШИБКА: Датасет содержит только класс {unique_classes[0]}. Невозможно обучить классификатор.")
+        print(f"error: datasetcontains only one class {unique_classes[0]}. Impossible to train classifier")
         return None, None, None
-    
+
     # Разделяем данные на тренировочные и тестовые
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.3, random_state=42, stratify=y)
-    
-    print("Обучение модели Random Forest...")
+
+    print("Training Random Forest...")
     # Инициализируем и обучаем Random Forest
     model = RandomForestClassifier(
         n_estimators=100,
@@ -219,44 +218,43 @@ def train_model(X, y):
         class_weight='balanced',
         n_jobs=-1
     )
-    
+
     model.fit(X_train, y_train)
-    
+
     # Проверяем, что модель обучилась обоим классам
     classes = model.classes_
-    print(f"Классы модели: {classes}")
-    
+    print(f"Model class: {classes}")
+
     # Сохраняем модель
     with open(MODEL_PATH, 'wb') as f:
         pickle.dump(model, f)
-    
+
     # Оцениваем модель
     y_pred = model.predict(X_test)
-    
+
     accuracy = accuracy_score(y_test, y_pred)
-    print(f"Точность модели: {accuracy:.4f}")
-    
-    print("Отчет по классификации:")
+    print(f"Accuracy: {accuracy:.4f}")
+
+    print("Classification report:")
     print(classification_report(y_test, y_pred))
-    
+
     # Матрица ошибок
     cm = confusion_matrix(y_test, y_pred)
     plt.figure(figsize=(8, 6))
-    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues', 
-                xticklabels=['Нет пожара', 'Пожар'], 
-                yticklabels=['Нет пожара', 'Пожар'])
-    plt.xlabel('Предсказанные значения')
-    plt.ylabel('Истинные значения')
-    plt.title('Матрица ошибок')
-    plt.savefig(os.path.join(RESULTS_DIR, 'confusion_matrix.png'))
-    
-    # Важность признаков
+    sns.heatmap(cm, annot=True, fmt='d', cmap='Blues',
+                xticklabels=['No fire', 'Fire'],
+                yticklabels=['No fire', 'Fire'])
+    plt.xlabel('Predicted values')
+    plt.ylabel('True values')
+    plt.title('Confusion Matrix RF')
+    plt.savefig(os.path.join(RESULTS_DIR, 'confusion_matrix_rf.png'))
+
     feature_importance = model.feature_importances_
     plt.figure(figsize=(12, 8))
     plt.bar(range(len(feature_importance)), feature_importance)
-    plt.title('Важность признаков')
-    plt.savefig(os.path.join(RESULTS_DIR, 'feature_importance.png'))
-    
+    plt.title('Feature importance')
+    plt.savefig(os.path.join(RESULTS_DIR, 'feature_importance_rf.png'))
+
     return model, X_test, y_test
 
 def predict_fire(image_path, model=None):
@@ -267,27 +265,27 @@ def predict_fire(image_path, model=None):
             with open(MODEL_PATH, 'rb') as f:
                 model = pickle.load(f)
         else:
-            print("Модель не найдена. Сначала обучите модель.")
+            print("Model was not found")
             return None
-    
+
     # Загружаем и обрабатываем изображение
     img = load_image(image_path)
     if img is None:
         return None
-    
+
     # Извлекаем признаки
     features, red_percentage, bright_percentage = extract_features(img)
-    
+
     # Проверяем классы модели
     has_multi_class = len(model.classes_) > 1
-    
+
     # Прогнозируем
     prediction = model.predict([features])[0]
-    
+
     # Получаем вероятность пожара безопасным способом
     probabilities = model.predict_proba([features])[0]
     fire_probability = 0.0
-    
+
     # Находим вероятность класса "Пожар" (1)
     if has_multi_class:
         # Если модель знает оба класса
@@ -302,38 +300,42 @@ def predict_fire(image_path, model=None):
         else:
             # Используем признаки как запасной вариант для оценки
             fire_probability = min(red_percentage * 5, 0.9)
-    
+
     # Возвращаем результат
     result = {
         'filename': image_path,
-        'prediction': 'Пожар' if prediction == 1 else 'Нет пожара',
+        'prediction': 'Fire' if prediction == 1 else 'No fire',
         'probability': fire_probability,
         'red_percentage': red_percentage,
         'bright_percentage': bright_percentage
     }
-    
+
     return result
 
 def visualize_prediction(image_path, result):
-    """Визуализирует результат предсказания"""
     img = cv2.imread(image_path)
-    
-    # Добавляем информацию о предсказании
-    text = f"{result['prediction']} (вероятность: {result['probability']:.2f})"
-    color = (0, 0, 255) if result['prediction'] == 'Пожар' else (0, 255, 0)
-    
-    cv2.putText(img, text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2)
-    
-    # Добавляем дополнительную информацию о признаках
-    cv2.putText(img, f"Красный: {result['red_percentage']:.3f}", (10, 60), 
-                cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 0), 2)
-    cv2.putText(img, f"Яркость: {result['bright_percentage']:.3f}", (10, 90), 
-                cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
-    
-    # Сохраняем результат
+    if img is None:
+        print(f"visualize_prediction: error loading image: {image_path}")
+        return None
+
+    prediction = result.get('prediction', 'Unknown')
+    probability = result.get('probability', "N/A")
+    red_pct = result.get('red_pct', 0.0)
+    bright_pct = result.get('bright_pct', 0.0)
+
+    label_text = f"{prediction} (prob: {probability:.2f})" if isinstance(probability, float) else f"{prediction}"
+    red_text = f"Red %: {red_pct:.3f}"
+    bright_text = f"Bright %: {bright_pct:.3f}"
+
+    color = (0, 0, 255) if prediction.lower() == 'fire' else (0, 255, 0)
+
+    cv2.putText(img, label_text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2)
+    cv2.putText(img, red_text, (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 0), 2)
+    cv2.putText(img, bright_text, (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
+
     output_path = os.path.join(RESULTS_DIR, os.path.basename(image_path))
     cv2.imwrite(output_path, img)
-    
+
     return output_path
 
 def analyze_all_images():
@@ -341,82 +343,82 @@ def analyze_all_images():
     if not os.path.exists(MODEL_PATH):
         print("Модель не найдена. Сначала обучите модель.")
         return
-    
+
     # Загружаем модель
     with open(MODEL_PATH, 'rb') as f:
         model = pickle.load(f)
-    
+
     results = []
-    
+
     # Ищем все изображения
     for year in os.listdir(DATA_DIR):
         year_dir = os.path.join(DATA_DIR, year)
         if not os.path.isdir(year_dir):
             continue
-            
+
         # Анализируем изображения каждого типа визуализации
         for vis_type in ['fire', 'drought', 'nbr', 'natural']:
             image_files = glob.glob(os.path.join(year_dir, f"{vis_type}_*.png"))
-            
-            print(f"Анализ {len(image_files)} изображений типа {vis_type} за {year} год...")
+
+            print(f"Analysis of {len(image_files)} images of type {vis_type} for {year}")
             for img_path in tqdm(image_files):
                 result = predict_fire(img_path, model)
                 if result:
                     result['year'] = year
                     result['type'] = vis_type
                     results.append(result)
-                    
+
                     # Визуализируем если это пожар или с высокой вероятностью
                     if result['prediction'] == 'Пожар' or result['probability'] > 0.3:
                         visualize_prediction(img_path, result)
-    
+
     # Создаем DataFrame с результатами
     results_df = pd.DataFrame(results)
     results_df.to_csv(os.path.join(RESULTS_DIR, 'fire_analysis_results.csv'), index=False)
-    
+
     # Статистика по годам
     if len(results) > 0:
         year_stats = results_df.groupby(['year', 'prediction']).size().unstack(fill_value=0)
         year_stats.plot(kind='bar', stacked=True, figsize=(10, 6))
-        plt.title('Количество пожаров по годам')
-        plt.xlabel('Год')
-        plt.ylabel('Количество изображений')
+        plt.title('Forestfire quantity by year')
+        plt.xlabel('Year')
+        plt.ylabel('Image quantity')
         plt.savefig(os.path.join(RESULTS_DIR, 'year_stats.png'))
-    
+
     return results_df
 
 def main():
     """Основная функция для запуска всего процесса"""
-    print("Запуск анализа пожаров на спутниковых снимках")
-    
+    print("Launching Fire Analysis on Satellite Images")
+
     # Если модель уже существует, спрашиваем пользователя, нужно ли переобучить
     if os.path.exists(MODEL_PATH):
-        retrain = input("Модель уже существует. Хотите переобучить? (y/n): ")
+        retrain = input("The model already exists. Retrain? (y/n):")
         if retrain.lower() != 'y':
-            print("Пропускаем обучение...")
+            print("Skipping training.")
             analyze_all_images()
             return
-    
+
     # Подготовка данных и обучение модели
-    print("Подготовка датасета для обучения...")
+    print("Preparing dataset for training...")
     X, y, filenames = prepare_dataset()
-    
+
     if len(X) == 0:
-        print("Не удалось подготовить датасет. Проверьте данные.")
+        print("No data for training.")
         return
-    
+
     # Обучение модели
     model, X_test, y_test = train_model(X, y)
-    
+
     if model is None:
-        print("Не удалось обучить модель. Проверьте данные.")
+        print("Failed to train model. Please check your data.")
         return
-    
+
     # Анализ всех изображений
-    print("Анализ всех изображений...")
+    print("Analyzing all images...")
     results_df = analyze_all_images()
-    
-    print(f"Обработка завершена. Результаты сохранены в {RESULTS_DIR}")
+
+    print(f"Analysis completed. Results saved in {RESULTS_DIR}")
 
 if __name__ == "__main__":
     main()

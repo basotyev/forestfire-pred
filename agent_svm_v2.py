@@ -113,11 +113,11 @@ def prepare_dataset():
             filenames.append(img_path)
             no_fire_count += 1
 
-    print(f"Создан датасет: {fire_count} изображений с пожарами, {no_fire_count} без пожаров")
+    print(f"Dataset created: {fire_count} images with forestfire, {no_fire_count} without foresfire")
 
     unique_classes = np.unique(y)
     if len(unique_classes) < 2:
-        print("Добавляем синтетические примеры...")
+        print("Adding synthetic examples...")
         x_avg = np.mean(np.array(X), axis=0)
         if 1 not in unique_classes:
             x_avg[-2] = 0.1
@@ -144,12 +144,12 @@ from sklearn.preprocessing import StandardScaler
 
 def train_model(X, y):
     if len(np.unique(y)) < 2:
-        print("ОШИБКА: только один класс в данных.")
+        print("error: only one class in dataset.")
         return None, None, None
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, test_size=0.3, random_state=42)
 
-    print("Обучение модели LinearSVC.")
+    print("Training SVM...")
     scaler = StandardScaler()
     X_train_scaled = scaler.fit_transform(X_train)
     X_test_scaled = scaler.transform(X_test)
@@ -162,17 +162,24 @@ def train_model(X, y):
 
     y_pred = model.predict(X_test_scaled)
     acc = accuracy_score(y_test, y_pred)
-    print(f"Точность: {acc:.4f}")
-    print("Классификационный отчет:")
+    print(f"Accuracy: {acc:.4f}")
+    print("Classification report:")
     print(classification_report(y_test, y_pred))
 
     cm = confusion_matrix(y_test, y_pred)
     plt.figure(figsize=(8, 6))
     sns.heatmap(cm, annot=True, fmt='d', cmap='Oranges',
-                xticklabels=['Нет пожара', 'Пожар'],
-                yticklabels=['Нет пожара', 'Пожар'])
-    plt.title('Матрица ошибок (LinearSVC)')
-    plt.savefig(os.path.join(RESULTS_DIR, 'confusion_matrix_linear_svc.png'))
+                xticklabels=['No fire', 'Fire'],
+                yticklabels=['No fire', 'Fire'])
+    plt.title('Confusion matrix (SVM)')
+    plt.savefig(os.path.join(RESULTS_DIR, 'confusion_matrix_svm.png'))
+    feature_importance = model.feature_importances_
+    plt.figure(figsize=(12, 8))
+    plt.bar(range(len(feature_importance)), feature_importance)
+    plt.title('Feature importance')
+    plt.savefig(os.path.join(RESULTS_DIR, 'feature_importance_rf.png'))
+
+
     return model, X_test_scaled, y_test
 
 
@@ -182,7 +189,7 @@ def predict_fire(image_path, model=None, scaler=None):
             with open(MODEL_PATH, 'rb') as f:
                 model, scaler = pickle.load(f)
         else:
-            print("Модель не найдена.")
+            print("Model was not found")
             return None
     else:
         scaler = StandardScaler()
@@ -194,8 +201,7 @@ def predict_fire(image_path, model=None, scaler=None):
     features, red_percentage, bright_percentage = extract_features(img)
     features_scaled = scaler.transform([features])
     prediction = model.predict(features_scaled)[0]
-    prob = None
-    label = "Пожар" if prediction == 1 else "Нет пожара"
+    label = "Fire" if prediction == 1 else "No fire"
 
     return {
         'path': image_path,
@@ -204,6 +210,32 @@ def predict_fire(image_path, model=None, scaler=None):
         'red_pct': red_percentage,
         'bright_pct': bright_percentage
     }
+
+def visualize_prediction(image_path, result):
+    img = cv2.imread(image_path)
+    if img is None:
+        print(f"visualize_prediction: error loading image: {image_path}")
+        return None
+
+    prediction = result.get('prediction', 'Unknown')
+    probability = result.get('probability', "N/A")
+    red_pct = result.get('red_pct', 0.0)
+    bright_pct = result.get('bright_pct', 0.0)
+
+    label_text = f"{prediction} (prob: {probability:.2f})" if isinstance(probability, float) else f"{prediction}"
+    red_text = f"Red %: {red_pct:.3f}"
+    bright_text = f"Bright %: {bright_pct:.3f}"
+
+    color = (0, 0, 255) if prediction.lower() == 'fire' else (0, 255, 0)
+
+    cv2.putText(img, label_text, (10, 30), cv2.FONT_HERSHEY_SIMPLEX, 0.8, color, 2)
+    cv2.putText(img, red_text, (10, 60), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (255, 0, 0), 2)
+    cv2.putText(img, bright_text, (10, 90), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 0), 2)
+
+    output_path = os.path.join(RESULTS_DIR, os.path.basename(image_path))
+    cv2.imwrite(output_path, img)
+
+    return output_path
 
 def analyze_all_images():
     with open(MODEL_PATH, 'rb') as f:
@@ -217,7 +249,7 @@ def analyze_all_images():
 
         for vis_type in ['fire', 'drought', 'nbr', 'natural']:
             image_files = glob.glob(os.path.join(year_dir, f"{vis_type}_*.png"))
-            print(f"Анализ {len(image_files)} изображений типа {vis_type} за {year}")
+            print(f"Analysis of {len(image_files)} images of type {vis_type} for {year}")
             for img_path in tqdm(image_files):
                 result = predict_fire(img_path, model)
                 if result:
@@ -227,28 +259,39 @@ def analyze_all_images():
 
     results_df = pd.DataFrame(results)
     results_df.to_csv(os.path.join(RESULTS_DIR, 'fire_analysis_results_svm.csv'), index=False)
+    # Статистика по годам
+    if len(results) > 0:
+        year_stats = results_df.groupby(['year', 'prediction']).size().unstack(fill_value=0)
+        year_stats.plot(kind='bar', stacked=True, figsize=(10, 6))
+        plt.title('Forestfire quantity by year')
+        plt.xlabel('Year')
+        plt.ylabel('Image quantity')
+        plt.savefig(os.path.join(RESULTS_DIR, 'year_stats.png'))
+
     return results_df
 
 def main():
-    print("Запуск анализа пожаров (SVM)...")
+    print("Launching Fire Analysis (SVM)...")
     if os.path.exists(MODEL_PATH):
-        retrain = input("Модель уже существует. Переобучить? (y/n): ")
+        retrain = input("The model already exists. Retrain? (y/n):")
         if retrain.lower() != 'y':
-            print("Пропускаем обучение.")
+            print("Skipping training.")
             analyze_all_images()
             return
 
+    print("Preparing dataset for training...")
     X, y, filenames = prepare_dataset()
     if len(X) == 0:
-        print("Нет данных для обучения.")
+        print("Failed to train model. Please check your data.")
         return
 
     model, _, _ = train_model(X, y)
     if model is None:
         return
 
+    print("Analyzing all images...")
     results_df = analyze_all_images()
-    print(f"Анализ завершён. Результаты сохранены в {RESULTS_DIR}")
+    print(f"Analysis completed. Results saved in {RESULTS_DIR}")
 
 if __name__ == "__main__":
     main()
