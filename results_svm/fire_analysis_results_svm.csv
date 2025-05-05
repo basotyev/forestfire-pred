@@ -1,0 +1,1421 @@
+path,prediction,probability,red_pct,bright_pct,year,type
+satellite_images\2018\fire_2018-06-02_cloud4.2.png,Нет пожара,N/A,0.0027503852080123267,0.04637904468412943,2018,fire
+satellite_images\2018\fire_2018-06-05_cloud23.2.png,Нет пожара,N/A,7.704160246533127e-06,0.06538906009244992,2018,fire
+satellite_images\2018\fire_2018-06-05_cloud3.4.png,Нет пожара,N/A,1.5408320493066255e-05,0.01422573189522342,2018,fire
+satellite_images\2018\fire_2018-06-07_cloud21.0.png,Нет пожара,N/A,1.5408320493066255e-05,0.11828582434514638,2018,fire
+satellite_images\2018\fire_2018-06-07_cloud29.6.png,Нет пожара,N/A,0.0006702619414483822,0.2883936825885978,2018,fire
+satellite_images\2018\fire_2018-06-07_cloud29.9.png,Нет пожара,N/A,4.6224961479198765e-05,0.009530046224961479,2018,fire
+satellite_images\2018\fire_2018-06-07_cloud6.5.png,Нет пожара,N/A,0.0009919106317411402,0.030425654853620955,2018,fire
+satellite_images\2018\fire_2018-06-10_cloud21.8.png,Нет пожара,N/A,1.926040061633282e-06,0.13204930662557782,2018,fire
+satellite_images\2018\fire_2018-06-10_cloud26.4.png,Нет пожара,N/A,0.00030624036979969184,0.11088983050847458,2018,fire
+satellite_images\2018\fire_2018-06-10_cloud5.9.png,Нет пожара,N/A,1.926040061633282e-06,0.025238828967642526,2018,fire
+satellite_images\2018\fire_2018-06-12_cloud1.4.png,Нет пожара,N/A,0.0018932973805855162,0.2172862095531587,2018,fire
+satellite_images\2018\fire_2018-06-12_cloud1.6.png,Нет пожара,N/A,0.0022168721109399074,0.05096302003081664,2018,fire
+satellite_images\2018\fire_2018-06-12_cloud28.8.png,Нет пожара,N/A,0.00016563944530046225,0.030219568567026196,2018,fire
+satellite_images\2018\fire_2018-06-15_cloud0.0.png,Нет пожара,N/A,0.001475346687211094,0.06668528505392912,2018,fire
+satellite_images\2018\fire_2018-06-15_cloud4.0.png,Нет пожара,N/A,9.822804314329737e-05,0.013541987673343605,2018,fire
+satellite_images\2018\fire_2018-06-17_cloud0.0.png,Нет пожара,N/A,0.0005469953775038521,0.04654468412942989,2018,fire
+satellite_images\2018\fire_2018-06-17_cloud0.6.png,Нет пожара,N/A,0.0002600154083204931,0.22485747303543913,2018,fire
+satellite_images\2018\fire_2018-06-17_cloud3.4.png,Нет пожара,N/A,7.126348228043144e-05,0.030860939907550077,2018,fire
+satellite_images\2018\fire_2018-06-20_cloud20.8.png,Нет пожара,N/A,0.0,0.04829352850539291,2018,fire
+satellite_images\2018\fire_2018-06-22_cloud0.0.png,Нет пожара,N/A,0.0004102465331278891,0.05228813559322034,2018,fire
+satellite_images\2018\fire_2018-06-22_cloud10.6.png,Нет пожара,N/A,0.0001059322033898305,0.01067411402157165,2018,fire
+satellite_images\2018\fire_2018-06-22_cloud2.7.png,Нет пожара,N/A,0.0009052388289676425,0.2489637904468413,2018,fire
+satellite_images\2018\fire_2018-06-25_cloud19.3.png,Нет пожара,N/A,0.0,0.04829352850539291,2018,fire
+satellite_images\2018\fire_2018-06-27_cloud13.1.png,Нет пожара,N/A,0.0001174884437596302,0.08994414483821263,2018,fire
+satellite_images\2018\fire_2018-06-27_cloud18.5.png,Нет пожара,N/A,1.1556240369799691e-05,0.010313944530046224,2018,fire
+satellite_images\2018\fire_2018-06-27_cloud20.9.png,Нет пожара,N/A,5.5855161787365175e-05,0.27980546995377503,2018,fire
+satellite_images\2018\fire_2018-06-27_cloud21.1.png,Нет пожара,N/A,2.1186440677966103e-05,0.042657935285053926,2018,fire
+satellite_images\2018\fire_2018-07-05_cloud1.1.png,Нет пожара,N/A,1.926040061633282e-06,0.009664869029275809,2018,fire
+satellite_images\2018\fire_2018-07-05_cloud16.8.png,Нет пожара,N/A,3.852080123266564e-06,0.06018875192604006,2018,fire
+satellite_images\2018\fire_2018-07-05_cloud20.5.png,Нет пожара,N/A,0.0006336671802773498,0.3511016949152542,2018,fire
+satellite_images\2018\fire_2018-07-05_cloud7.3.png,Нет пожара,N/A,0.0008570878274268105,0.08408513097072419,2018,fire
+satellite_images\2018\fire_2018-07-07_cloud0.0.png,Нет пожара,N/A,2.3112480739599382e-05,0.006810477657935285,2018,fire
+satellite_images\2018\fire_2018-07-07_cloud0.5.png,Нет пожара,N/A,0.000812788906009245,0.059106317411402154,2018,fire
+satellite_images\2018\fire_2018-07-07_cloud1.1.png,Нет пожара,N/A,1.3482280431432974e-05,0.030150231124807397,2018,fire
+satellite_images\2018\fire_2018-07-07_cloud1.8.png,Нет пожара,N/A,0.0006914483821263482,0.2542777349768875,2018,fire
+satellite_images\2018\fire_2018-07-10_cloud0.0.png,Нет пожара,N/A,0.001413713405238829,0.0525231124807396,2018,fire
+satellite_images\2018\fire_2018-07-12_cloud10.9.png,Нет пожара,N/A,0.0005469953775038521,0.05959167950693375,2018,fire
+satellite_images\2018\fire_2018-07-12_cloud17.7.png,Нет пожара,N/A,0.0005546995377503852,0.2752407550077042,2018,fire
+satellite_images\2018\fire_2018-07-15_cloud0.6.png,Нет пожара,N/A,0.0010188751926040061,0.028241525423728812,2018,fire
+satellite_images\2018\fire_2018-07-15_cloud10.7.png,Нет пожара,N/A,0.0011999229583975347,0.16173921417565484,2018,fire
+satellite_images\2018\fire_2018-07-15_cloud3.1.png,Нет пожара,N/A,0.0001290446841294299,0.00637904468412943,2018,fire
+satellite_images\2018\fire_2018-07-17_cloud0.3.png,Нет пожара,N/A,0.0,0.12150231124807397,2018,fire
+satellite_images\2018\fire_2018-07-17_cloud0.6.png,Нет пожара,N/A,0.00025038520801232665,0.04395030816640986,2018,fire
+satellite_images\2018\fire_2018-07-17_cloud1.0.png,Нет пожара,N/A,0.00025038520801232665,0.04395030816640986,2018,fire
+satellite_images\2018\fire_2018-07-17_cloud1.1.png,Нет пожара,N/A,0.00026386748844375965,0.1690292758089368,2018,fire
+satellite_images\2018\fire_2018-07-17_cloud14.4.png,Нет пожара,N/A,1.1556240369799691e-05,0.007099383667180277,2018,fire
+satellite_images\2018\fire_2018-07-17_cloud3.8.png,Нет пожара,N/A,0.0,0.02899653312788906,2018,fire
+satellite_images\2018\fire_2018-07-20_cloud16.3.png,Нет пожара,N/A,0.0,0.008545839753466872,2018,fire
+satellite_images\2018\fire_2018-07-20_cloud7.8.png,Нет пожара,N/A,0.0,0.008934899845916795,2018,fire
+satellite_images\2018\fire_2018-07-25_cloud19.0.png,Нет пожара,N/A,0.0,0.04542180277349769,2018,fire
+satellite_images\2018\fire_2018-07-30_cloud0.0.png,Нет пожара,N/A,0.0022958397534668723,0.026076656394453005,2018,fire
+satellite_images\2018\fire_2018-07-30_cloud12.5.png,Нет пожара,N/A,0.00023690292758089368,0.013775038520801232,2018,fire
+satellite_images\2018\fire_2018-07-30_cloud2.4.png,Нет пожара,N/A,0.00023690292758089368,0.00562211093990755,2018,fire
+satellite_images\2018\fire_2018-08-01_cloud0.0.png,Нет пожара,N/A,0.002621340523882897,0.12935862865947612,2018,fire
+satellite_images\2018\fire_2018-08-01_cloud10.2.png,Нет пожара,N/A,0.0002600154083204931,0.006309707241910632,2018,fire
+satellite_images\2018\fire_2018-08-01_cloud18.5.png,Нет пожара,N/A,0.002153312788906009,0.031261556240369796,2018,fire
+satellite_images\2018\fire_2018-08-04_cloud11.3.png,Нет пожара,N/A,0.0003832819722650231,0.13685862865947612,2018,fire
+satellite_images\2018\fire_2018-08-04_cloud2.8.png,Нет пожара,N/A,9.63020030816641e-06,0.016348228043143297,2018,fire
+satellite_images\2018\fire_2018-08-04_cloud23.4.png,Нет пожара,N/A,1.7334360554699538e-05,0.06582819722650231,2018,fire
+satellite_images\2018\fire_2018-08-04_cloud5.2.png,Нет пожара,N/A,0.0,0.014572419106317411,2018,fire
+satellite_images\2018\fire_2018-08-06_cloud0.6.png,Нет пожара,N/A,0.0011228813559322035,0.025664483821263483,2018,fire
+satellite_images\2018\fire_2018-08-06_cloud12.7.png,Нет пожара,N/A,5.007704160246533e-05,0.005354391371340524,2018,fire
+satellite_images\2018\fire_2018-08-06_cloud20.5.png,Нет пожара,N/A,1.7334360554699538e-05,0.045165639445300464,2018,fire
+satellite_images\2018\fire_2018-08-09_cloud0.0.png,Нет пожара,N/A,0.0016640986132511557,0.01079160246533128,2018,fire
+satellite_images\2018\fire_2018-08-09_cloud0.2.png,Нет пожара,N/A,0.0002542372881355932,0.00824537750385208,2018,fire
+satellite_images\2018\fire_2018-08-09_cloud0.3.png,Нет пожара,N/A,0.00032550077041602465,0.003054699537750385,2018,fire
+satellite_images\2018\fire_2018-08-14_cloud15.7.png,Нет пожара,N/A,0.00013482280431432973,0.0764002311248074,2018,fire
+satellite_images\2018\fire_2018-08-14_cloud5.7.png,Нет пожара,N/A,5.778120184899846e-05,0.01577619414483821,2018,fire
+satellite_images\2018\fire_2018-08-16_cloud0.0.png,Нет пожара,N/A,0.002060862865947612,0.017838983050847457,2018,fire
+satellite_images\2018\fire_2018-08-16_cloud0.1.png,Нет пожара,N/A,0.00019067796610169492,0.005134822804314329,2018,fire
+satellite_images\2018\fire_2018-08-19_cloud11.5.png,Нет пожара,N/A,0.0006702619414483822,0.07572226502311248,2018,fire
+satellite_images\2018\fire_2018-08-19_cloud20.1.png,Нет пожара,N/A,0.0009996147919876734,0.02669684129429892,2018,fire
+satellite_images\2018\fire_2018-08-19_cloud5.2.png,Нет пожара,N/A,0.00010015408320493066,0.0027696456086286595,2018,fire
+satellite_images\2018\fire_2018-08-24_cloud0.0.png,Нет пожара,N/A,0.0020820493066255777,0.004250770416024653,2018,fire
+satellite_images\2018\fire_2018-08-24_cloud0.4.png,Нет пожара,N/A,0.00030431432973805855,0.0036845146379044682,2018,fire
+satellite_images\2018\fire_2018-08-24_cloud0.6.png,Нет пожара,N/A,0.0027157164869029277,0.03284861325115562,2018,fire
+satellite_images\2018\fire_2018-08-26_cloud0.1.png,Нет пожара,N/A,0.00013482280431432973,0.007998844375963021,2018,fire
+satellite_images\2018\fire_2018-08-26_cloud14.7.png,Нет пожара,N/A,0.0019530046224961479,0.010930277349768876,2018,fire
+satellite_images\2018\fire_2018-08-26_cloud3.5.png,Нет пожара,N/A,5.970724191063174e-05,0.0028678736517719567,2018,fire
+satellite_images\2018\fire_2018-08-29_cloud17.8.png,Нет пожара,N/A,0.0,0.04829352850539291,2018,fire
+satellite_images\2018\drought_2018-06-02_cloud4.2.png,Нет пожара,N/A,0.017033898305084744,0.015452619414483821,2018,drought
+satellite_images\2018\drought_2018-06-05_cloud23.2.png,Нет пожара,N/A,0.0002812018489984592,0.042062788906009244,2018,drought
+satellite_images\2018\drought_2018-06-05_cloud3.4.png,Нет пожара,N/A,0.0006336671802773498,0.011766178736517719,2018,drought
+satellite_images\2018\drought_2018-06-07_cloud21.0.png,Нет пожара,N/A,0.0013828967642526965,0.08890793528505393,2018,drought
+satellite_images\2018\drought_2018-06-07_cloud29.6.png,Нет пожара,N/A,0.01830508474576271,0.14166795069337443,2018,drought
+satellite_images\2018\drought_2018-06-07_cloud29.9.png,Нет пожара,N/A,0.0018547765793528505,0.0028389830508474575,2018,drought
+satellite_images\2018\drought_2018-06-07_cloud6.5.png,Нет пожара,N/A,0.01880392912172573,0.010406394453004623,2018,drought
+satellite_images\2018\drought_2018-06-10_cloud21.8.png,Нет пожара,N/A,0.0005835901386748844,0.11816833590138674,2018,drought
+satellite_images\2018\drought_2018-06-10_cloud26.4.png,Нет пожара,N/A,0.005683744221879815,0.10064522342064715,2018,drought
+satellite_images\2018\drought_2018-06-10_cloud5.9.png,Нет пожара,N/A,0.0006201848998459168,0.022409476117103234,2018,drought
+satellite_images\2018\drought_2018-06-12_cloud1.4.png,Нет пожара,N/A,0.017573189522342065,0.09925654853620955,2018,drought
+satellite_images\2018\drought_2018-06-12_cloud1.6.png,Нет пожара,N/A,0.010939907550077042,0.02956664098613251,2018,drought
+satellite_images\2018\drought_2018-06-12_cloud28.8.png,Нет пожара,N/A,0.001201848998459168,0.014156394453004623,2018,drought
+satellite_images\2018\drought_2018-06-15_cloud0.0.png,Нет пожара,N/A,0.012923728813559321,0.014832434514637904,2018,drought
+satellite_images\2018\drought_2018-06-15_cloud4.0.png,Нет пожара,N/A,0.0011691063174114021,0.0066159476117103235,2018,drought
+satellite_images\2018\drought_2018-06-17_cloud0.0.png,Нет пожара,N/A,0.0049768875192604005,0.018518875192604006,2018,drought
+satellite_images\2018\drought_2018-06-17_cloud0.6.png,Нет пожара,N/A,0.005629815100154084,0.08719568567026194,2018,drought
+satellite_images\2018\drought_2018-06-17_cloud3.4.png,Нет пожара,N/A,0.0006317411402157164,0.015050077041602465,2018,drought
+satellite_images\2018\drought_2018-06-20_cloud20.8.png,Нет пожара,N/A,0.0,0.04829352850539291,2018,drought
+satellite_images\2018\drought_2018-06-22_cloud0.0.png,Нет пожара,N/A,0.002779275808936826,0.02426040061633282,2018,drought
+satellite_images\2018\drought_2018-06-22_cloud10.6.png,Нет пожара,N/A,0.0006721879815100154,0.005884052388289676,2018,drought
+satellite_images\2018\drought_2018-06-22_cloud2.7.png,Нет пожара,N/A,0.004557010785824345,0.11233436055469954,2018,drought
+satellite_images\2018\drought_2018-06-25_cloud19.3.png,Нет пожара,N/A,0.0,0.04829352850539291,2018,drought
+satellite_images\2018\drought_2018-06-27_cloud13.1.png,Нет пожара,N/A,0.0013077812018489985,0.06158513097072419,2018,drought
+satellite_images\2018\drought_2018-06-27_cloud18.5.png,Нет пожара,N/A,0.00015408320493066256,0.008199152542372882,2018,drought
+satellite_images\2018\drought_2018-06-27_cloud20.9.png,Нет пожара,N/A,0.0019530046224961479,0.1742469183359014,2018,drought
+satellite_images\2018\drought_2018-06-27_cloud21.1.png,Нет пожара,N/A,0.00012134052388289677,0.03431047765793528,2018,drought
+satellite_images\2018\drought_2018-07-05_cloud1.1.png,Нет пожара,N/A,0.00019067796610169492,0.007459553158705701,2018,drought
+satellite_images\2018\drought_2018-07-05_cloud16.8.png,Нет пожара,N/A,0.00018104776579352851,0.05015793528505393,2018,drought
+satellite_images\2018\drought_2018-07-05_cloud20.5.png,Нет пожара,N/A,0.0018663328197226503,0.2897342064714946,2018,drought
+satellite_images\2018\drought_2018-07-05_cloud7.3.png,Нет пожара,N/A,0.001700693374422188,0.06823767334360555,2018,drought
+satellite_images\2018\drought_2018-07-07_cloud0.0.png,Нет пожара,N/A,0.00042180277349768874,0.0048208782742681046,2018,drought
+satellite_images\2018\drought_2018-07-07_cloud0.5.png,Нет пожара,N/A,0.002594375963020031,0.037197611710323576,2018,drought
+satellite_images\2018\drought_2018-07-07_cloud1.1.png,Нет пожара,N/A,0.0003929121725731895,0.018407164869029276,2018,drought
+satellite_images\2018\drought_2018-07-07_cloud1.8.png,Нет пожара,N/A,0.0036421417565485363,0.16751348228043142,2018,drought
+satellite_images\2018\drought_2018-07-10_cloud0.0.png,Нет пожара,N/A,0.0025442989214175655,0.031550462249614795,2018,drought
+satellite_images\2018\drought_2018-07-12_cloud10.9.png,Нет пожара,N/A,0.0023131741140215716,0.038073959938366715,2018,drought
+satellite_images\2018\drought_2018-07-12_cloud17.7.png,Нет пожара,N/A,0.0029603235747303544,0.1661113251155624,2018,drought
+satellite_images\2018\drought_2018-07-15_cloud0.6.png,Нет пожара,N/A,0.00286402157164869,0.019907550077041602,2018,drought
+satellite_images\2018\drought_2018-07-15_cloud10.7.png,Нет пожара,N/A,0.0046744992295839755,0.11048343605546995,2018,drought
+satellite_images\2018\drought_2018-07-15_cloud3.1.png,Нет пожара,N/A,0.0008147149460708782,0.0050500770416024654,2018,drought
+satellite_images\2018\drought_2018-07-17_cloud0.3.png,Нет пожара,N/A,0.00012326656394453004,0.05706664098613251,2018,drought
+satellite_images\2018\drought_2018-07-17_cloud0.6.png,Нет пожара,N/A,0.0018124036979969183,0.027320878274268105,2018,drought
+satellite_images\2018\drought_2018-07-17_cloud1.0.png,Нет пожара,N/A,0.0018124036979969183,0.027320878274268105,2018,drought
+satellite_images\2018\drought_2018-07-17_cloud1.1.png,Нет пожара,N/A,0.0027407550077041603,0.10092642526964561,2018,drought
+satellite_images\2018\drought_2018-07-17_cloud14.4.png,Нет пожара,N/A,0.0006587057010785824,0.005296610169491525,2018,drought
+satellite_images\2018\drought_2018-07-17_cloud3.8.png,Нет пожара,N/A,0.00062788906009245,0.016945300462249614,2018,drought
+satellite_images\2018\drought_2018-07-20_cloud16.3.png,Нет пожара,N/A,0.0,0.0054179506933744225,2018,drought
+satellite_images\2018\drought_2018-07-20_cloud7.8.png,Нет пожара,N/A,0.0,0.004996147919876733,2018,drought
+satellite_images\2018\drought_2018-07-25_cloud19.0.png,Нет пожара,N/A,2.1186440677966103e-05,0.04455508474576271,2018,drought
+satellite_images\2018\drought_2018-07-30_cloud0.0.png,Нет пожара,N/A,0.006151771956856703,0.016587057010785826,2018,drought
+satellite_images\2018\drought_2018-07-30_cloud12.5.png,Нет пожара,N/A,0.0019337442218798151,0.007948767334360556,2018,drought
+satellite_images\2018\drought_2018-07-30_cloud2.4.png,Нет пожара,N/A,0.0018278120184899846,0.004025423728813559,2018,drought
+satellite_images\2018\drought_2018-08-01_cloud0.0.png,Нет пожара,N/A,0.010379429892141757,0.0787788906009245,2018,drought
+satellite_images\2018\drought_2018-08-01_cloud10.2.png,Нет пожара,N/A,0.0028312788906009246,0.005086671802773498,2018,drought
+satellite_images\2018\drought_2018-08-01_cloud18.5.png,Нет пожара,N/A,0.006469568567026194,0.021130585516178736,2018,drought
+satellite_images\2018\drought_2018-08-04_cloud11.3.png,Нет пожара,N/A,0.004813174114021572,0.09427195685670262,2018,drought
+satellite_images\2018\drought_2018-08-04_cloud2.8.png,Нет пожара,N/A,0.002349768875192604,0.012087827426810478,2018,drought
+satellite_images\2018\drought_2018-08-04_cloud23.4.png,Нет пожара,N/A,0.000710708782742681,0.051714175654853624,2018,drought
+satellite_images\2018\drought_2018-08-04_cloud5.2.png,Нет пожара,N/A,0.0021013097072419104,0.012161016949152543,2018,drought
+satellite_images\2018\drought_2018-08-06_cloud0.6.png,Нет пожара,N/A,0.005984206471494607,0.015924499229583975,2018,drought
+satellite_images\2018\drought_2018-08-06_cloud12.7.png,Нет пожара,N/A,0.002546224961479199,0.003634437596302003,2018,drought
+satellite_images\2018\drought_2018-08-06_cloud20.5.png,Нет пожара,N/A,0.002384437596302003,0.025148305084745762,2018,drought
+satellite_images\2018\drought_2018-08-09_cloud0.0.png,Нет пожара,N/A,0.007852465331278891,0.007388289676425269,2018,drought
+satellite_images\2018\drought_2018-08-09_cloud0.2.png,Нет пожара,N/A,0.0029872881355932205,0.005104006163328197,2018,drought
+satellite_images\2018\drought_2018-08-09_cloud0.3.png,Нет пожара,N/A,0.003066255778120185,0.002274653312788906,2018,drought
+satellite_images\2018\drought_2018-08-14_cloud15.7.png,Нет пожара,N/A,0.002501926040061633,0.07058359013867488,2018,drought
+satellite_images\2018\drought_2018-08-14_cloud5.7.png,Нет пожара,N/A,0.0022996918335901387,0.01446070878274268,2018,drought
+satellite_images\2018\drought_2018-08-16_cloud0.0.png,Нет пожара,N/A,0.008742295839753467,0.01079160246533128,2018,drought
+satellite_images\2018\drought_2018-08-16_cloud0.1.png,Нет пожара,N/A,0.004042758089368259,0.003511171032357473,2018,drought
+satellite_images\2018\drought_2018-08-19_cloud11.5.png,Нет пожара,N/A,0.008907935285053929,0.030955315870570106,2018,drought
+satellite_images\2018\drought_2018-08-19_cloud20.1.png,Нет пожара,N/A,0.004331664098613251,0.01803351309707242,2018,drought
+satellite_images\2018\drought_2018-08-19_cloud5.2.png,Нет пожара,N/A,0.0036459938366718027,0.001639060092449923,2018,drought
+satellite_images\2018\drought_2018-08-24_cloud0.0.png,Нет пожара,N/A,0.008848228043143298,0.0027966101694915256,2018,drought
+satellite_images\2018\drought_2018-08-24_cloud0.4.png,Нет пожара,N/A,0.004855546995377504,0.0019337442218798151,2018,drought
+satellite_images\2018\drought_2018-08-24_cloud0.6.png,Нет пожара,N/A,0.01804506933744222,0.021991525423728814,2018,drought
+satellite_images\2018\drought_2018-08-26_cloud0.1.png,Нет пожара,N/A,0.003875192604006163,0.00349768875192604,2018,drought
+satellite_images\2018\drought_2018-08-26_cloud14.7.png,Нет пожара,N/A,0.0077330508474576275,0.0043721109399075505,2018,drought
+satellite_images\2018\drought_2018-08-26_cloud3.5.png,Нет пожара,N/A,0.00324537750385208,0.0011825885978428352,2018,drought
+satellite_images\2018\drought_2018-08-29_cloud17.8.png,Нет пожара,N/A,0.0,0.048291602465331276,2018,drought
+satellite_images\2018\nbr_2018-06-02_cloud4.2.png,Пожар,N/A,0.0,0.10786016949152542,2018,nbr
+satellite_images\2018\nbr_2018-06-05_cloud23.2.png,Пожар,N/A,0.0001598613251155624,0.22713983050847458,2018,nbr
+satellite_images\2018\nbr_2018-06-05_cloud3.4.png,Нет пожара,N/A,0.00011941448382126348,0.04565292758089368,2018,nbr
+satellite_images\2018\nbr_2018-06-07_cloud21.0.png,Пожар,N/A,1.3482280431432974e-05,0.22744029275808936,2018,nbr
+satellite_images\2018\nbr_2018-06-07_cloud29.6.png,Пожар,N/A,0.0003293528505392912,0.689154468412943,2018,nbr
+satellite_images\2018\nbr_2018-06-07_cloud29.9.png,Нет пожара,N/A,1.3482280431432974e-05,0.0436864406779661,2018,nbr
+satellite_images\2018\nbr_2018-06-07_cloud6.5.png,Пожар,N/A,9.63020030816641e-05,0.1140042372881356,2018,nbr
+satellite_images\2018\nbr_2018-06-10_cloud21.8.png,Пожар,N/A,0.0004083204930662558,0.22446263482280432,2018,nbr
+satellite_images\2018\nbr_2018-06-10_cloud26.4.png,Пожар,N/A,0.00013674884437596302,0.1507184129429892,2018,nbr
+satellite_images\2018\nbr_2018-06-10_cloud5.9.png,Нет пожара,N/A,6.35593220338983e-05,0.045342835130970725,2018,nbr
+satellite_images\2018\nbr_2018-06-12_cloud1.4.png,Пожар,N/A,0.0018547765793528505,0.687442218798151,2018,nbr
+satellite_images\2018\nbr_2018-06-12_cloud1.6.png,Пожар,N/A,0.00028697996918335903,0.13283705701078583,2018,nbr
+satellite_images\2018\nbr_2018-06-12_cloud28.8.png,Пожар,N/A,0.0010150231124807397,0.2188193374422188,2018,nbr
+satellite_images\2018\nbr_2018-06-15_cloud0.0.png,Пожар,N/A,0.000560477657935285,0.13069915254237288,2018,nbr
+satellite_images\2018\nbr_2018-06-15_cloud4.0.png,Пожар,N/A,0.001434899845916795,0.21628852080123268,2018,nbr
+satellite_images\2018\nbr_2018-06-17_cloud0.0.png,Пожар,N/A,0.00025231124807395994,0.14198959938366718,2018,nbr
+satellite_images\2018\nbr_2018-06-17_cloud0.6.png,Пожар,N/A,0.0008763482280431433,0.7336055469953775,2018,nbr
+satellite_images\2018\nbr_2018-06-17_cloud3.4.png,Пожар,N/A,0.0007473035439137134,0.21959553158705702,2018,nbr
+satellite_images\2018\nbr_2018-06-20_cloud20.8.png,Нет пожара,N/A,0.0,0.04829352850539291,2018,nbr
+satellite_images\2018\nbr_2018-06-22_cloud0.0.png,Пожар,N/A,0.0002754237288135593,0.15067796610169493,2018,nbr
+satellite_images\2018\nbr_2018-06-22_cloud10.6.png,Нет пожара,N/A,0.000437211093990755,0.04426617873651772,2018,nbr
+satellite_images\2018\nbr_2018-06-22_cloud2.7.png,Пожар,N/A,0.0011845146379044684,0.7547207241910632,2018,nbr
+satellite_images\2018\nbr_2018-06-25_cloud19.3.png,Нет пожара,N/A,7.704160246533127e-06,0.04680662557781202,2018,nbr
+satellite_images\2018\nbr_2018-06-27_cloud13.1.png,Пожар,N/A,0.0002792758089368259,0.15845916795069337,2018,nbr
+satellite_images\2018\nbr_2018-06-27_cloud18.5.png,Нет пожара,N/A,0.0002889060092449923,0.04602272727272727,2018,nbr
+satellite_images\2018\nbr_2018-06-27_cloud20.9.png,Пожар,N/A,0.0009919106317411402,0.7735920647149461,2018,nbr
+satellite_images\2018\nbr_2018-06-27_cloud21.1.png,Пожар,N/A,0.001427195685670262,0.21961671802773497,2018,nbr
+satellite_images\2018\nbr_2018-07-05_cloud1.1.png,Нет пожара,N/A,0.00036787365177195683,0.04576656394453005,2018,nbr
+satellite_images\2018\nbr_2018-07-05_cloud16.8.png,Пожар,N/A,0.0027407550077041603,0.21974768875192605,2018,nbr
+satellite_images\2018\nbr_2018-07-05_cloud20.5.png,Пожар,N/A,0.004088983050847457,0.7538771186440678,2018,nbr
+satellite_images\2018\nbr_2018-07-05_cloud7.3.png,Пожар,N/A,0.0016275038520801232,0.14860747303543914,2018,nbr
+satellite_images\2018\nbr_2018-07-07_cloud0.0.png,Нет пожара,N/A,6.741140215716486e-05,0.04613828967642527,2018,nbr
+satellite_images\2018\nbr_2018-07-07_cloud0.5.png,Пожар,N/A,0.0002234206471494607,0.1532993066255778,2018,nbr
+satellite_images\2018\nbr_2018-07-07_cloud1.1.png,Пожар,N/A,0.0002580893682588598,0.21997881355932203,2018,nbr
+satellite_images\2018\nbr_2018-07-07_cloud1.8.png,Пожар,N/A,0.000737673343605547,0.7693701848998459,2018,nbr
+satellite_images\2018\nbr_2018-07-10_cloud0.0.png,Пожар,N/A,0.0005065485362095531,0.14967449922958398,2018,nbr
+satellite_images\2018\nbr_2018-07-12_cloud10.9.png,Пожар,N/A,0.000587442218798151,0.15107280431432973,2018,nbr
+satellite_images\2018\nbr_2018-07-12_cloud17.7.png,Пожар,N/A,0.0009938366718027735,0.7710959167950694,2018,nbr
+satellite_images\2018\nbr_2018-07-15_cloud0.6.png,Пожар,N/A,0.001563944530046225,0.14346687211093992,2018,nbr
+satellite_images\2018\nbr_2018-07-15_cloud10.7.png,Пожар,N/A,0.002754237288135593,0.7573228043143297,2018,nbr
+satellite_images\2018\nbr_2018-07-15_cloud3.1.png,Нет пожара,N/A,0.0009784283513097072,0.04266949152542373,2018,nbr
+satellite_images\2018\nbr_2018-07-17_cloud0.3.png,Пожар,N/A,0.0008070107858243452,0.4454564714946071,2018,nbr
+satellite_images\2018\nbr_2018-07-17_cloud0.6.png,Пожар,N/A,0.00033705701078582436,0.08060670261941448,2018,nbr
+satellite_images\2018\nbr_2018-07-17_cloud1.0.png,Пожар,N/A,0.00033705701078582436,0.08060670261941448,2018,nbr
+satellite_images\2018\nbr_2018-07-17_cloud1.1.png,Пожар,N/A,0.0007742681047765794,0.48703582434514636,2018,nbr
+satellite_images\2018\nbr_2018-07-17_cloud14.4.png,Нет пожара,N/A,7.126348228043144e-05,0.0448671032357473,2018,nbr
+satellite_images\2018\nbr_2018-07-17_cloud3.8.png,Пожар,N/A,0.00017719568567026194,0.2184302773497689,2018,nbr
+satellite_images\2018\nbr_2018-07-20_cloud16.3.png,Нет пожара,N/A,0.0,0.018434129429892143,2018,nbr
+satellite_images\2018\nbr_2018-07-20_cloud7.8.png,Нет пожара,N/A,1.926040061633282e-06,0.04669491525423729,2018,nbr
+satellite_images\2018\nbr_2018-07-25_cloud19.0.png,Нет пожара,N/A,4.4298921417565486e-05,0.04753659476117103,2018,nbr
+satellite_images\2018\nbr_2018-07-30_cloud0.0.png,Пожар,N/A,0.0016679506933744222,0.727095531587057,2018,nbr
+satellite_images\2018\nbr_2018-07-30_cloud12.5.png,Пожар,N/A,0.0003717257318952234,0.2117353620955316,2018,nbr
+satellite_images\2018\nbr_2018-07-30_cloud2.4.png,Нет пожара,N/A,0.00020993836671802772,0.042727272727272725,2018,nbr
+satellite_images\2018\nbr_2018-08-01_cloud0.0.png,Пожар,N/A,0.0036999229583975345,0.7231856702619415,2018,nbr
+satellite_images\2018\nbr_2018-08-01_cloud10.2.png,Нет пожара,N/A,0.00026964560862865946,0.04125,2018,nbr
+satellite_images\2018\nbr_2018-08-01_cloud18.5.png,Пожар,N/A,0.0009610939907550077,0.1418624807395994,2018,nbr
+satellite_images\2018\nbr_2018-08-04_cloud11.3.png,Пожар,N/A,0.0024884437596302002,0.7465543143297381,2018,nbr
+satellite_images\2018\nbr_2018-08-04_cloud2.8.png,Пожар,N/A,0.0010227272727272728,0.2142411402157165,2018,nbr
+satellite_images\2018\nbr_2018-08-04_cloud23.4.png,Пожар,N/A,0.000635593220338983,0.15688366718027735,2018,nbr
+satellite_images\2018\nbr_2018-08-04_cloud5.2.png,Нет пожара,N/A,0.00014445300462249616,0.045057781201849,2018,nbr
+satellite_images\2018\nbr_2018-08-06_cloud0.6.png,Пожар,N/A,0.0005720338983050847,0.14673921417565486,2018,nbr
+satellite_images\2018\nbr_2018-08-06_cloud12.7.png,Нет пожара,N/A,0.00011941448382126348,0.04261363636363636,2018,nbr
+satellite_images\2018\nbr_2018-08-06_cloud20.5.png,Пожар,N/A,0.0003293528505392912,0.22049691833590138,2018,nbr
+satellite_images\2018\nbr_2018-08-09_cloud0.0.png,Пожар,N/A,0.0005912942989214176,0.14626348228043143,2018,nbr
+satellite_images\2018\nbr_2018-08-09_cloud0.2.png,Пожар,N/A,0.0007704160246533128,0.21495570107858245,2018,nbr
+satellite_images\2018\nbr_2018-08-09_cloud0.3.png,Нет пожара,N/A,0.0003351309707241911,0.04227657935285054,2018,nbr
+satellite_images\2018\nbr_2018-08-14_cloud15.7.png,Пожар,N/A,0.0026752696456086287,0.1476097842835131,2018,nbr
+satellite_images\2018\nbr_2018-08-14_cloud5.7.png,Пожар,N/A,0.00125,0.04037172573189522,2018,nbr
+satellite_images\2018\nbr_2018-08-16_cloud0.0.png,Пожар,N/A,0.00027349768875192603,0.14712057010785826,2018,nbr
+satellite_images\2018\nbr_2018-08-16_cloud0.1.png,Нет пожара,N/A,0.00010015408320493066,0.04103813559322034,2018,nbr
+satellite_images\2018\nbr_2018-08-19_cloud11.5.png,Пожар,N/A,0.002103235747303544,0.7523767334360555,2018,nbr
+satellite_images\2018\nbr_2018-08-19_cloud20.1.png,Пожар,N/A,0.0002041602465331279,0.15364406779661016,2018,nbr
+satellite_images\2018\nbr_2018-08-19_cloud5.2.png,Пожар,N/A,0.0006837442218798151,0.04053736517719569,2018,nbr
+satellite_images\2018\nbr_2018-08-24_cloud0.0.png,Пожар,N/A,0.00043335901386748845,0.14846879815100153,2018,nbr
+satellite_images\2018\nbr_2018-08-24_cloud0.4.png,Пожар,N/A,0.0010612480739599383,0.20768875192604005,2018,nbr
+satellite_images\2018\nbr_2018-08-24_cloud0.6.png,Пожар,N/A,0.0023863636363636366,0.729726502311248,2018,nbr
+satellite_images\2018\nbr_2018-08-26_cloud0.1.png,Пожар,N/A,0.0009437596302003081,0.20892141756548535,2018,nbr
+satellite_images\2018\nbr_2018-08-26_cloud14.7.png,Пожар,N/A,0.00019838212634822804,0.1513193374422188,2018,nbr
+satellite_images\2018\nbr_2018-08-26_cloud3.5.png,Нет пожара,N/A,0.001612095531587057,0.041251926040061636,2018,nbr
+satellite_images\2018\nbr_2018-08-29_cloud17.8.png,Нет пожара,N/A,0.0,0.04819722650231125,2018,nbr
+satellite_images\2018\natural_2018-06-02_cloud4.2.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-06-05_cloud23.2.png,Нет пожара,N/A,0.0,0.027390215716486904,2018,natural
+satellite_images\2018\natural_2018-06-05_cloud3.4.png,Нет пожара,N/A,0.0,0.007503852080123267,2018,natural
+satellite_images\2018\natural_2018-06-07_cloud21.0.png,Нет пожара,N/A,0.0,0.08854583975346687,2018,natural
+satellite_images\2018\natural_2018-06-07_cloud29.6.png,Нет пожара,N/A,0.0,0.09548343605546995,2018,natural
+satellite_images\2018\natural_2018-06-07_cloud29.9.png,Нет пожара,N/A,0.0,0.0001271186440677966,2018,natural
+satellite_images\2018\natural_2018-06-07_cloud6.5.png,Нет пожара,N/A,0.0,0.000853235747303544,2018,natural
+satellite_images\2018\natural_2018-06-10_cloud21.8.png,Нет пожара,N/A,0.0,0.10005007704160246,2018,natural
+satellite_images\2018\natural_2018-06-10_cloud26.4.png,Нет пожара,N/A,3.852080123266564e-06,0.08420647149460708,2018,natural
+satellite_images\2018\natural_2018-06-10_cloud5.9.png,Нет пожара,N/A,0.0,0.018746147919876735,2018,natural
+satellite_images\2018\natural_2018-06-12_cloud1.4.png,Нет пожара,N/A,0.0,0.0263135593220339,2018,natural
+satellite_images\2018\natural_2018-06-12_cloud1.6.png,Нет пожара,N/A,0.0,0.009189137134052389,2018,natural
+satellite_images\2018\natural_2018-06-12_cloud28.8.png,Нет пожара,N/A,0.0,0.0002465331278890601,2018,natural
+satellite_images\2018\natural_2018-06-15_cloud0.0.png,Нет пожара,N/A,0.0,0.0003640215716486903,2018,natural
+satellite_images\2018\natural_2018-06-15_cloud4.0.png,Нет пожара,N/A,0.0,0.0001174884437596302,2018,natural
+satellite_images\2018\natural_2018-06-17_cloud0.0.png,Нет пожара,N/A,0.0,1.926040061633282e-06,2018,natural
+satellite_images\2018\natural_2018-06-17_cloud0.6.png,Нет пожара,N/A,0.0,0.0002234206471494607,2018,natural
+satellite_images\2018\natural_2018-06-17_cloud3.4.png,Нет пожара,N/A,0.0,0.00015215716486902928,2018,natural
+satellite_images\2018\natural_2018-06-20_cloud20.8.png,Нет пожара,N/A,0.0,0.04829352850539291,2018,natural
+satellite_images\2018\natural_2018-06-22_cloud0.0.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-06-22_cloud10.6.png,Нет пожара,N/A,0.0,0.0021205701078582436,2018,natural
+satellite_images\2018\natural_2018-06-22_cloud2.7.png,Нет пожара,N/A,1.5408320493066255e-05,0.019878659476117104,2018,natural
+satellite_images\2018\natural_2018-06-25_cloud19.3.png,Нет пожара,N/A,0.0,0.04829352850539291,2018,natural
+satellite_images\2018\natural_2018-06-27_cloud13.1.png,Нет пожара,N/A,0.0,0.010783898305084746,2018,natural
+satellite_images\2018\natural_2018-06-27_cloud18.5.png,Нет пожара,N/A,0.0,0.002159090909090909,2018,natural
+satellite_images\2018\natural_2018-06-27_cloud20.9.png,Нет пожара,N/A,0.0,0.03776964560862866,2018,natural
+satellite_images\2018\natural_2018-06-27_cloud21.1.png,Нет пожара,N/A,0.0,0.01357473035439137,2018,natural
+satellite_images\2018\natural_2018-07-05_cloud1.1.png,Нет пожара,N/A,0.0,0.002507704160246533,2018,natural
+satellite_images\2018\natural_2018-07-05_cloud16.8.png,Нет пожара,N/A,0.0,0.032143682588597844,2018,natural
+satellite_images\2018\natural_2018-07-05_cloud20.5.png,Нет пожара,N/A,0.0,0.15856317411402157,2018,natural
+satellite_images\2018\natural_2018-07-05_cloud7.3.png,Нет пожара,N/A,0.0,0.033574730354391374,2018,natural
+satellite_images\2018\natural_2018-07-07_cloud0.0.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-07-07_cloud0.5.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-07-07_cloud1.1.png,Нет пожара,N/A,0.0,0.0009765023112480739,2018,natural
+satellite_images\2018\natural_2018-07-07_cloud1.8.png,Нет пожара,N/A,0.0,0.01776386748844376,2018,natural
+satellite_images\2018\natural_2018-07-10_cloud0.0.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-07-12_cloud10.9.png,Нет пожара,N/A,0.0,0.0010631741140215715,2018,natural
+satellite_images\2018\natural_2018-07-12_cloud17.7.png,Нет пожара,N/A,0.0,0.012536594761171032,2018,natural
+satellite_images\2018\natural_2018-07-15_cloud0.6.png,Нет пожара,N/A,0.0,0.000512326656394453,2018,natural
+satellite_images\2018\natural_2018-07-15_cloud10.7.png,Нет пожара,N/A,0.0,0.0412384437596302,2018,natural
+satellite_images\2018\natural_2018-07-15_cloud3.1.png,Нет пожара,N/A,0.0,0.0014040832049306625,2018,natural
+satellite_images\2018\natural_2018-07-17_cloud0.3.png,Нет пожара,N/A,0.0,0.002303543913713405,2018,natural
+satellite_images\2018\natural_2018-07-17_cloud0.6.png,Нет пожара,N/A,0.0,7.704160246533127e-06,2018,natural
+satellite_images\2018\natural_2018-07-17_cloud1.0.png,Нет пожара,N/A,0.0,7.704160246533127e-06,2018,natural
+satellite_images\2018\natural_2018-07-17_cloud1.1.png,Нет пожара,N/A,0.0,0.0018008474576271187,2018,natural
+satellite_images\2018\natural_2018-07-17_cloud14.4.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-07-17_cloud3.8.png,Нет пожара,N/A,0.0,0.0004988443759630201,2018,natural
+satellite_images\2018\natural_2018-07-20_cloud16.3.png,Нет пожара,N/A,0.0,0.0012981510015408321,2018,natural
+satellite_images\2018\natural_2018-07-20_cloud7.8.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-07-25_cloud19.0.png,Нет пожара,N/A,0.0,0.043437981510015405,2018,natural
+satellite_images\2018\natural_2018-07-30_cloud0.0.png,Нет пожара,N/A,0.0,0.0002600154083204931,2018,natural
+satellite_images\2018\natural_2018-07-30_cloud12.5.png,Нет пожара,N/A,0.0,0.00010978428351309708,2018,natural
+satellite_images\2018\natural_2018-07-30_cloud2.4.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-08-01_cloud0.0.png,Нет пожара,N/A,0.0,0.0002561633281972265,2018,natural
+satellite_images\2018\natural_2018-08-01_cloud10.2.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-08-01_cloud18.5.png,Нет пожара,N/A,0.0,3.081664098613251e-05,2018,natural
+satellite_images\2018\natural_2018-08-04_cloud11.3.png,Нет пожара,N/A,0.0,0.03973998459167951,2018,natural
+satellite_images\2018\natural_2018-08-04_cloud2.8.png,Нет пожара,N/A,0.0,0.004766949152542373,2018,natural
+satellite_images\2018\natural_2018-08-04_cloud23.4.png,Нет пожара,N/A,0.0,0.03062211093990755,2018,natural
+satellite_images\2018\natural_2018-08-04_cloud5.2.png,Нет пожара,N/A,0.0,0.0077349768875192605,2018,natural
+satellite_images\2018\natural_2018-08-06_cloud0.6.png,Нет пожара,N/A,0.0,3.6594761171032355e-05,2018,natural
+satellite_images\2018\natural_2018-08-06_cloud12.7.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-08-06_cloud20.5.png,Нет пожара,N/A,0.0,0.014930662557781202,2018,natural
+satellite_images\2018\natural_2018-08-09_cloud0.0.png,Нет пожара,N/A,0.0,4.6224961479198765e-05,2018,natural
+satellite_images\2018\natural_2018-08-09_cloud0.2.png,Нет пожара,N/A,0.0,0.0004834360554699538,2018,natural
+satellite_images\2018\natural_2018-08-09_cloud0.3.png,Нет пожара,N/A,0.0,3.4668721109399075e-05,2018,natural
+satellite_images\2018\natural_2018-08-14_cloud15.7.png,Нет пожара,N/A,0.0,0.058434129429892144,2018,natural
+satellite_images\2018\natural_2018-08-14_cloud5.7.png,Нет пожара,N/A,0.0,0.011762326656394453,2018,natural
+satellite_images\2018\natural_2018-08-16_cloud0.0.png,Нет пожара,N/A,0.0,7.704160246533127e-06,2018,natural
+satellite_images\2018\natural_2018-08-16_cloud0.1.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-08-19_cloud11.5.png,Нет пожара,N/A,0.0,0.009568567026194144,2018,natural
+satellite_images\2018\natural_2018-08-19_cloud20.1.png,Нет пожара,N/A,0.0,0.009795839753466873,2018,natural
+satellite_images\2018\natural_2018-08-19_cloud5.2.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-08-24_cloud0.0.png,Нет пожара,N/A,0.0,0.000662557781201849,2018,natural
+satellite_images\2018\natural_2018-08-24_cloud0.4.png,Нет пожара,N/A,0.0,7.318952234206471e-05,2018,natural
+satellite_images\2018\natural_2018-08-24_cloud0.6.png,Нет пожара,N/A,0.0,0.013923343605546996,2018,natural
+satellite_images\2018\natural_2018-08-26_cloud0.1.png,Нет пожара,N/A,0.0,7.318952234206471e-05,2018,natural
+satellite_images\2018\natural_2018-08-26_cloud14.7.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-08-26_cloud3.5.png,Нет пожара,N/A,0.0,0.0,2018,natural
+satellite_images\2018\natural_2018-08-29_cloud17.8.png,Нет пожара,N/A,0.0,0.04829352850539291,2018,natural
+satellite_images\2019\fire_2019-06-02_cloud10.4.png,Нет пожара,N/A,0.0013077812018489985,0.28514830508474576,2019,fire
+satellite_images\2019\fire_2019-06-02_cloud13.9.png,Нет пожара,N/A,4.815100154083205e-05,0.07521956856702619,2019,fire
+satellite_images\2019\fire_2019-06-02_cloud20.5.png,Нет пожара,N/A,0.00017912172573189523,0.09514252696456087,2019,fire
+satellite_images\2019\fire_2019-06-02_cloud26.6.png,Нет пожара,N/A,1.5408320493066255e-05,0.019485747303543913,2019,fire
+satellite_images\2019\fire_2019-06-12_cloud17.1.png,Нет пожара,N/A,0.0002041602465331279,0.2776406009244992,2019,fire
+satellite_images\2019\fire_2019-06-17_cloud0.0.png,Нет пожара,N/A,0.0003852080123266564,0.2051097842835131,2019,fire
+satellite_images\2019\fire_2019-06-17_cloud0.1.png,Нет пожара,N/A,0.0,0.006978043143297381,2019,fire
+satellite_images\2019\fire_2019-06-17_cloud0.3.png,Нет пожара,N/A,0.00062788906009245,0.037139830508474574,2019,fire
+satellite_images\2019\fire_2019-06-20_cloud0.3.png,Нет пожара,N/A,3.2742681047765796e-05,0.007725346687211094,2019,fire
+satellite_images\2019\fire_2019-06-20_cloud0.5.png,Нет пожара,N/A,8.667180277349769e-05,0.0361171032357473,2019,fire
+satellite_images\2019\fire_2019-06-20_cloud2.3.png,Нет пожара,N/A,0.00028505392912172575,0.06380970724191064,2019,fire
+satellite_images\2019\fire_2019-06-20_cloud5.4.png,Нет пожара,N/A,0.000587442218798151,0.2995146379044684,2019,fire
+satellite_images\2019\fire_2019-06-25_cloud22.4.png,Нет пожара,N/A,9.63020030816641e-06,0.10552388289676426,2019,fire
+satellite_images\2019\fire_2019-06-25_cloud26.9.png,Нет пожара,N/A,5.2003081664098616e-05,0.35111325115562403,2019,fire
+satellite_images\2019\fire_2019-06-27_cloud2.0.png,Нет пожара,N/A,4.4298921417565486e-05,0.017877503852080125,2019,fire
+satellite_images\2019\fire_2019-06-27_cloud3.9.png,Нет пожара,N/A,0.00011171032357473035,0.05981895223420647,2019,fire
+satellite_images\2019\fire_2019-06-27_cloud4.2.png,Нет пожара,N/A,3.852080123266564e-05,0.05526771956856703,2019,fire
+satellite_images\2019\fire_2019-07-02_cloud11.7.png,Нет пожара,N/A,2.3112480739599382e-05,0.09321648690292758,2019,fire
+satellite_images\2019\fire_2019-07-02_cloud13.7.png,Нет пожара,N/A,0.0002234206471494607,0.07137326656394453,2019,fire
+satellite_images\2019\fire_2019-07-02_cloud21.3.png,Нет пожара,N/A,4.4298921417565486e-05,0.3872226502311248,2019,fire
+satellite_images\2019\fire_2019-07-02_cloud3.7.png,Нет пожара,N/A,2.5038520801232665e-05,0.015154083204930663,2019,fire
+satellite_images\2019\fire_2019-07-05_cloud10.0.png,Нет пожара,N/A,0.00016178736517719568,0.2196995377503852,2019,fire
+satellite_images\2019\fire_2019-07-05_cloud10.7.png,Нет пожара,N/A,2.5038520801232665e-05,0.014424114021571649,2019,fire
+satellite_images\2019\fire_2019-07-05_cloud12.7.png,Нет пожара,N/A,4.2372881355932206e-05,0.027351694915254236,2019,fire
+satellite_images\2019\fire_2019-07-05_cloud6.7.png,Нет пожара,N/A,0.00014445300462249616,0.05511171032357473,2019,fire
+satellite_images\2019\fire_2019-07-07_cloud12.2.png,Нет пожара,N/A,0.0005065485362095531,0.35316255778120187,2019,fire
+satellite_images\2019\fire_2019-07-07_cloud2.8.png,Нет пожара,N/A,0.00017912172573189523,0.02712442218798151,2019,fire
+satellite_images\2019\fire_2019-07-07_cloud21.4.png,Нет пожара,N/A,0.00042180277349768874,0.05557588597842835,2019,fire
+satellite_images\2019\fire_2019-07-10_cloud11.2.png,Нет пожара,N/A,7.704160246533127e-06,0.1134495377503852,2019,fire
+satellite_images\2019\fire_2019-07-10_cloud16.7.png,Нет пожара,N/A,8.667180277349769e-05,0.40999807395993837,2019,fire
+satellite_images\2019\fire_2019-07-10_cloud27.0.png,Нет пожара,N/A,1.926040061633282e-05,0.09856317411402157,2019,fire
+satellite_images\2019\fire_2019-07-10_cloud27.4.png,Нет пожара,N/A,0.0,0.020558551617873653,2019,fire
+satellite_images\2019\fire_2019-07-12_cloud0.0.png,Нет пожара,N/A,4.4298921417565486e-05,0.00846879815100154,2019,fire
+satellite_images\2019\fire_2019-07-15_cloud0.0.png,Нет пожара,N/A,0.00020608628659476118,0.04789291217257319,2019,fire
+satellite_images\2019\fire_2019-07-17_cloud0.0.png,Нет пожара,N/A,1.7334360554699538e-05,0.027973805855161786,2019,fire
+satellite_images\2019\fire_2019-07-17_cloud0.4.png,Нет пожара,N/A,0.0004776579352850539,0.061804699537750384,2019,fire
+satellite_images\2019\fire_2019-07-17_cloud2.7.png,Нет пожара,N/A,0.00016756548536209554,0.23885785824345146,2019,fire
+satellite_images\2019\fire_2019-07-22_cloud18.3.png,Нет пожара,N/A,0.00023112480739599384,0.2490273497688752,2019,fire
+satellite_images\2019\fire_2019-07-22_cloud3.1.png,Нет пожара,N/A,0.000313944530046225,0.06768875192604006,2019,fire
+satellite_images\2019\fire_2019-07-22_cloud9.1.png,Нет пожара,N/A,1.926040061633282e-05,0.007852465331278891,2019,fire
+satellite_images\2019\fire_2019-08-01_cloud0.0.png,Нет пожара,N/A,0.0007164869029275809,0.020537365177195687,2019,fire
+satellite_images\2019\fire_2019-08-01_cloud0.1.png,Нет пожара,N/A,2.5038520801232665e-05,0.004164098613251155,2019,fire
+satellite_images\2019\fire_2019-08-04_cloud25.6.png,Нет пожара,N/A,7.704160246533127e-06,0.001947226502311248,2019,fire
+satellite_images\2019\fire_2019-08-06_cloud0.0.png,Нет пожара,N/A,0.0008339753466872111,0.01951463790446841,2019,fire
+satellite_images\2019\fire_2019-08-06_cloud0.7.png,Нет пожара,N/A,0.000635593220338983,0.1360939907550077,2019,fire
+satellite_images\2019\fire_2019-08-06_cloud2.2.png,Нет пожара,N/A,7.126348228043144e-05,0.016562018489984592,2019,fire
+satellite_images\2019\fire_2019-08-06_cloud4.7.png,Нет пожара,N/A,4.4298921417565486e-05,0.003969568567026194,2019,fire
+satellite_images\2019\fire_2019-08-09_cloud1.9.png,Нет пожара,N/A,0.0003197226502311248,0.08601887519260401,2019,fire
+satellite_images\2019\fire_2019-08-09_cloud5.6.png,Нет пожара,N/A,0.0004256548536209553,0.03418913713405239,2019,fire
+satellite_images\2019\fire_2019-08-11_cloud0.0.png,Нет пожара,N/A,6.163328197226502e-05,0.012590523882896764,2019,fire
+satellite_images\2019\fire_2019-08-11_cloud0.1.png,Нет пожара,N/A,0.0005296610169491525,0.10756548536209554,2019,fire
+satellite_images\2019\fire_2019-08-11_cloud1.5.png,Нет пожара,N/A,5.778120184899846e-06,0.0034322033898305086,2019,fire
+satellite_images\2019\fire_2019-08-11_cloud5.9.png,Нет пожара,N/A,0.0009244992295839754,0.0199711093990755,2019,fire
+satellite_images\2019\fire_2019-08-16_cloud0.4.png,Нет пожара,N/A,1.7334360554699538e-05,0.016265408320493065,2019,fire
+satellite_images\2019\fire_2019-08-16_cloud1.3.png,Нет пожара,N/A,2.5038520801232665e-05,0.004963405238828968,2019,fire
+satellite_images\2019\fire_2019-08-16_cloud4.9.png,Нет пожара,N/A,0.0002542372881355932,0.05023882896764253,2019,fire
+satellite_images\2019\fire_2019-08-16_cloud9.0.png,Нет пожара,N/A,0.00017719568567026194,0.2754391371340524,2019,fire
+satellite_images\2019\fire_2019-08-19_cloud16.1.png,Нет пожара,N/A,3.852080123266564e-06,0.0888308936825886,2019,fire
+satellite_images\2019\fire_2019-08-19_cloud24.9.png,Нет пожара,N/A,1.926040061633282e-05,0.027028120184899845,2019,fire
+satellite_images\2019\fire_2019-08-24_cloud1.8.png,Нет пожара,N/A,0.0,0.002594375963020031,2019,fire
+satellite_images\2019\fire_2019-08-24_cloud12.4.png,Нет пожара,N/A,0.0,0.008541987673343606,2019,fire
+satellite_images\2019\fire_2019-08-24_cloud14.8.png,Нет пожара,N/A,6.35593220338983e-05,0.050154083204930665,2019,fire
+satellite_images\2019\fire_2019-08-24_cloud8.4.png,Нет пожара,N/A,9.822804314329737e-05,0.1294337442218798,2019,fire
+satellite_images\2019\fire_2019-08-26_cloud0.0.png,Нет пожара,N/A,0.0012634822804314329,0.004926810477657935,2019,fire
+satellite_images\2019\fire_2019-08-26_cloud0.5.png,Нет пожара,N/A,0.0003948382126348228,0.0009996147919876734,2019,fire
+satellite_images\2019\drought_2019-06-02_cloud10.4.png,Нет пожара,N/A,0.03806432973805855,0.1891621725731895,2019,drought
+satellite_images\2019\drought_2019-06-02_cloud13.9.png,Нет пожара,N/A,0.0005816640986132511,0.05981702619414484,2019,drought
+satellite_images\2019\drought_2019-06-02_cloud20.5.png,Нет пожара,N/A,0.005807010785824345,0.08376540832049306,2019,drought
+satellite_images\2019\drought_2019-06-02_cloud26.6.png,Нет пожара,N/A,0.0003293528505392912,0.016313559322033898,2019,drought
+satellite_images\2019\drought_2019-06-12_cloud17.1.png,Нет пожара,N/A,0.007723420647149461,0.1254795839753467,2019,drought
+satellite_images\2019\drought_2019-06-17_cloud0.0.png,Нет пожара,N/A,0.009695685670261942,0.0574884437596302,2019,drought
+satellite_images\2019\drought_2019-06-17_cloud0.1.png,Нет пожара,N/A,0.000600924499229584,0.0022708012326656396,2019,drought
+satellite_images\2019\drought_2019-06-17_cloud0.3.png,Нет пожара,N/A,0.009135208012326656,0.007018489984591679,2019,drought
+satellite_images\2019\drought_2019-06-20_cloud0.3.png,Нет пожара,N/A,0.0002773497688751926,0.004281587057010786,2019,drought
+satellite_images\2019\drought_2019-06-20_cloud0.5.png,Нет пожара,N/A,0.0003524653312788906,0.025564329738058552,2019,drought
+satellite_images\2019\drought_2019-06-20_cloud2.3.png,Нет пожара,N/A,0.004736132511556241,0.03712634822804314,2019,drought
+satellite_images\2019\drought_2019-06-20_cloud5.4.png,Нет пожара,N/A,0.005377503852080123,0.19573767334360553,2019,drought
+satellite_images\2019\drought_2019-06-25_cloud22.4.png,Нет пожара,N/A,6.163328197226502e-05,0.09337249614791987,2019,drought
+satellite_images\2019\drought_2019-06-25_cloud26.9.png,Нет пожара,N/A,0.0006144067796610169,0.271538906009245,2019,drought
+satellite_images\2019\drought_2019-06-27_cloud2.0.png,Нет пожара,N/A,6.548536209553159e-05,0.014044684129429892,2019,drought
+satellite_images\2019\drought_2019-06-27_cloud3.9.png,Нет пожара,N/A,0.0012519260400616333,0.03350731895223421,2019,drought
+satellite_images\2019\drought_2019-06-27_cloud4.2.png,Нет пожара,N/A,6.741140215716486e-05,0.03909668721109399,2019,drought
+satellite_images\2019\drought_2019-07-02_cloud11.7.png,Нет пожара,N/A,0.0002985362095531587,0.07487673343605547,2019,drought
+satellite_images\2019\drought_2019-07-02_cloud13.7.png,Нет пожара,N/A,0.0015677966101694915,0.05034283513097072,2019,drought
+satellite_images\2019\drought_2019-07-02_cloud21.3.png,Нет пожара,N/A,0.0011979969183359015,0.31595146379044686,2019,drought
+satellite_images\2019\drought_2019-07-02_cloud3.7.png,Нет пожара,N/A,0.0002946841294298921,0.011796995377503852,2019,drought
+satellite_images\2019\drought_2019-07-05_cloud10.0.png,Нет пожара,N/A,0.0028736517719568566,0.138518875192604,2019,drought
+satellite_images\2019\drought_2019-07-05_cloud10.7.png,Нет пожара,N/A,0.0004391371340523883,0.011945300462249614,2019,drought
+satellite_images\2019\drought_2019-07-05_cloud12.7.png,Нет пожара,N/A,0.000512326656394453,0.019843990755007705,2019,drought
+satellite_images\2019\drought_2019-07-05_cloud6.7.png,Нет пожара,N/A,0.0016621725731895223,0.036964560862865946,2019,drought
+satellite_images\2019\drought_2019-07-07_cloud12.2.png,Нет пожара,N/A,0.003782742681047766,0.2966429121725732,2019,drought
+satellite_images\2019\drought_2019-07-07_cloud2.8.png,Нет пожара,N/A,0.0011190292758089368,0.01786979969183359,2019,drought
+satellite_images\2019\drought_2019-07-07_cloud21.4.png,Нет пожара,N/A,0.0027927580893682587,0.033018104776579356,2019,drought
+satellite_images\2019\drought_2019-07-10_cloud11.2.png,Нет пожара,N/A,0.0001579352850539291,0.1023324345146379,2019,drought
+satellite_images\2019\drought_2019-07-10_cloud16.7.png,Нет пожара,N/A,0.0010208012326656394,0.35865562403698,2019,drought
+satellite_images\2019\drought_2019-07-10_cloud27.0.png,Нет пожара,N/A,0.000552773497688752,0.08986517719568567,2019,drought
+satellite_images\2019\drought_2019-07-10_cloud27.4.png,Нет пожара,N/A,0.00018875192604006163,0.018120184899845918,2019,drought
+satellite_images\2019\drought_2019-07-12_cloud0.0.png,Нет пожара,N/A,0.0013674884437596302,0.004911402157164869,2019,drought
+satellite_images\2019\drought_2019-07-15_cloud0.0.png,Нет пожара,N/A,0.002008859784283513,0.018840523882896764,2019,drought
+satellite_images\2019\drought_2019-07-17_cloud0.0.png,Нет пожара,N/A,0.0015793528505392911,0.016099768875192603,2019,drought
+satellite_images\2019\drought_2019-07-17_cloud0.4.png,Нет пожара,N/A,0.0033416795069337443,0.03050462249614792,2019,drought
+satellite_images\2019\drought_2019-07-17_cloud2.7.png,Нет пожара,N/A,0.005772342064714946,0.1028929121725732,2019,drought
+satellite_images\2019\drought_2019-07-22_cloud18.3.png,Нет пожара,N/A,0.004813174114021572,0.1331240369799692,2019,drought
+satellite_images\2019\drought_2019-07-22_cloud3.1.png,Нет пожара,N/A,0.00275231124807396,0.043364791987673346,2019,drought
+satellite_images\2019\drought_2019-07-22_cloud9.1.png,Нет пожара,N/A,0.001810477657935285,0.004655238828967643,2019,drought
+satellite_images\2019\drought_2019-08-01_cloud0.0.png,Нет пожара,N/A,0.011710323574730355,0.011796995377503852,2019,drought
+satellite_images\2019\drought_2019-08-01_cloud0.1.png,Нет пожара,N/A,0.00464175654853621,0.002444144838212635,2019,drought
+satellite_images\2019\drought_2019-08-04_cloud25.6.png,Нет пожара,N/A,0.0032087827426810476,0.0011768104776579353,2019,drought
+satellite_images\2019\drought_2019-08-06_cloud0.0.png,Нет пожара,N/A,0.009953775038520801,0.008567026194144838,2019,drought
+satellite_images\2019\drought_2019-08-06_cloud0.7.png,Нет пожара,N/A,0.05280431432973806,0.05612095531587057,2019,drought
+satellite_images\2019\drought_2019-08-06_cloud2.2.png,Нет пожара,N/A,0.00451271186440678,0.007162942989214175,2019,drought
+satellite_images\2019\drought_2019-08-06_cloud4.7.png,Нет пожара,N/A,0.004347072419106318,0.0017719568567026193,2019,drought
+satellite_images\2019\drought_2019-08-09_cloud1.9.png,Нет пожара,N/A,0.045333204930662556,0.05138674884437596,2019,drought
+satellite_images\2019\drought_2019-08-09_cloud5.6.png,Нет пожара,N/A,0.0070647149460708785,0.028711479198767334,2019,drought
+satellite_images\2019\drought_2019-08-11_cloud0.0.png,Нет пожара,N/A,0.004955701078582435,0.00536979969183359,2019,drought
+satellite_images\2019\drought_2019-08-11_cloud0.1.png,Нет пожара,N/A,0.052721494607087825,0.03271764252696456,2019,drought
+satellite_images\2019\drought_2019-08-11_cloud1.5.png,Нет пожара,N/A,0.004547380585516179,0.001741140215716487,2019,drought
+satellite_images\2019\drought_2019-08-11_cloud5.9.png,Нет пожара,N/A,0.013807781201849,0.009651386748844377,2019,drought
+satellite_images\2019\drought_2019-08-16_cloud0.4.png,Нет пожара,N/A,0.003661402157164869,0.010007704160246532,2019,drought
+satellite_images\2019\drought_2019-08-16_cloud1.3.png,Нет пожара,N/A,0.0032896764252696455,0.002846687211093991,2019,drought
+satellite_images\2019\drought_2019-08-16_cloud4.9.png,Нет пожара,N/A,0.005832049306625578,0.03446263482280432,2019,drought
+satellite_images\2019\drought_2019-08-16_cloud9.0.png,Нет пожара,N/A,0.025566255778120186,0.20083204930662557,2019,drought
+satellite_images\2019\drought_2019-08-19_cloud16.1.png,Нет пожара,N/A,0.000710708782742681,0.08288328197226502,2019,drought
+satellite_images\2019\drought_2019-08-19_cloud24.9.png,Нет пожара,N/A,0.0003505392912172573,0.025654853620955317,2019,drought
+satellite_images\2019\drought_2019-08-24_cloud1.8.png,Нет пожара,N/A,0.0012519260400616333,0.0019433744221879815,2019,drought
+satellite_images\2019\drought_2019-08-24_cloud12.4.png,Нет пожара,N/A,0.0013617103235747303,0.006134437596302003,2019,drought
+satellite_images\2019\drought_2019-08-24_cloud14.8.png,Нет пожара,N/A,0.003463020030816641,0.04479969183359014,2019,drought
+satellite_images\2019\drought_2019-08-24_cloud8.4.png,Нет пожара,N/A,0.027854391371340523,0.10048343605546996,2019,drought
+satellite_images\2019\drought_2019-08-26_cloud0.0.png,Нет пожара,N/A,0.01846302003081664,0.0021109399075500772,2019,drought
+satellite_images\2019\drought_2019-08-26_cloud0.5.png,Нет пожара,N/A,0.005714560862865948,0.0004699537750385208,2019,drought
+satellite_images\2019\nbr_2019-06-02_cloud10.4.png,Пожар,N/A,0.0007916024653312789,0.6499248844375963,2019,nbr
+satellite_images\2019\nbr_2019-06-02_cloud13.9.png,Пожар,N/A,0.00018104776579352851,0.2203004622496148,2019,nbr
+satellite_images\2019\nbr_2019-06-02_cloud20.5.png,Пожар,N/A,5.970724191063174e-05,0.15034283513097071,2019,nbr
+satellite_images\2019\nbr_2019-06-02_cloud26.6.png,Нет пожара,N/A,5.007704160246533e-05,0.04625,2019,nbr
+satellite_images\2019\nbr_2019-06-12_cloud17.1.png,Пожар,N/A,0.00029275808936825884,0.6861479198767334,2019,nbr
+satellite_images\2019\nbr_2019-06-17_cloud0.0.png,Пожар,N/A,0.0010227272727272728,0.6829872881355932,2019,nbr
+satellite_images\2019\nbr_2019-06-17_cloud0.1.png,Нет пожара,N/A,0.00020030816640986132,0.04427195685670262,2019,nbr
+satellite_images\2019\nbr_2019-06-17_cloud0.3.png,Пожар,N/A,0.00025231124807395994,0.12949345146379046,2019,nbr
+satellite_images\2019\nbr_2019-06-20_cloud0.3.png,Нет пожара,N/A,0.0006221109399075501,0.04448382126348228,2019,nbr
+satellite_images\2019\nbr_2019-06-20_cloud0.5.png,Пожар,N/A,0.0017103235747303544,0.21557588597842836,2019,nbr
+satellite_images\2019\nbr_2019-06-20_cloud2.3.png,Пожар,N/A,0.000423728813559322,0.1429102465331279,2019,nbr
+satellite_images\2019\nbr_2019-06-20_cloud5.4.png,Пожар,N/A,0.0010285053929121725,0.7300269645608629,2019,nbr
+satellite_images\2019\nbr_2019-06-25_cloud22.4.png,Пожар,N/A,0.001045839753466872,0.2236228813559322,2019,nbr
+satellite_images\2019\nbr_2019-06-25_cloud26.9.png,Пожар,N/A,0.0008513097072419106,0.7689368258859784,2019,nbr
+satellite_images\2019\nbr_2019-06-27_cloud2.0.png,Пожар,N/A,0.00014252696456086287,0.04687788906009245,2019,nbr
+satellite_images\2019\nbr_2019-06-27_cloud3.9.png,Пожар,N/A,0.00024268104776579353,0.154501155624037,2019,nbr
+satellite_images\2019\nbr_2019-06-27_cloud4.2.png,Пожар,N/A,0.0005893682588597842,0.2199942218798151,2019,nbr
+satellite_images\2019\nbr_2019-07-02_cloud11.7.png,Пожар,N/A,0.0008204930662557781,0.22337827426810478,2019,nbr
+satellite_images\2019\nbr_2019-07-02_cloud13.7.png,Пожар,N/A,0.0002889060092449923,0.156538906009245,2019,nbr
+satellite_images\2019\nbr_2019-07-02_cloud21.3.png,Пожар,N/A,0.0021571648690292757,0.7723536209553159,2019,nbr
+satellite_images\2019\nbr_2019-07-02_cloud3.7.png,Нет пожара,N/A,0.0002041602465331279,0.04619029275808937,2019,nbr
+satellite_images\2019\nbr_2019-07-05_cloud10.0.png,Пожар,N/A,0.0013328197226502312,0.7636691063174114,2019,nbr
+satellite_images\2019\nbr_2019-07-05_cloud10.7.png,Нет пожара,N/A,0.0001579352850539291,0.0463424499229584,2019,nbr
+satellite_images\2019\nbr_2019-07-05_cloud12.7.png,Пожар,N/A,0.0014117873651771956,0.21996725731895223,2019,nbr
+satellite_images\2019\nbr_2019-07-05_cloud6.7.png,Пожар,N/A,0.00040254237288135593,0.15532935285053928,2019,nbr
+satellite_images\2019\nbr_2019-07-07_cloud12.2.png,Пожар,N/A,0.001789291217257319,0.7691583204930662,2019,nbr
+satellite_images\2019\nbr_2019-07-07_cloud2.8.png,Пожар,N/A,0.0008031587057010786,0.21824345146379046,2019,nbr
+satellite_images\2019\nbr_2019-07-07_cloud21.4.png,Пожар,N/A,0.0003120184899845917,0.1548439907550077,2019,nbr
+satellite_images\2019\nbr_2019-07-10_cloud11.2.png,Пожар,N/A,0.0018258859784283513,0.2237673343605547,2019,nbr
+satellite_images\2019\nbr_2019-07-10_cloud16.7.png,Пожар,N/A,0.0024576271186440676,0.7642661787365177,2019,nbr
+satellite_images\2019\nbr_2019-07-10_cloud27.0.png,Пожар,N/A,0.0011325115562403698,0.1558378274268105,2019,nbr
+satellite_images\2019\nbr_2019-07-10_cloud27.4.png,Нет пожара,N/A,0.00033705701078582436,0.046307781201848995,2019,nbr
+satellite_images\2019\nbr_2019-07-12_cloud0.0.png,Нет пожара,N/A,0.00017719568567026194,0.04541795069337442,2019,nbr
+satellite_images\2019\nbr_2019-07-15_cloud0.0.png,Пожар,N/A,0.00026194144838212637,0.15573767334360555,2019,nbr
+satellite_images\2019\nbr_2019-07-17_cloud0.0.png,Пожар,N/A,0.0008378274268104777,0.21533513097072418,2019,nbr
+satellite_images\2019\nbr_2019-07-17_cloud0.4.png,Пожар,N/A,0.0004680277349768875,0.1544453004622496,2019,nbr
+satellite_images\2019\nbr_2019-07-17_cloud2.7.png,Пожар,N/A,0.0024576271186440676,0.7567989214175654,2019,nbr
+satellite_images\2019\nbr_2019-07-22_cloud18.3.png,Пожар,N/A,0.0031683359013867487,0.7633705701078582,2019,nbr
+satellite_images\2019\nbr_2019-07-22_cloud3.1.png,Пожар,N/A,0.0007395993836671802,0.1543104776579353,2019,nbr
+satellite_images\2019\nbr_2019-07-22_cloud9.1.png,Нет пожара,N/A,0.0012326656394453005,0.04279468412942989,2019,nbr
+satellite_images\2019\nbr_2019-08-01_cloud0.0.png,Пожар,N/A,0.0005643297380585516,0.14574537750385208,2019,nbr
+satellite_images\2019\nbr_2019-08-01_cloud0.1.png,Нет пожара,N/A,0.0008359013867488443,0.04027349768875193,2019,nbr
+satellite_images\2019\nbr_2019-08-04_cloud25.6.png,Нет пожара,N/A,0.0002542372881355932,0.042760015408320494,2019,nbr
+satellite_images\2019\nbr_2019-08-06_cloud0.0.png,Пожар,N/A,0.0003659476117103236,0.1460130970724191,2019,nbr
+satellite_images\2019\nbr_2019-08-06_cloud0.7.png,Пожар,N/A,0.002205315870570108,0.7005142526964561,2019,nbr
+satellite_images\2019\nbr_2019-08-06_cloud2.2.png,Пожар,N/A,0.0002580893682588598,0.2120666409861325,2019,nbr
+satellite_images\2019\nbr_2019-08-06_cloud4.7.png,Нет пожара,N/A,0.00021956856702619416,0.042039676425269644,2019,nbr
+satellite_images\2019\nbr_2019-08-09_cloud1.9.png,Пожар,N/A,0.0026733436055469953,0.7125770416024654,2019,nbr
+satellite_images\2019\nbr_2019-08-09_cloud5.6.png,Пожар,N/A,0.0006298151001540832,0.15022149460708784,2019,nbr
+satellite_images\2019\nbr_2019-08-11_cloud0.0.png,Пожар,N/A,0.000348613251155624,0.2111459938366718,2019,nbr
+satellite_images\2019\nbr_2019-08-11_cloud0.1.png,Пожар,N/A,0.002211093990755008,0.6974788135593221,2019,nbr
+satellite_images\2019\nbr_2019-08-11_cloud1.5.png,Нет пожара,N/A,0.0003081664098613251,0.04067218798151002,2019,nbr
+satellite_images\2019\nbr_2019-08-11_cloud5.9.png,Пожар,N/A,0.00035631741140215717,0.14572611710323574,2019,nbr
+satellite_images\2019\nbr_2019-08-16_cloud0.4.png,Пожар,N/A,0.0008397534668721109,0.2131028505392912,2019,nbr
+satellite_images\2019\nbr_2019-08-16_cloud1.3.png,Нет пожара,N/A,0.0013020030816640986,0.04066255778120185,2019,nbr
+satellite_images\2019\nbr_2019-08-16_cloud4.9.png,Пожар,N/A,0.0007145608628659476,0.14990947611710323,2019,nbr
+satellite_images\2019\nbr_2019-08-16_cloud9.0.png,Пожар,N/A,0.0025250385208012327,0.7337750385208013,2019,nbr
+satellite_images\2019\nbr_2019-08-19_cloud16.1.png,Пожар,N/A,0.0004834360554699538,0.21886363636363637,2019,nbr
+satellite_images\2019\nbr_2019-08-19_cloud24.9.png,Нет пожара,N/A,0.00035824345146379046,0.04524845916795069,2019,nbr
+satellite_images\2019\nbr_2019-08-24_cloud1.8.png,Нет пожара,N/A,0.0008898305084745762,0.04153120184899846,2019,nbr
+satellite_images\2019\nbr_2019-08-24_cloud12.4.png,Пожар,N/A,0.00041987673343605545,0.21827812018489984,2019,nbr
+satellite_images\2019\nbr_2019-08-24_cloud14.8.png,Пожар,N/A,0.0009302773497688752,0.15094953775038522,2019,nbr
+satellite_images\2019\nbr_2019-08-24_cloud8.4.png,Пожар,N/A,0.0029545454545454545,0.7238385978428351,2019,nbr
+satellite_images\2019\nbr_2019-08-26_cloud0.0.png,Пожар,N/A,0.0005469953775038521,0.13492488443759632,2019,nbr
+satellite_images\2019\nbr_2019-08-26_cloud0.5.png,Нет пожара,N/A,0.0017546224961479198,0.03865369799691833,2019,nbr
+satellite_images\2019\natural_2019-06-02_cloud10.4.png,Нет пожара,N/A,0.0,0.12123651771956857,2019,natural
+satellite_images\2019\natural_2019-06-02_cloud13.9.png,Нет пожара,N/A,0.0,0.03845338983050847,2019,natural
+satellite_images\2019\natural_2019-06-02_cloud20.5.png,Нет пожара,N/A,0.0,0.06860362095531587,2019,natural
+satellite_images\2019\natural_2019-06-02_cloud26.6.png,Нет пожара,N/A,0.0,0.010989984591679507,2019,natural
+satellite_images\2019\natural_2019-06-12_cloud17.1.png,Нет пожара,N/A,0.0,0.03437018489984592,2019,natural
+satellite_images\2019\natural_2019-06-17_cloud0.0.png,Нет пожара,N/A,0.0,6.35593220338983e-05,2019,natural
+satellite_images\2019\natural_2019-06-17_cloud0.1.png,Нет пожара,N/A,0.0,0.0,2019,natural
+satellite_images\2019\natural_2019-06-17_cloud0.3.png,Нет пожара,N/A,0.0,4.4298921417565486e-05,2019,natural
+satellite_images\2019\natural_2019-06-20_cloud0.3.png,Нет пожара,N/A,0.0,0.0011710323574730353,2019,natural
+satellite_images\2019\natural_2019-06-20_cloud0.5.png,Нет пожара,N/A,0.0,0.01239984591679507,2019,natural
+satellite_images\2019\natural_2019-06-20_cloud2.3.png,Нет пожара,N/A,0.0,0.013303158705701078,2019,natural
+satellite_images\2019\natural_2019-06-20_cloud5.4.png,Нет пожара,N/A,0.0,0.06960516178736517,2019,natural
+satellite_images\2019\natural_2019-06-25_cloud22.4.png,Нет пожара,N/A,0.0,0.07839946070878274,2019,natural
+satellite_images\2019\natural_2019-06-25_cloud26.9.png,Нет пожара,N/A,0.0,0.1340331278890601,2019,natural
+satellite_images\2019\natural_2019-06-27_cloud2.0.png,Нет пожара,N/A,0.0,0.006904853620955316,2019,natural
+satellite_images\2019\natural_2019-06-27_cloud3.9.png,Нет пожара,N/A,0.0,0.0018740369799691834,2019,natural
+satellite_images\2019\natural_2019-06-27_cloud4.2.png,Нет пожара,N/A,1.926040061633282e-06,0.015,2019,natural
+satellite_images\2019\natural_2019-07-02_cloud11.7.png,Нет пожара,N/A,0.0,0.045635593220338985,2019,natural
+satellite_images\2019\natural_2019-07-02_cloud13.7.png,Нет пожара,N/A,0.0,0.0071340523882896766,2019,natural
+satellite_images\2019\natural_2019-07-02_cloud21.3.png,Нет пожара,N/A,1.926040061633282e-06,0.1465928351309707,2019,natural
+satellite_images\2019\natural_2019-07-02_cloud3.7.png,Нет пожара,N/A,0.0,0.004695685670261941,2019,natural
+satellite_images\2019\natural_2019-07-05_cloud10.0.png,Нет пожара,N/A,0.0,0.05793335901386749,2019,natural
+satellite_images\2019\natural_2019-07-05_cloud10.7.png,Нет пожара,N/A,0.0,0.006263482280431433,2019,natural
+satellite_images\2019\natural_2019-07-05_cloud12.7.png,Нет пожара,N/A,0.0,0.006708397534668721,2019,natural
+satellite_images\2019\natural_2019-07-05_cloud6.7.png,Нет пожара,N/A,0.0,0.006825885978428352,2019,natural
+satellite_images\2019\natural_2019-07-07_cloud12.2.png,Нет пожара,N/A,1.7334360554699538e-05,0.16388482280431432,2019,natural
+satellite_images\2019\natural_2019-07-07_cloud2.8.png,Нет пожара,N/A,0.0,0.0014830508474576272,2019,natural
+satellite_images\2019\natural_2019-07-07_cloud21.4.png,Нет пожара,N/A,1.926040061633282e-06,0.0038771186440677966,2019,natural
+satellite_images\2019\natural_2019-07-10_cloud11.2.png,Нет пожара,N/A,0.0,0.08615947611710324,2019,natural
+satellite_images\2019\natural_2019-07-10_cloud16.7.png,Нет пожара,N/A,0.0,0.25239214175654856,2019,natural
+satellite_images\2019\natural_2019-07-10_cloud27.0.png,Нет пожара,N/A,0.0,0.06469375963020031,2019,natural
+satellite_images\2019\natural_2019-07-10_cloud27.4.png,Нет пожара,N/A,0.0,0.013426425269645608,2019,natural
+satellite_images\2019\natural_2019-07-12_cloud0.0.png,Нет пожара,N/A,0.0,0.0,2019,natural
+satellite_images\2019\natural_2019-07-15_cloud0.0.png,Нет пожара,N/A,0.0,7.5115562403698e-05,2019,natural
+satellite_images\2019\natural_2019-07-17_cloud0.0.png,Нет пожара,N/A,0.0,0.00012134052388289677,2019,natural
+satellite_images\2019\natural_2019-07-17_cloud0.4.png,Нет пожара,N/A,0.0,0.0020107858243451466,2019,natural
+satellite_images\2019\natural_2019-07-17_cloud2.7.png,Нет пожара,N/A,0.0,0.00447804314329738,2019,natural
+satellite_images\2019\natural_2019-07-22_cloud18.3.png,Нет пожара,N/A,0.0,0.02785246533127889,2019,natural
+satellite_images\2019\natural_2019-07-22_cloud3.1.png,Нет пожара,N/A,0.0,0.0063135593220338985,2019,natural
+satellite_images\2019\natural_2019-07-22_cloud9.1.png,Нет пожара,N/A,0.0,0.00016949152542372882,2019,natural
+satellite_images\2019\natural_2019-08-01_cloud0.0.png,Нет пожара,N/A,0.0,1.5408320493066255e-05,2019,natural
+satellite_images\2019\natural_2019-08-01_cloud0.1.png,Нет пожара,N/A,0.0,0.0,2019,natural
+satellite_images\2019\natural_2019-08-04_cloud25.6.png,Нет пожара,N/A,0.0,0.0,2019,natural
+satellite_images\2019\natural_2019-08-06_cloud0.0.png,Нет пожара,N/A,0.0,5.3929121725731896e-05,2019,natural
+satellite_images\2019\natural_2019-08-06_cloud0.7.png,Нет пожара,N/A,0.0,0.008495762711864406,2019,natural
+satellite_images\2019\natural_2019-08-06_cloud2.2.png,Нет пожара,N/A,0.0,0.00017141756548536208,2019,natural
+satellite_images\2019\natural_2019-08-06_cloud4.7.png,Нет пожара,N/A,0.0,0.0,2019,natural
+satellite_images\2019\natural_2019-08-09_cloud1.9.png,Нет пожара,N/A,0.0,0.02845146379044684,2019,natural
+satellite_images\2019\natural_2019-08-09_cloud5.6.png,Нет пожара,N/A,0.0,0.018312788906009243,2019,natural
+satellite_images\2019\natural_2019-08-11_cloud0.0.png,Нет пожара,N/A,0.0,0.00010785824345146379,2019,natural
+satellite_images\2019\natural_2019-08-11_cloud0.1.png,Нет пожара,N/A,0.0,0.0005238828967642527,2019,natural
+satellite_images\2019\natural_2019-08-11_cloud1.5.png,Нет пожара,N/A,0.0,0.0,2019,natural
+satellite_images\2019\natural_2019-08-11_cloud5.9.png,Нет пожара,N/A,0.0,0.0001598613251155624,2019,natural
+satellite_images\2019\natural_2019-08-16_cloud0.4.png,Нет пожара,N/A,0.0,0.004986517719568567,2019,natural
+satellite_images\2019\natural_2019-08-16_cloud1.3.png,Нет пожара,N/A,0.0,0.000887904468412943,2019,natural
+satellite_images\2019\natural_2019-08-16_cloud4.9.png,Нет пожара,N/A,0.0,0.013788520801232666,2019,natural
+satellite_images\2019\natural_2019-08-16_cloud9.0.png,Нет пожара,N/A,0.0,0.1049364406779661,2019,natural
+satellite_images\2019\natural_2019-08-19_cloud16.1.png,Нет пожара,N/A,0.0,0.08088020030816641,2019,natural
+satellite_images\2019\natural_2019-08-19_cloud24.9.png,Нет пожара,N/A,0.0,0.024930662557781202,2019,natural
+satellite_images\2019\natural_2019-08-24_cloud1.8.png,Нет пожара,N/A,0.0,0.0012865947611710323,2019,natural
+satellite_images\2019\natural_2019-08-24_cloud12.4.png,Нет пожара,N/A,0.0,0.004757318952234206,2019,natural
+satellite_images\2019\natural_2019-08-24_cloud14.8.png,Нет пожара,N/A,0.0,0.041463790446841294,2019,natural
+satellite_images\2019\natural_2019-08-24_cloud8.4.png,Нет пожара,N/A,0.0,0.08687788906009244,2019,natural
+satellite_images\2019\natural_2019-08-26_cloud0.0.png,Нет пожара,N/A,0.0,3.081664098613251e-05,2019,natural
+satellite_images\2019\natural_2019-08-26_cloud0.5.png,Нет пожара,N/A,0.0,0.0,2019,natural
+satellite_images\2020\fire_2020-06-01_cloud20.1.png,Нет пожара,N/A,0.0012288135593220338,0.18432973805855163,2020,fire
+satellite_images\2020\fire_2020-06-01_cloud29.1.png,Нет пожара,N/A,0.000150231124807396,0.005146379044684129,2020,fire
+satellite_images\2020\fire_2020-06-01_cloud29.9.png,Нет пожара,N/A,0.0008956086286594761,0.013068181818181817,2020,fire
+satellite_images\2020\fire_2020-06-01_cloud6.0.png,Нет пожара,N/A,0.00013482280431432973,0.027973805855161786,2020,fire
+satellite_images\2020\fire_2020-06-11_cloud0.0.png,Нет пожара,N/A,0.00013482280431432973,0.029198767334360554,2020,fire
+satellite_images\2020\fire_2020-06-16_cloud28.1.png,Нет пожара,N/A,1.5408320493066255e-05,0.12762904468412942,2020,fire
+satellite_images\2020\fire_2020-06-21_cloud17.3.png,Нет пожара,N/A,1.1556240369799691e-05,0.018141371340523883,2020,fire
+satellite_images\2020\fire_2020-06-21_cloud18.5.png,Нет пожара,N/A,0.00024845916795069337,0.056432973805855165,2020,fire
+satellite_images\2020\fire_2020-06-21_cloud4.1.png,Нет пожара,N/A,0.000211864406779661,0.3116718027734977,2020,fire
+satellite_images\2020\fire_2020-06-21_cloud4.8.png,Нет пожара,N/A,2.3112480739599382e-05,0.06981702619414484,2020,fire
+satellite_images\2020\fire_2020-06-26_cloud19.0.png,Нет пожара,N/A,0.0,0.021296224961479197,2020,fire
+satellite_images\2020\fire_2020-06-29_cloud0.2.png,Нет пожара,N/A,0.00011363636363636364,0.00724191063174114,2020,fire
+satellite_images\2020\fire_2020-06-29_cloud1.8.png,Нет пожара,N/A,0.0007395993836671802,0.033848228043143296,2020,fire
+satellite_images\2020\fire_2020-06-29_cloud11.0.png,Нет пожара,N/A,0.0008012326656394453,0.19972650231124808,2020,fire
+satellite_images\2020\fire_2020-06-29_cloud4.9.png,Нет пожара,N/A,0.00015600924499229585,0.02950115562403698,2020,fire
+satellite_images\2020\fire_2020-07-09_cloud0.0.png,Нет пожара,N/A,0.00013289676425269644,0.002542372881355932,2020,fire
+satellite_images\2020\fire_2020-07-09_cloud0.7.png,Нет пожара,N/A,0.0001271186440677966,0.009595531587057012,2020,fire
+satellite_images\2020\fire_2020-07-09_cloud5.9.png,Нет пожара,N/A,0.0007338212634822804,0.019813174114021573,2020,fire
+satellite_images\2020\fire_2020-07-09_cloud8.1.png,Нет пожара,N/A,0.0007164869029275809,0.13166602465331279,2020,fire
+satellite_images\2020\fire_2020-07-11_cloud20.9.png,Нет пожара,N/A,0.0,0.031140215716486903,2020,fire
+satellite_images\2020\fire_2020-07-16_cloud0.0.png,Нет пожара,N/A,6.933744221879815e-05,0.029485747303543915,2020,fire
+satellite_images\2020\fire_2020-07-16_cloud0.6.png,Нет пожара,N/A,8.089368258859784e-05,0.0064714946070878274,2020,fire
+satellite_images\2020\fire_2020-07-16_cloud16.0.png,Нет пожара,N/A,0.0005855161787365177,0.20377503852080123,2020,fire
+satellite_images\2020\fire_2020-07-19_cloud0.0.png,Нет пожара,N/A,0.0003948382126348228,0.06796224961479198,2020,fire
+satellite_images\2020\fire_2020-07-19_cloud9.0.png,Нет пожара,N/A,3.852080123266564e-05,0.012251540832049306,2020,fire
+satellite_images\2020\fire_2020-07-19_cloud9.3.png,Нет пожара,N/A,4.044684129429892e-05,0.003424499229583975,2020,fire
+satellite_images\2020\fire_2020-07-21_cloud10.6.png,Нет пожара,N/A,0.00014252696456086287,0.06506741140215716,2020,fire
+satellite_images\2020\fire_2020-07-21_cloud16.6.png,Нет пожара,N/A,4.2372881355932206e-05,0.04526579352850539,2020,fire
+satellite_images\2020\fire_2020-07-29_cloud29.8.png,Нет пожара,N/A,9.63020030816641e-06,0.016136363636363636,2020,fire
+satellite_images\2020\fire_2020-08-03_cloud0.0.png,Нет пожара,N/A,0.0019067796610169492,0.04281394453004622,2020,fire
+satellite_images\2020\fire_2020-08-03_cloud0.2.png,Нет пожара,N/A,0.0006375192604006163,0.0019453004622496147,2020,fire
+satellite_images\2020\fire_2020-08-03_cloud4.0.png,Нет пожара,N/A,0.0020011556240369798,0.007372881355932203,2020,fire
+satellite_images\2020\fire_2020-08-03_cloud4.1.png,Нет пожара,N/A,0.0005932203389830508,0.008326271186440679,2020,fire
+satellite_images\2020\fire_2020-08-05_cloud0.1.png,Нет пожара,N/A,0.00022149460708782741,0.006783513097072419,2020,fire
+satellite_images\2020\fire_2020-08-05_cloud0.3.png,Нет пожара,N/A,0.0009533898305084746,0.018295454545454545,2020,fire
+satellite_images\2020\fire_2020-08-05_cloud0.8.png,Нет пожара,N/A,0.0008301232665639445,0.11839946070878274,2020,fire
+satellite_images\2020\fire_2020-08-05_cloud3.2.png,Нет пожара,N/A,0.00018104776579352851,0.022548151001540832,2020,fire
+satellite_images\2020\fire_2020-08-08_cloud0.0.png,Нет пожара,N/A,0.00022919876733436056,0.00187211093990755,2020,fire
+satellite_images\2020\fire_2020-08-08_cloud0.1.png,Нет пожара,N/A,0.001556240369799692,0.00786402157164869,2020,fire
+satellite_images\2020\fire_2020-08-08_cloud4.9.png,Нет пожара,N/A,0.0019144838212634824,0.06394260400616333,2020,fire
+satellite_images\2020\fire_2020-08-13_cloud22.2.png,Нет пожара,N/A,0.0003717257318952234,0.2989175654853621,2020,fire
+satellite_images\2020\fire_2020-08-15_cloud18.4.png,Нет пожара,N/A,0.0002792758089368259,0.014166024653312789,2020,fire
+satellite_images\2020\fire_2020-08-15_cloud19.2.png,Нет пожара,N/A,0.000437211093990755,0.06676040061633282,2020,fire
+satellite_images\2020\fire_2020-08-15_cloud25.3.png,Нет пожара,N/A,0.0016043913713405238,0.043480354391371344,2020,fire
+satellite_images\2020\fire_2020-08-15_cloud7.2.png,Нет пожара,N/A,0.0019029275808936826,0.23727080123266564,2020,fire
+satellite_images\2020\fire_2020-08-20_cloud24.8.png,Нет пожара,N/A,1.926040061633282e-06,0.014381741140215716,2020,fire
+satellite_images\2020\fire_2020-08-30_cloud0.0.png,Нет пожара,N/A,0.0015523882896764252,0.0015215716486902927,2020,fire
+satellite_images\2020\drought_2020-06-01_cloud20.1.png,Нет пожара,N/A,0.023963790446841295,0.04674114021571649,2020,drought
+satellite_images\2020\drought_2020-06-01_cloud29.1.png,Нет пожара,N/A,0.001585130970724191,0.0018836671802773498,2020,drought
+satellite_images\2020\drought_2020-06-01_cloud29.9.png,Нет пожара,N/A,0.01671802773497689,0.0042989214175654855,2020,drought
+satellite_images\2020\drought_2020-06-01_cloud6.0.png,Нет пожара,N/A,0.0010130970724191062,0.011700693374422188,2020,drought
+satellite_images\2020\drought_2020-06-11_cloud0.0.png,Нет пожара,N/A,0.0009244992295839754,0.014680277349768876,2020,drought
+satellite_images\2020\drought_2020-06-16_cloud28.1.png,Нет пожара,N/A,1.926040061633282e-05,0.09620184899845917,2020,drought
+satellite_images\2020\drought_2020-06-21_cloud17.3.png,Нет пожара,N/A,0.00026771956856702617,0.013640215716486903,2020,drought
+satellite_images\2020\drought_2020-06-21_cloud18.5.png,Нет пожара,N/A,0.0025115562403698,0.031194144838212635,2020,drought
+satellite_images\2020\drought_2020-06-21_cloud4.1.png,Нет пожара,N/A,0.004175654853620955,0.18802773497688752,2020,drought
+satellite_images\2020\drought_2020-06-21_cloud4.8.png,Нет пожара,N/A,0.0003524653312788906,0.04976117103235747,2020,drought
+satellite_images\2020\drought_2020-06-26_cloud19.0.png,Нет пожара,N/A,0.0,0.011964560862865948,2020,drought
+satellite_images\2020\drought_2020-06-29_cloud0.2.png,Нет пожара,N/A,0.0005104006163328197,0.004023497688751926,2020,drought
+satellite_images\2020\drought_2020-06-29_cloud1.8.png,Нет пожара,N/A,0.003052773497688752,0.018359013867488443,2020,drought
+satellite_images\2020\drought_2020-06-29_cloud11.0.png,Нет пожара,N/A,0.004339368258859784,0.08579930662557782,2020,drought
+satellite_images\2020\drought_2020-06-29_cloud4.9.png,Нет пожара,N/A,0.0006240369799691834,0.016617873651771958,2020,drought
+satellite_images\2020\drought_2020-07-09_cloud0.0.png,Нет пожара,N/A,0.002507704160246533,0.001311633281972265,2020,drought
+satellite_images\2020\drought_2020-07-09_cloud0.7.png,Нет пожара,N/A,0.003975346687211094,0.005537365177195686,2020,drought
+satellite_images\2020\drought_2020-07-09_cloud5.9.png,Нет пожара,N/A,0.007392141756548536,0.01215331278890601,2020,drought
+satellite_images\2020\drought_2020-07-09_cloud8.1.png,Нет пожара,N/A,0.022615562403697997,0.08684899845916795,2020,drought
+satellite_images\2020\drought_2020-07-11_cloud20.9.png,Нет пожара,N/A,0.00017141756548536208,0.029387519260400615,2020,drought
+satellite_images\2020\drought_2020-07-16_cloud0.0.png,Нет пожара,N/A,0.0036171032357473036,0.013557395993836673,2020,drought
+satellite_images\2020\drought_2020-07-16_cloud0.6.png,Нет пожара,N/A,0.0030181047765793527,0.0028235747303543913,2020,drought
+satellite_images\2020\drought_2020-07-16_cloud16.0.png,Нет пожара,N/A,0.012020416024653313,0.0733975346687211,2020,drought
+satellite_images\2020\drought_2020-07-19_cloud0.0.png,Нет пожара,N/A,0.03826656394453005,0.01601502311248074,2020,drought
+satellite_images\2020\drought_2020-07-19_cloud9.0.png,Нет пожара,N/A,0.0036575500770416026,0.006076656394453005,2020,drought
+satellite_images\2020\drought_2020-07-19_cloud9.3.png,Нет пожара,N/A,0.0023998459167950694,0.0022708012326656396,2020,drought
+satellite_images\2020\drought_2020-07-21_cloud10.6.png,Нет пожара,N/A,0.004416409861325116,0.043842449922958396,2020,drought
+satellite_images\2020\drought_2020-07-21_cloud16.6.png,Нет пожара,N/A,0.0026194144838212635,0.031791217257318954,2020,drought
+satellite_images\2020\drought_2020-07-29_cloud29.8.png,Нет пожара,N/A,0.00043335901386748845,0.014895993836671803,2020,drought
+satellite_images\2020\drought_2020-08-03_cloud0.0.png,Нет пожара,N/A,0.07813944530046225,0.006417565485362095,2020,drought
+satellite_images\2020\drought_2020-08-03_cloud0.2.png,Нет пожара,N/A,0.004589753466872111,0.0013443759630200308,2020,drought
+satellite_images\2020\drought_2020-08-03_cloud4.0.png,Нет пожара,N/A,0.016380970724191063,0.0026328967642526963,2020,drought
+satellite_images\2020\drought_2020-08-03_cloud4.1.png,Нет пожара,N/A,0.006111325115562403,0.0034341294298921416,2020,drought
+satellite_images\2020\drought_2020-08-05_cloud0.1.png,Нет пожара,N/A,0.003470724191063174,0.0038906009244992295,2020,drought
+satellite_images\2020\drought_2020-08-05_cloud0.3.png,Нет пожара,N/A,0.014320107858243452,0.006176810477657935,2020,drought
+satellite_images\2020\drought_2020-08-05_cloud0.8.png,Нет пожара,N/A,0.06764060092449924,0.026588983050847458,2020,drought
+satellite_images\2020\drought_2020-08-05_cloud3.2.png,Нет пожара,N/A,0.004454930662557781,0.010612480739599384,2020,drought
+satellite_images\2020\drought_2020-08-08_cloud0.0.png,Нет пожара,N/A,0.0038424499229583976,0.0011498459167950694,2020,drought
+satellite_images\2020\drought_2020-08-08_cloud0.1.png,Нет пожара,N/A,0.016286594761171034,0.004015793528505393,2020,drought
+satellite_images\2020\drought_2020-08-08_cloud4.9.png,Нет пожара,N/A,0.08020223420647149,0.02640215716486903,2020,drought
+satellite_images\2020\drought_2020-08-13_cloud22.2.png,Нет пожара,N/A,0.03545261941448382,0.2415273497688752,2020,drought
+satellite_images\2020\drought_2020-08-15_cloud18.4.png,Нет пожара,N/A,0.0036941448382126346,0.011621725731895223,2020,drought
+satellite_images\2020\drought_2020-08-15_cloud19.2.png,Нет пожара,N/A,0.004709167950693374,0.05204545454545455,2020,drought
+satellite_images\2020\drought_2020-08-15_cloud25.3.png,Нет пожара,N/A,0.01644260400616333,0.025824345146379046,2020,drought
+satellite_images\2020\drought_2020-08-15_cloud7.2.png,Нет пожара,N/A,0.06799306625577813,0.13451271186440678,2020,drought
+satellite_images\2020\drought_2020-08-20_cloud24.8.png,Нет пожара,N/A,0.0007646379044684129,0.004173728813559322,2020,drought
+satellite_images\2020\drought_2020-08-30_cloud0.0.png,Нет пожара,N/A,0.028711479198767334,0.0008281972265023113,2020,drought
+satellite_images\2020\nbr_2020-06-01_cloud20.1.png,Пожар,N/A,0.00036787365177195683,0.6479295069337442,2020,nbr
+satellite_images\2020\nbr_2020-06-01_cloud29.1.png,Нет пожара,N/A,2.3112480739599382e-05,0.04307395993836672,2020,nbr
+satellite_images\2020\nbr_2020-06-01_cloud29.9.png,Пожар,N/A,8.281972265023113e-05,0.11247496147919876,2020,nbr
+satellite_images\2020\nbr_2020-06-01_cloud6.0.png,Пожар,N/A,4.044684129429892e-05,0.2174017719568567,2020,nbr
+satellite_images\2020\nbr_2020-06-11_cloud0.0.png,Пожар,N/A,0.0005624036979969184,0.21154853620955316,2020,nbr
+satellite_images\2020\nbr_2020-06-16_cloud28.1.png,Пожар,N/A,3.2742681047765796e-05,0.22853813559322034,2020,nbr
+satellite_images\2020\nbr_2020-06-21_cloud17.3.png,Нет пожара,N/A,0.0005912942989214176,0.04440677966101695,2020,nbr
+satellite_images\2020\nbr_2020-06-21_cloud18.5.png,Пожар,N/A,0.00026771956856702617,0.1453929121725732,2020,nbr
+satellite_images\2020\nbr_2020-06-21_cloud4.1.png,Пожар,N/A,0.0019010015408320493,0.7377484591679507,2020,nbr
+satellite_images\2020\nbr_2020-06-21_cloud4.8.png,Пожар,N/A,0.0009244992295839754,0.2153062403697997,2020,nbr
+satellite_images\2020\nbr_2020-06-26_cloud19.0.png,Нет пожара,N/A,0.0,0.04823382126348228,2020,nbr
+satellite_images\2020\nbr_2020-06-29_cloud0.2.png,Нет пожара,N/A,0.00015600924499229585,0.04541987673343605,2020,nbr
+satellite_images\2020\nbr_2020-06-29_cloud1.8.png,Пожар,N/A,0.00017141756548536208,0.14903120184899846,2020,nbr
+satellite_images\2020\nbr_2020-06-29_cloud11.0.png,Пожар,N/A,0.0002542372881355932,0.7489137134052388,2020,nbr
+satellite_images\2020\nbr_2020-06-29_cloud4.9.png,Пожар,N/A,0.0005643297380585516,0.21526964560862866,2020,nbr
+satellite_images\2020\nbr_2020-07-09_cloud0.0.png,Нет пожара,N/A,0.0001059322033898305,0.04421224961479199,2020,nbr
+satellite_images\2020\nbr_2020-07-09_cloud0.7.png,Пожар,N/A,0.0005701078582434515,0.20920261941448381,2020,nbr
+satellite_images\2020\nbr_2020-07-09_cloud5.9.png,Пожар,N/A,0.00019067796610169492,0.1508975346687211,2020,nbr
+satellite_images\2020\nbr_2020-07-09_cloud8.1.png,Пожар,N/A,0.0006182588597842835,0.7365851309707242,2020,nbr
+satellite_images\2020\nbr_2020-07-11_cloud20.9.png,Нет пожара,N/A,0.0001829738058551618,0.04700693374422188,2020,nbr
+satellite_images\2020\nbr_2020-07-16_cloud0.0.png,Пожар,N/A,0.00014252696456086287,0.20856124807395993,2020,nbr
+satellite_images\2020\nbr_2020-07-16_cloud0.6.png,Нет пожара,N/A,2.889060092449923e-05,0.04358436055469954,2020,nbr
+satellite_images\2020\nbr_2020-07-16_cloud16.0.png,Пожар,N/A,0.001481124807395994,0.7236074730354392,2020,nbr
+satellite_images\2020\nbr_2020-07-19_cloud0.0.png,Пожар,N/A,0.00112673343605547,0.7088751926040061,2020,nbr
+satellite_images\2020\nbr_2020-07-19_cloud9.0.png,Пожар,N/A,0.00043143297380585517,0.21172573189522342,2020,nbr
+satellite_images\2020\nbr_2020-07-19_cloud9.3.png,Нет пожара,N/A,8.859784283513097e-05,0.044098613251155626,2020,nbr
+satellite_images\2020\nbr_2020-07-21_cloud10.6.png,Пожар,N/A,0.0001945300462249615,0.15464560862865948,2020,nbr
+satellite_images\2020\nbr_2020-07-21_cloud16.6.png,Пожар,N/A,0.0003312788906009245,0.21692218798151003,2020,nbr
+satellite_images\2020\nbr_2020-07-29_cloud29.8.png,Пожар,N/A,0.0005065485362095531,0.045254237288135594,2020,nbr
+satellite_images\2020\nbr_2020-08-03_cloud0.0.png,Пожар,N/A,0.000676040061633282,0.6373285824345146,2020,nbr
+satellite_images\2020\nbr_2020-08-03_cloud0.2.png,Нет пожара,N/A,0.00030238828967642527,0.04140793528505393,2020,nbr
+satellite_images\2020\nbr_2020-08-03_cloud4.0.png,Пожар,N/A,0.0003717257318952234,0.13715523882896763,2020,nbr
+satellite_images\2020\nbr_2020-08-03_cloud4.1.png,Пожар,N/A,0.00032357473035439136,0.20381741140215717,2020,nbr
+satellite_images\2020\nbr_2020-08-05_cloud0.1.png,Нет пожара,N/A,0.00010400616332819723,0.04336286594761171,2020,nbr
+satellite_images\2020\nbr_2020-08-05_cloud0.3.png,Пожар,N/A,0.0002542372881355932,0.14606702619414483,2020,nbr
+satellite_images\2020\nbr_2020-08-05_cloud0.8.png,Пожар,N/A,0.001781587057010786,0.6806047765793528,2020,nbr
+satellite_images\2020\nbr_2020-08-05_cloud3.2.png,Пожар,N/A,5.2003081664098616e-05,0.21177580893682588,2020,nbr
+satellite_images\2020\nbr_2020-08-08_cloud0.0.png,Нет пожара,N/A,0.00024268104776579353,0.04306432973805855,2020,nbr
+satellite_images\2020\nbr_2020-08-08_cloud0.1.png,Пожар,N/A,0.00044298921417565483,0.14491140215716486,2020,nbr
+satellite_images\2020\nbr_2020-08-08_cloud4.9.png,Пожар,N/A,0.0016679506933744222,0.6796109399075501,2020,nbr
+satellite_images\2020\nbr_2020-08-13_cloud22.2.png,Пожар,N/A,0.0023651771956856703,0.730924499229584,2020,nbr
+satellite_images\2020\nbr_2020-08-15_cloud18.4.png,Нет пожара,N/A,0.0001386748844375963,0.042184129429892143,2020,nbr
+satellite_images\2020\nbr_2020-08-15_cloud19.2.png,Пожар,N/A,0.00011941448382126348,0.21582627118644068,2020,nbr
+satellite_images\2020\nbr_2020-08-15_cloud25.3.png,Пожар,N/A,0.0003697996918335901,0.13874807395993838,2020,nbr
+satellite_images\2020\nbr_2020-08-15_cloud7.2.png,Пожар,N/A,0.0015832049306625578,0.6597765793528505,2020,nbr
+satellite_images\2020\nbr_2020-08-20_cloud24.8.png,Пожар,N/A,2.889060092449923e-05,0.21929121725731895,2020,nbr
+satellite_images\2020\nbr_2020-08-30_cloud0.0.png,Пожар,N/A,0.0022708012326656396,0.5145647149460709,2020,nbr
+satellite_images\2020\natural_2020-06-01_cloud20.1.png,Нет пожара,N/A,0.0,0.02071648690292758,2020,natural
+satellite_images\2020\natural_2020-06-01_cloud29.1.png,Нет пожара,N/A,0.0,1.926040061633282e-06,2020,natural
+satellite_images\2020\natural_2020-06-01_cloud29.9.png,Нет пожара,N/A,0.0,0.00011171032357473035,2020,natural
+satellite_images\2020\natural_2020-06-01_cloud6.0.png,Нет пожара,N/A,0.0,9.63020030816641e-05,2020,natural
+satellite_images\2020\natural_2020-06-11_cloud0.0.png,Нет пожара,N/A,0.0,7.896764252696455e-05,2020,natural
+satellite_images\2020\natural_2020-06-16_cloud28.1.png,Нет пожара,N/A,0.0,0.07739406779661016,2020,natural
+satellite_images\2020\natural_2020-06-21_cloud17.3.png,Нет пожара,N/A,0.0,0.0069067796610169496,2020,natural
+satellite_images\2020\natural_2020-06-21_cloud18.5.png,Нет пожара,N/A,0.0,0.010548921417565485,2020,natural
+satellite_images\2020\natural_2020-06-21_cloud4.1.png,Нет пожара,N/A,0.0,0.05784090909090909,2020,natural
+satellite_images\2020\natural_2020-06-21_cloud4.8.png,Нет пожара,N/A,0.0,0.025439137134052388,2020,natural
+satellite_images\2020\natural_2020-06-26_cloud19.0.png,Нет пожара,N/A,0.0,0.00828004622496148,2020,natural
+satellite_images\2020\natural_2020-06-29_cloud0.2.png,Нет пожара,N/A,0.0,0.0006490755007704161,2020,natural
+satellite_images\2020\natural_2020-06-29_cloud1.8.png,Нет пожара,N/A,0.0,0.005186825885978429,2020,natural
+satellite_images\2020\natural_2020-06-29_cloud11.0.png,Нет пожара,N/A,0.0,0.027053158705701078,2020,natural
+satellite_images\2020\natural_2020-06-29_cloud4.9.png,Нет пожара,N/A,0.0,0.003484206471494607,2020,natural
+satellite_images\2020\natural_2020-07-09_cloud0.0.png,Нет пожара,N/A,0.0,3.852080123266564e-06,2020,natural
+satellite_images\2020\natural_2020-07-09_cloud0.7.png,Нет пожара,N/A,0.0,0.0005970724191063174,2020,natural
+satellite_images\2020\natural_2020-07-09_cloud5.9.png,Нет пожара,N/A,0.0,0.005803158705701078,2020,natural
+satellite_images\2020\natural_2020-07-09_cloud8.1.png,Нет пожара,N/A,0.0,0.047756163328197224,2020,natural
+satellite_images\2020\natural_2020-07-11_cloud20.9.png,Нет пожара,N/A,0.0,0.0275,2020,natural
+satellite_images\2020\natural_2020-07-16_cloud0.0.png,Нет пожара,N/A,0.0,0.0001059322033898305,2020,natural
+satellite_images\2020\natural_2020-07-16_cloud0.6.png,Нет пожара,N/A,0.0,0.0,2020,natural
+satellite_images\2020\natural_2020-07-16_cloud16.0.png,Нет пожара,N/A,0.0,0.00041795069337442216,2020,natural
+satellite_images\2020\natural_2020-07-19_cloud0.0.png,Нет пожара,N/A,0.0,0.0005104006163328197,2020,natural
+satellite_images\2020\natural_2020-07-19_cloud9.0.png,Нет пожара,N/A,0.0,5.970724191063174e-05,2020,natural
+satellite_images\2020\natural_2020-07-19_cloud9.3.png,Нет пожара,N/A,0.0,3.852080123266564e-06,2020,natural
+satellite_images\2020\natural_2020-07-21_cloud10.6.png,Нет пожара,N/A,0.0,0.021323189522342065,2020,natural
+satellite_images\2020\natural_2020-07-21_cloud16.6.png,Нет пожара,N/A,0.0,0.017854391371340525,2020,natural
+satellite_images\2020\natural_2020-07-29_cloud29.8.png,Нет пожара,N/A,0.0,0.012367103235747303,2020,natural
+satellite_images\2020\natural_2020-08-03_cloud0.0.png,Нет пожара,N/A,0.0,0.00041987673343605545,2020,natural
+satellite_images\2020\natural_2020-08-03_cloud0.2.png,Нет пожара,N/A,0.0,5.778120184899846e-06,2020,natural
+satellite_images\2020\natural_2020-08-03_cloud4.0.png,Нет пожара,N/A,0.0,7.5115562403698e-05,2020,natural
+satellite_images\2020\natural_2020-08-03_cloud4.1.png,Нет пожара,N/A,0.0,6.741140215716486e-05,2020,natural
+satellite_images\2020\natural_2020-08-05_cloud0.1.png,Нет пожара,N/A,0.0,0.000703004622496148,2020,natural
+satellite_images\2020\natural_2020-08-05_cloud0.3.png,Нет пожара,N/A,0.0,8.667180277349769e-05,2020,natural
+satellite_images\2020\natural_2020-08-05_cloud0.8.png,Нет пожара,N/A,0.0,0.001912557781201849,2020,natural
+satellite_images\2020\natural_2020-08-05_cloud3.2.png,Нет пожара,N/A,0.0,0.0011479198767334361,2020,natural
+satellite_images\2020\natural_2020-08-08_cloud0.0.png,Нет пожара,N/A,0.0,1.926040061633282e-06,2020,natural
+satellite_images\2020\natural_2020-08-08_cloud0.1.png,Нет пожара,N/A,0.0,0.0010381355932203389,2020,natural
+satellite_images\2020\natural_2020-08-08_cloud4.9.png,Нет пожара,N/A,0.0,0.012515408320493067,2020,natural
+satellite_images\2020\natural_2020-08-13_cloud22.2.png,Нет пожара,N/A,1.926040061633282e-06,0.19738828967642527,2020,natural
+satellite_images\2020\natural_2020-08-15_cloud18.4.png,Нет пожара,N/A,0.0,0.007213020030816641,2020,natural
+satellite_images\2020\natural_2020-08-15_cloud19.2.png,Нет пожара,N/A,0.0,0.03432010785824345,2020,natural
+satellite_images\2020\natural_2020-08-15_cloud25.3.png,Нет пожара,N/A,0.0,0.010637519260400616,2020,natural
+satellite_images\2020\natural_2020-08-15_cloud7.2.png,Нет пожара,N/A,0.0,0.05899845916795069,2020,natural
+satellite_images\2020\natural_2020-08-20_cloud24.8.png,Нет пожара,N/A,0.0,6.35593220338983e-05,2020,natural
+satellite_images\2020\natural_2020-08-30_cloud0.0.png,Нет пожара,N/A,0.0,0.00016563944530046225,2020,natural
+satellite_images\2021\fire_2021-06-01_cloud1.6.png,Нет пожара,N/A,0.002902542372881356,0.07257896764252697,2021,fire
+satellite_images\2021\fire_2021-06-01_cloud13.1.png,Нет пожара,N/A,9.822804314329737e-05,0.025866718027734978,2021,fire
+satellite_images\2021\fire_2021-06-01_cloud26.8.png,Нет пожара,N/A,0.002424884437596302,0.016529275808936827,2021,fire
+satellite_images\2021\fire_2021-06-06_cloud0.0.png,Нет пожара,N/A,0.004734206471494607,0.020319722650231124,2021,fire
+satellite_images\2021\fire_2021-06-11_cloud1.3.png,Нет пожара,N/A,0.00045647149460708783,0.2058050847457627,2021,fire
+satellite_images\2021\fire_2021-06-11_cloud13.3.png,Нет пожара,N/A,0.0011190292758089368,0.039630200308166406,2021,fire
+satellite_images\2021\fire_2021-06-16_cloud0.0.png,Нет пожара,N/A,0.0012923728813559322,0.03188944530046225,2021,fire
+satellite_images\2021\fire_2021-06-16_cloud0.1.png,Нет пожара,N/A,0.0003736517719568567,0.006847072419106317,2021,fire
+satellite_images\2021\fire_2021-07-01_cloud1.7.png,Нет пожара,N/A,3.852080123266564e-06,0.01707627118644068,2021,fire
+satellite_images\2021\fire_2021-07-01_cloud14.4.png,Нет пожара,N/A,7.704160246533127e-06,0.3193605546995377,2021,fire
+satellite_images\2021\fire_2021-07-01_cloud16.4.png,Нет пожара,N/A,5.778120184899846e-06,0.06745570107858244,2021,fire
+satellite_images\2021\fire_2021-07-01_cloud6.8.png,Нет пожара,N/A,3.852080123266564e-06,0.11001540832049307,2021,fire
+satellite_images\2021\fire_2021-07-04_cloud0.0.png,Нет пожара,N/A,7.126348228043144e-05,0.005105932203389831,2021,fire
+satellite_images\2021\fire_2021-07-04_cloud0.1.png,Нет пожара,N/A,0.00013482280431432973,0.038274268104776576,2021,fire
+satellite_images\2021\fire_2021-07-04_cloud1.2.png,Нет пожара,N/A,0.0002137904468412943,0.020055855161787366,2021,fire
+satellite_images\2021\fire_2021-07-04_cloud2.1.png,Нет пожара,N/A,0.00045069337442218797,0.12069722650231125,2021,fire
+satellite_images\2021\fire_2021-07-14_cloud29.1.png,Нет пожара,N/A,2.3112480739599382e-05,0.01299306625577812,2021,fire
+satellite_images\2021\fire_2021-07-16_cloud16.0.png,Нет пожара,N/A,0.0,0.009895993836671804,2021,fire
+satellite_images\2021\fire_2021-07-16_cloud19.4.png,Нет пожара,N/A,1.926040061633282e-06,0.07530624036979969,2021,fire
+satellite_images\2021\fire_2021-07-16_cloud7.3.png,Нет пожара,N/A,0.00029083204930662555,0.09848228043143298,2021,fire
+satellite_images\2021\fire_2021-07-19_cloud17.0.png,Нет пожара,N/A,6.35593220338983e-05,0.35087634822804314,2021,fire
+satellite_images\2021\fire_2021-07-19_cloud20.6.png,Нет пожара,N/A,3.6594761171032355e-05,0.05166409861325116,2021,fire
+satellite_images\2021\fire_2021-07-19_cloud22.3.png,Нет пожара,N/A,0.00018682588597842835,0.08986517719568567,2021,fire
+satellite_images\2021\fire_2021-07-19_cloud3.0.png,Нет пожара,N/A,2.5038520801232665e-05,0.008108628659476117,2021,fire
+satellite_images\2021\fire_2021-07-21_cloud21.7.png,Нет пожара,N/A,0.00016949152542372882,0.07133474576271187,2021,fire
+satellite_images\2021\fire_2021-07-21_cloud28.0.png,Нет пожара,N/A,2.889060092449923e-05,0.06036402157164869,2021,fire
+satellite_images\2021\fire_2021-07-21_cloud7.6.png,Нет пожара,N/A,0.00010400616332819723,0.2891313559322034,2021,fire
+satellite_images\2021\fire_2021-07-24_cloud20.9.png,Нет пожара,N/A,5.778120184899846e-06,0.021675654853620954,2021,fire
+satellite_images\2021\fire_2021-07-24_cloud25.6.png,Нет пожара,N/A,1.1556240369799691e-05,0.10786016949152542,2021,fire
+satellite_images\2021\fire_2021-08-05_cloud29.2.png,Нет пожара,N/A,5.778120184899846e-06,0.1373439907550077,2021,fire
+satellite_images\2021\fire_2021-08-08_cloud14.7.png,Нет пожара,N/A,0.00026194144838212637,0.020859013867488445,2021,fire
+satellite_images\2021\fire_2021-08-08_cloud4.5.png,Нет пожара,N/A,9.822804314329737e-05,0.0034167950693374423,2021,fire
+satellite_images\2021\fire_2021-08-18_cloud17.4.png,Нет пожара,N/A,5.5855161787365175e-05,0.05195685670261942,2021,fire
+satellite_images\2021\fire_2021-08-18_cloud19.9.png,Нет пожара,N/A,9.437596302003082e-05,0.23692989214175655,2021,fire
+satellite_images\2021\fire_2021-08-18_cloud5.5.png,Нет пожара,N/A,5.3929121725731896e-05,0.00991718027734977,2021,fire
+satellite_images\2021\fire_2021-08-18_cloud8.0.png,Нет пожара,N/A,0.0001598613251155624,0.0476328967642527,2021,fire
+satellite_images\2021\fire_2021-08-20_cloud15.9.png,Нет пожара,N/A,0.0003197226502311248,0.011271186440677965,2021,fire
+satellite_images\2021\fire_2021-08-20_cloud17.6.png,Нет пожара,N/A,0.0006702619414483822,0.07898497688751926,2021,fire
+satellite_images\2021\fire_2021-08-20_cloud19.3.png,Нет пожара,N/A,0.0002985362095531587,0.04740562403697997,2021,fire
+satellite_images\2021\fire_2021-08-20_cloud21.5.png,Нет пожара,N/A,0.0005624036979969184,0.28981895223420645,2021,fire
+satellite_images\2021\fire_2021-08-23_cloud0.0.png,Нет пожара,N/A,0.00163135593220339,0.017794684129429892,2021,fire
+satellite_images\2021\fire_2021-08-25_cloud0.0.png,Нет пожара,N/A,0.002153312788906009,0.026174884437596302,2021,fire
+satellite_images\2021\fire_2021-08-28_cloud0.0.png,Нет пожара,N/A,0.0029410631741140216,0.011169106317411403,2021,fire
+satellite_images\2021\fire_2021-08-30_cloud16.7.png,Нет пожара,N/A,0.0001290446841294299,0.03356895223420647,2021,fire
+satellite_images\2021\drought_2021-06-01_cloud1.6.png,Нет пожара,N/A,0.06164291217257319,0.00977657935285054,2021,drought
+satellite_images\2021\drought_2021-06-01_cloud13.1.png,Нет пожара,N/A,0.0012037750385208012,0.009949922958397535,2021,drought
+satellite_images\2021\drought_2021-06-01_cloud26.8.png,Нет пожара,N/A,0.0262731124807396,0.0041409861325115566,2021,drought
+satellite_images\2021\drought_2021-06-06_cloud0.0.png,Нет пожара,N/A,0.020130970724191063,0.004732280431432974,2021,drought
+satellite_images\2021\drought_2021-06-11_cloud1.3.png,Нет пожара,N/A,0.00840909090909091,0.03205701078582435,2021,drought
+satellite_images\2021\drought_2021-06-11_cloud13.3.png,Нет пожара,N/A,0.007989214175654853,0.010290832049306626,2021,drought
+satellite_images\2021\drought_2021-06-16_cloud0.0.png,Нет пожара,N/A,0.006727657935285054,0.009063944530046225,2021,drought
+satellite_images\2021\drought_2021-06-16_cloud0.1.png,Нет пожара,N/A,0.001236517719568567,0.0024749614791987674,2021,drought
+satellite_images\2021\drought_2021-07-01_cloud1.7.png,Нет пожара,N/A,9.437596302003082e-05,0.013561248073959939,2021,drought
+satellite_images\2021\drought_2021-07-01_cloud14.4.png,Нет пожара,N/A,0.0008320493066255779,0.24295069337442218,2021,drought
+satellite_images\2021\drought_2021-07-01_cloud16.4.png,Нет пожара,N/A,0.00039676425269645607,0.050660631741140216,2021,drought
+satellite_images\2021\drought_2021-07-01_cloud6.8.png,Нет пожара,N/A,0.0001290446841294299,0.09526964560862866,2021,drought
+satellite_images\2021\drought_2021-07-04_cloud0.0.png,Нет пожара,N/A,0.0006837442218798151,0.003170261941448382,2021,drought
+satellite_images\2021\drought_2021-07-04_cloud0.1.png,Нет пожара,N/A,0.0008359013867488443,0.020469953775038522,2021,drought
+satellite_images\2021\drought_2021-07-04_cloud1.2.png,Нет пожара,N/A,0.0008667180277349769,0.013191448382126348,2021,drought
+satellite_images\2021\drought_2021-07-04_cloud2.1.png,Нет пожара,N/A,0.002736902927580894,0.05317989214175655,2021,drought
+satellite_images\2021\drought_2021-07-14_cloud29.1.png,Нет пожара,N/A,0.0006606317411402157,0.011076656394453004,2021,drought
+satellite_images\2021\drought_2021-07-16_cloud16.0.png,Нет пожара,N/A,0.0007395993836671802,0.006637134052388289,2021,drought
+satellite_images\2021\drought_2021-07-16_cloud19.4.png,Нет пожара,N/A,0.0007916024653312789,0.05200500770416025,2021,drought
+satellite_images\2021\drought_2021-07-16_cloud7.3.png,Нет пожара,N/A,0.0013347457627118644,0.07914869029275809,2021,drought
+satellite_images\2021\drought_2021-07-19_cloud17.0.png,Нет пожара,N/A,0.002771571648690293,0.2977080123266564,2021,drought
+satellite_images\2021\drought_2021-07-19_cloud20.6.png,Нет пожара,N/A,0.0012885208012326655,0.041612095531587054,2021,drought
+satellite_images\2021\drought_2021-07-19_cloud22.3.png,Нет пожара,N/A,0.0006028505392912173,0.0800866718027735,2021,drought
+satellite_images\2021\drought_2021-07-19_cloud3.0.png,Нет пожара,N/A,0.0011922187981510016,0.0070685670261941445,2021,drought
+satellite_images\2021\drought_2021-07-21_cloud21.7.png,Нет пожара,N/A,0.0018201078582434514,0.06014252696456086,2021,drought
+satellite_images\2021\drought_2021-07-21_cloud28.0.png,Нет пожара,N/A,0.001796995377503852,0.047134052388289674,2021,drought
+satellite_images\2021\drought_2021-07-21_cloud7.6.png,Нет пожара,N/A,0.007975731895223421,0.22108628659476118,2021,drought
+satellite_images\2021\drought_2021-07-24_cloud20.9.png,Нет пожара,N/A,0.0005046224961479199,0.019782357473035438,2021,drought
+satellite_images\2021\drought_2021-07-24_cloud25.6.png,Нет пожара,N/A,0.00045454545454545455,0.09911016949152543,2021,drought
+satellite_images\2021\drought_2021-08-05_cloud29.2.png,Нет пожара,N/A,0.00016371340523882897,0.1288366718027735,2021,drought
+satellite_images\2021\drought_2021-08-08_cloud14.7.png,Нет пожара,N/A,0.0035130970724191065,0.016051617873651773,2021,drought
+satellite_images\2021\drought_2021-08-08_cloud4.5.png,Нет пожара,N/A,0.0025154083204930663,0.003073959938366718,2021,drought
+satellite_images\2021\drought_2021-08-18_cloud17.4.png,Нет пожара,N/A,0.0006529275808936826,0.043823189522342064,2021,drought
+satellite_images\2021\drought_2021-08-18_cloud19.9.png,Нет пожара,N/A,0.0075847457627118645,0.1984437596302003,2021,drought
+satellite_images\2021\drought_2021-08-18_cloud5.5.png,Нет пожара,N/A,0.00075115562403698,0.008721109399075501,2021,drought
+satellite_images\2021\drought_2021-08-18_cloud8.0.png,Нет пожара,N/A,0.0018412942989214176,0.04366718027734977,2021,drought
+satellite_images\2021\drought_2021-08-20_cloud15.9.png,Нет пожара,N/A,0.0008359013867488443,0.009200693374422189,2021,drought
+satellite_images\2021\drought_2021-08-20_cloud17.6.png,Нет пожара,N/A,0.002274653312788906,0.06976887519260401,2021,drought
+satellite_images\2021\drought_2021-08-20_cloud19.3.png,Нет пожара,N/A,0.0006837442218798151,0.03495184899845917,2021,drought
+satellite_images\2021\drought_2021-08-20_cloud21.5.png,Нет пожара,N/A,0.005860939907550077,0.24077812018489986,2021,drought
+satellite_images\2021\drought_2021-08-23_cloud0.0.png,Нет пожара,N/A,0.005703004622496148,0.011334745762711864,2021,drought
+satellite_images\2021\drought_2021-08-25_cloud0.0.png,Нет пожара,N/A,0.0064676425269645605,0.015209938366718028,2021,drought
+satellite_images\2021\drought_2021-08-28_cloud0.0.png,Нет пожара,N/A,0.007101309707241911,0.0070570107858243455,2021,drought
+satellite_images\2021\drought_2021-08-30_cloud16.7.png,Нет пожара,N/A,0.0004468412942989214,0.025824345146379046,2021,drought
+satellite_images\2021\nbr_2021-06-01_cloud1.6.png,Пожар,N/A,0.0018181818181818182,0.5783647919876733,2021,nbr
+satellite_images\2021\nbr_2021-06-01_cloud13.1.png,Пожар,N/A,6.548536209553159e-05,0.21841872110939908,2021,nbr
+satellite_images\2021\nbr_2021-06-01_cloud26.8.png,Пожар,N/A,5.778120184899846e-05,0.1101502311248074,2021,nbr
+satellite_images\2021\nbr_2021-06-06_cloud0.0.png,Пожар,N/A,0.00021571648690292758,0.11390408320493066,2021,nbr
+satellite_images\2021\nbr_2021-06-11_cloud1.3.png,Пожар,N/A,0.0007241910631741141,0.6648439907550077,2021,nbr
+satellite_images\2021\nbr_2021-06-11_cloud13.3.png,Пожар,N/A,0.00011941448382126348,0.1298208782742681,2021,nbr
+satellite_images\2021\nbr_2021-06-16_cloud0.0.png,Пожар,N/A,0.00030238828967642527,0.13793143297380586,2021,nbr
+satellite_images\2021\nbr_2021-06-16_cloud0.1.png,Нет пожара,N/A,0.0002985362095531587,0.042519260400616335,2021,nbr
+satellite_images\2021\nbr_2021-07-01_cloud1.7.png,Нет пожара,N/A,0.00013097072419106318,0.046228813559322034,2021,nbr
+satellite_images\2021\nbr_2021-07-01_cloud14.4.png,Пожар,N/A,0.001687211093990755,0.7742565485362095,2021,nbr
+satellite_images\2021\nbr_2021-07-01_cloud16.4.png,Пожар,N/A,0.00039098613251155627,0.15889830508474576,2021,nbr
+satellite_images\2021\nbr_2021-07-01_cloud6.8.png,Пожар,N/A,0.0005084745762711864,0.2250520030816641,2021,nbr
+satellite_images\2021\nbr_2021-07-04_cloud0.0.png,Нет пожара,N/A,0.0006086286594761171,0.04357473035439137,2021,nbr
+satellite_images\2021\nbr_2021-07-04_cloud0.1.png,Пожар,N/A,0.0007550077041602465,0.15523882896764252,2021,nbr
+satellite_images\2021\nbr_2021-07-04_cloud1.2.png,Пожар,N/A,0.0021167180277349767,0.2174884437596302,2021,nbr
+satellite_images\2021\nbr_2021-07-04_cloud2.1.png,Пожар,N/A,0.0026656394453004623,0.7635631741140215,2021,nbr
+satellite_images\2021\nbr_2021-07-14_cloud29.1.png,Пожар,N/A,0.0005200308166409862,0.04311055469953775,2021,nbr
+satellite_images\2021\nbr_2021-07-16_cloud16.0.png,Нет пожара,N/A,0.0003736517719568567,0.04147149460708783,2021,nbr
+satellite_images\2021\nbr_2021-07-16_cloud19.4.png,Пожар,N/A,0.0007473035439137134,0.2200866718027735,2021,nbr
+satellite_images\2021\nbr_2021-07-16_cloud7.3.png,Пожар,N/A,0.0017931432973805855,0.13819144838212635,2021,nbr
+satellite_images\2021\nbr_2021-07-19_cloud17.0.png,Пожар,N/A,0.00463020030816641,0.7414368258859785,2021,nbr
+satellite_images\2021\nbr_2021-07-19_cloud20.6.png,Пожар,N/A,0.0011883667180277349,0.21939907550077042,2021,nbr
+satellite_images\2021\nbr_2021-07-19_cloud22.3.png,Пожар,N/A,0.003135593220338983,0.14088212634822805,2021,nbr
+satellite_images\2021\nbr_2021-07-19_cloud3.0.png,Нет пожара,N/A,0.000512326656394453,0.04310092449922959,2021,nbr
+satellite_images\2021\nbr_2021-07-21_cloud21.7.png,Пожар,N/A,0.002656009244992296,0.13789483821263482,2021,nbr
+satellite_images\2021\nbr_2021-07-21_cloud28.0.png,Пожар,N/A,0.0008281972265023113,0.22117103235747304,2021,nbr
+satellite_images\2021\nbr_2021-07-21_cloud7.6.png,Пожар,N/A,0.004768875192604006,0.7354063944530046,2021,nbr
+satellite_images\2021\nbr_2021-07-24_cloud20.9.png,Нет пожара,N/A,0.00023690292758089368,0.04623073959938367,2021,nbr
+satellite_images\2021\nbr_2021-07-24_cloud25.6.png,Пожар,N/A,0.0016332819722650231,0.22085516178736517,2021,nbr
+satellite_images\2021\nbr_2021-08-05_cloud29.2.png,Пожар,N/A,0.01048151001540832,0.19466679506933746,2021,nbr
+satellite_images\2021\nbr_2021-08-08_cloud14.7.png,Пожар,N/A,0.0013501540832049307,0.1442026194144838,2021,nbr
+satellite_images\2021\nbr_2021-08-08_cloud4.5.png,Нет пожара,N/A,0.0007126348228043143,0.03992873651771957,2021,nbr
+satellite_images\2021\nbr_2021-08-18_cloud17.4.png,Пожар,N/A,0.0015119414483821263,0.21508474576271186,2021,nbr
+satellite_images\2021\nbr_2021-08-18_cloud19.9.png,Пожар,N/A,0.008771186440677967,0.7211517719568568,2021,nbr
+satellite_images\2021\nbr_2021-08-18_cloud5.5.png,Нет пожара,N/A,0.000853235747303544,0.042877503852080126,2021,nbr
+satellite_images\2021\nbr_2021-08-18_cloud8.0.png,Пожар,N/A,0.0045281201848998455,0.13963212634822805,2021,nbr
+satellite_images\2021\nbr_2021-08-20_cloud15.9.png,Нет пожара,N/A,0.0002022342064714946,0.04487095531587057,2021,nbr
+satellite_images\2021\nbr_2021-08-20_cloud17.6.png,Пожар,N/A,0.0015928351309707242,0.14649460708782744,2021,nbr
+satellite_images\2021\nbr_2021-08-20_cloud19.3.png,Пожар,N/A,0.0004988443759630201,0.22120570107858242,2021,nbr
+satellite_images\2021\nbr_2021-08-20_cloud21.5.png,Пожар,N/A,0.003586286594761171,0.749732280431433,2021,nbr
+satellite_images\2021\nbr_2021-08-23_cloud0.0.png,Пожар,N/A,0.0012557781201849,0.14055277349768874,2021,nbr
+satellite_images\2021\nbr_2021-08-25_cloud0.0.png,Пожар,N/A,0.0008936825885978428,0.14125963020030816,2021,nbr
+satellite_images\2021\nbr_2021-08-28_cloud0.0.png,Пожар,N/A,0.002322804314329738,0.7341852850539291,2021,nbr
+satellite_images\2021\nbr_2021-08-30_cloud16.7.png,Пожар,N/A,0.0002889060092449923,0.22249229583975347,2021,nbr
+satellite_images\2021\natural_2021-06-01_cloud1.6.png,Нет пожара,N/A,0.0,0.00043528505392912174,2021,natural
+satellite_images\2021\natural_2021-06-01_cloud13.1.png,Нет пожара,N/A,0.0,0.00010400616332819723,2021,natural
+satellite_images\2021\natural_2021-06-01_cloud26.8.png,Нет пожара,N/A,0.0,0.00014445300462249616,2021,natural
+satellite_images\2021\natural_2021-06-06_cloud0.0.png,Нет пожара,N/A,0.0,7.704160246533127e-06,2021,natural
+satellite_images\2021\natural_2021-06-11_cloud1.3.png,Нет пожара,N/A,0.0,0.00041409861325115565,2021,natural
+satellite_images\2021\natural_2021-06-11_cloud13.3.png,Нет пожара,N/A,0.0,2.5038520801232665e-05,2021,natural
+satellite_images\2021\natural_2021-06-16_cloud0.0.png,Нет пожара,N/A,0.0,6.741140215716486e-05,2021,natural
+satellite_images\2021\natural_2021-06-16_cloud0.1.png,Нет пожара,N/A,0.0,0.0,2021,natural
+satellite_images\2021\natural_2021-07-01_cloud1.7.png,Нет пожара,N/A,0.0,0.0063983050847457625,2021,natural
+satellite_images\2021\natural_2021-07-01_cloud14.4.png,Нет пожара,N/A,0.0,0.11483628659476117,2021,natural
+satellite_images\2021\natural_2021-07-01_cloud16.4.png,Нет пожара,N/A,0.0,0.013967642526964561,2021,natural
+satellite_images\2021\natural_2021-07-01_cloud6.8.png,Нет пожара,N/A,0.0,0.07236902927580893,2021,natural
+satellite_images\2021\natural_2021-07-04_cloud0.0.png,Нет пожара,N/A,0.0,0.0,2021,natural
+satellite_images\2021\natural_2021-07-04_cloud0.1.png,Нет пожара,N/A,0.0,5.970724191063174e-05,2021,natural
+satellite_images\2021\natural_2021-07-04_cloud1.2.png,Нет пожара,N/A,0.0,9.822804314329737e-05,2021,natural
+satellite_images\2021\natural_2021-07-04_cloud2.1.png,Нет пожара,N/A,0.0,0.00041409861325115565,2021,natural
+satellite_images\2021\natural_2021-07-14_cloud29.1.png,Нет пожара,N/A,0.0,0.004458782742681047,2021,natural
+satellite_images\2021\natural_2021-07-16_cloud16.0.png,Нет пожара,N/A,0.0,0.0,2021,natural
+satellite_images\2021\natural_2021-07-16_cloud19.4.png,Нет пожара,N/A,0.0,0.03297380585516179,2021,natural
+satellite_images\2021\natural_2021-07-16_cloud7.3.png,Нет пожара,N/A,0.0,0.013705701078582435,2021,natural
+satellite_images\2021\natural_2021-07-19_cloud17.0.png,Нет пожара,N/A,1.926040061633282e-06,0.16292565485362095,2021,natural
+satellite_images\2021\natural_2021-07-19_cloud20.6.png,Нет пожара,N/A,0.0,0.023305084745762712,2021,natural
+satellite_images\2021\natural_2021-07-19_cloud22.3.png,Нет пожара,N/A,0.0,0.03295069337442219,2021,natural
+satellite_images\2021\natural_2021-07-19_cloud3.0.png,Нет пожара,N/A,0.0,0.0014560862865947613,2021,natural
+satellite_images\2021\natural_2021-07-21_cloud21.7.png,Нет пожара,N/A,0.0,0.009077426810477658,2021,natural
+satellite_images\2021\natural_2021-07-21_cloud28.0.png,Нет пожара,N/A,0.0,0.023636363636363636,2021,natural
+satellite_images\2021\natural_2021-07-21_cloud7.6.png,Нет пожара,N/A,0.0,0.06488251155624036,2021,natural
+satellite_images\2021\natural_2021-07-24_cloud20.9.png,Нет пожара,N/A,0.0,0.014102465331278891,2021,natural
+satellite_images\2021\natural_2021-07-24_cloud25.6.png,Нет пожара,N/A,0.0,0.08809899845916795,2021,natural
+satellite_images\2021\natural_2021-08-05_cloud29.2.png,Нет пожара,N/A,0.0,0.12810862865947611,2021,natural
+satellite_images\2021\natural_2021-08-08_cloud14.7.png,Нет пожара,N/A,0.0,5.2003081664098616e-05,2021,natural
+satellite_images\2021\natural_2021-08-08_cloud4.5.png,Нет пожара,N/A,0.0,0.0,2021,natural
+satellite_images\2021\natural_2021-08-18_cloud17.4.png,Нет пожара,N/A,0.0,0.037985362095531584,2021,natural
+satellite_images\2021\natural_2021-08-18_cloud19.9.png,Нет пожара,N/A,0.0,0.15980739599383667,2021,natural
+satellite_images\2021\natural_2021-08-18_cloud5.5.png,Нет пожара,N/A,0.0,0.00576271186440678,2021,natural
+satellite_images\2021\natural_2021-08-18_cloud8.0.png,Нет пожара,N/A,0.0,0.02845724191063174,2021,natural
+satellite_images\2021\natural_2021-08-20_cloud15.9.png,Нет пожара,N/A,0.0,0.005662557781201849,2021,natural
+satellite_images\2021\natural_2021-08-20_cloud17.6.png,Нет пожара,N/A,0.0,0.04055084745762712,2021,natural
+satellite_images\2021\natural_2021-08-20_cloud19.3.png,Нет пожара,N/A,0.0,0.021288520801232665,2021,natural
+satellite_images\2021\natural_2021-08-20_cloud21.5.png,Нет пожара,N/A,0.0,0.15185670261941447,2021,natural
+satellite_images\2021\natural_2021-08-23_cloud0.0.png,Нет пожара,N/A,0.0,0.0,2021,natural
+satellite_images\2021\natural_2021-08-25_cloud0.0.png,Нет пожара,N/A,0.0,0.0,2021,natural
+satellite_images\2021\natural_2021-08-28_cloud0.0.png,Нет пожара,N/A,0.0,0.00024845916795069337,2021,natural
+satellite_images\2021\natural_2021-08-30_cloud16.7.png,Нет пожара,N/A,1.926040061633282e-06,0.01630970724191063,2021,natural
+satellite_images\2022\fire_2022-06-01_cloud21.2.png,Нет пожара,N/A,9.63020030816641e-06,0.10556625577812019,2022,fire
+satellite_images\2022\fire_2022-06-09_cloud0.0.png,Нет пожара,N/A,0.000676040061633282,0.02045647149460709,2022,fire
+satellite_images\2022\fire_2022-06-09_cloud1.0.png,Нет пожара,N/A,0.0001290446841294299,0.013909861325115562,2022,fire
+satellite_images\2022\fire_2022-06-09_cloud9.6.png,Нет пожара,N/A,0.000662557781201849,0.12447996918335902,2022,fire
+satellite_images\2022\fire_2022-06-21_cloud7.1.png,Нет пожара,N/A,1.3482280431432974e-05,0.00913713405238829,2022,fire
+satellite_images\2022\fire_2022-06-24_cloud10.1.png,Нет пожара,N/A,5.5855161787365175e-05,0.052257318952234205,2022,fire
+satellite_images\2022\fire_2022-06-24_cloud12.1.png,Нет пожара,N/A,6.35593220338983e-05,0.009790061633281973,2022,fire
+satellite_images\2022\fire_2022-06-24_cloud18.2.png,Нет пожара,N/A,0.0004603235747303544,0.08320493066255778,2022,fire
+satellite_images\2022\fire_2022-06-24_cloud19.3.png,Нет пожара,N/A,0.0004468412942989214,0.37960323574730354,2022,fire
+satellite_images\2022\fire_2022-07-01_cloud0.0.png,Нет пожара,N/A,0.001011171032357473,0.072846687211094,2022,fire
+satellite_images\2022\fire_2022-07-01_cloud2.5.png,Нет пожара,N/A,0.0025038520801232665,0.32526964560862864,2022,fire
+satellite_images\2022\fire_2022-07-01_cloud26.2.png,Нет пожара,N/A,2.3112480739599382e-05,0.010225346687211093,2022,fire
+satellite_images\2022\fire_2022-07-04_cloud0.0.png,Нет пожара,N/A,0.00020801232665639447,0.005656779661016949,2022,fire
+satellite_images\2022\fire_2022-07-04_cloud12.9.png,Нет пожара,N/A,0.00018875192604006163,0.019928736517719568,2022,fire
+satellite_images\2022\fire_2022-07-04_cloud2.1.png,Нет пожара,N/A,0.0023420647149460707,0.2010593220338983,2022,fire
+satellite_images\2022\fire_2022-07-04_cloud24.1.png,Нет пожара,N/A,0.0015966872110939907,0.047952619414483824,2022,fire
+satellite_images\2022\fire_2022-07-11_cloud0.0.png,Нет пожара,N/A,0.0021976117103235746,0.23509244992295839,2022,fire
+satellite_images\2022\fire_2022-07-11_cloud0.1.png,Нет пожара,N/A,0.0017199537750385208,0.044464560862865946,2022,fire
+satellite_images\2022\fire_2022-07-11_cloud0.6.png,Нет пожара,N/A,0.0005007704160246533,0.009046610169491525,2022,fire
+satellite_images\2022\fire_2022-07-11_cloud2.6.png,Нет пожара,N/A,0.0006548536209553159,0.02951271186440678,2022,fire
+satellite_images\2022\fire_2022-07-14_cloud20.3.png,Нет пожара,N/A,0.0006144067796610169,0.09591101694915254,2022,fire
+satellite_images\2022\fire_2022-07-16_cloud27.0.png,Нет пожара,N/A,2.889060092449923e-05,0.03253274268104776,2022,fire
+satellite_images\2022\fire_2022-07-21_cloud19.9.png,Нет пожара,N/A,0.0002966101694915254,0.029023497688751926,2022,fire
+satellite_images\2022\fire_2022-07-21_cloud8.8.png,Нет пожара,N/A,0.0004102465331278891,0.23041795069337442,2022,fire
+satellite_images\2022\fire_2022-07-26_cloud0.0.png,Нет пожара,N/A,0.000812788906009245,0.034535824345146376,2022,fire
+satellite_images\2022\fire_2022-08-03_cloud26.1.png,Нет пожара,N/A,0.0,0.10166602465331279,2022,fire
+satellite_images\2022\fire_2022-08-03_cloud29.4.png,Нет пожара,N/A,0.0,0.01846687211093991,2022,fire
+satellite_images\2022\fire_2022-08-05_cloud0.0.png,Нет пожара,N/A,0.00011941448382126348,0.005964946070878274,2022,fire
+satellite_images\2022\fire_2022-08-08_cloud17.4.png,Нет пожара,N/A,3.852080123266564e-06,0.01038713405238829,2022,fire
+satellite_images\2022\fire_2022-08-08_cloud20.5.png,Нет пожара,N/A,6.933744221879815e-05,0.06537365177195685,2022,fire
+satellite_images\2022\fire_2022-08-10_cloud0.5.png,Нет пожара,N/A,0.0001829738058551618,0.003218412942989214,2022,fire
+satellite_images\2022\fire_2022-08-10_cloud12.8.png,Нет пожара,N/A,0.00022727272727272727,0.03310670261941449,2022,fire
+satellite_images\2022\fire_2022-08-10_cloud24.3.png,Нет пожара,N/A,0.0008763482280431433,0.2952330508474576,2022,fire
+satellite_images\2022\fire_2022-08-10_cloud7.4.png,Нет пожара,N/A,0.001461864406779661,0.05902157164869029,2022,fire
+satellite_images\2022\fire_2022-08-15_cloud3.2.png,Нет пожара,N/A,0.0018605546995377504,0.035631741140215716,2022,fire
+satellite_images\2022\fire_2022-08-15_cloud3.3.png,Нет пожара,N/A,0.0025365947611710325,0.18912172573189523,2022,fire
+satellite_images\2022\fire_2022-08-15_cloud4.0.png,Нет пожара,N/A,0.000922573189522342,0.030354391371340522,2022,fire
+satellite_images\2022\fire_2022-08-15_cloud4.2.png,Нет пожара,N/A,0.0006317411402157164,0.005304314329738059,2022,fire
+satellite_images\2022\fire_2022-08-25_cloud0.0.png,Нет пожара,N/A,0.002586671802773498,0.01131548536209553,2022,fire
+satellite_images\2022\fire_2022-08-28_cloud0.0.png,Нет пожара,N/A,0.000984206471494607,0.0010342835130970724,2022,fire
+satellite_images\2022\fire_2022-08-28_cloud0.2.png,Нет пожара,N/A,0.004437596302003082,0.05696456086286595,2022,fire
+satellite_images\2022\fire_2022-08-28_cloud0.4.png,Нет пожара,N/A,0.002937211093990755,0.004807395993836672,2022,fire
+satellite_images\2022\fire_2022-08-30_cloud0.0.png,Нет пожара,N/A,0.00323959938366718,0.010435285053929122,2022,fire
+satellite_images\2022\drought_2022-06-01_cloud21.2.png,Нет пожара,N/A,0.0003100924499229584,0.09793143297380585,2022,drought
+satellite_images\2022\drought_2022-06-09_cloud0.0.png,Нет пожара,N/A,0.008798151001540832,0.0026348228043143298,2022,drought
+satellite_images\2022\drought_2022-06-09_cloud1.0.png,Нет пожара,N/A,0.0007684899845916795,0.005683744221879815,2022,drought
+satellite_images\2022\drought_2022-06-09_cloud9.6.png,Нет пожара,N/A,0.012550077041602466,0.005506548536209553,2022,drought
+satellite_images\2022\drought_2022-06-21_cloud7.1.png,Нет пожара,N/A,0.00042180277349768874,0.0038443759630200306,2022,drought
+satellite_images\2022\drought_2022-06-24_cloud10.1.png,Нет пожара,N/A,0.0008975346687211094,0.03905238828967642,2022,drought
+satellite_images\2022\drought_2022-06-24_cloud12.1.png,Нет пожара,N/A,0.0006856702619414483,0.006640986132511556,2022,drought
+satellite_images\2022\drought_2022-06-24_cloud18.2.png,Нет пожара,N/A,0.0018624807395993836,0.06535246533127889,2022,drought
+satellite_images\2022\drought_2022-06-24_cloud19.3.png,Нет пожара,N/A,0.0031991525423728812,0.2964291217257319,2022,drought
+satellite_images\2022\drought_2022-07-01_cloud0.0.png,Нет пожара,N/A,0.0025154083204930663,0.03467257318952234,2022,drought
+satellite_images\2022\drought_2022-07-01_cloud2.5.png,Нет пожара,N/A,0.0052041602465331275,0.16231702619414484,2022,drought
+satellite_images\2022\drought_2022-07-01_cloud26.2.png,Нет пожара,N/A,0.00036209553158705703,0.00535824345146379,2022,drought
+satellite_images\2022\drought_2022-07-04_cloud0.0.png,Нет пожара,N/A,0.0007800462249614792,0.002754237288135593,2022,drought
+satellite_images\2022\drought_2022-07-04_cloud12.9.png,Нет пожара,N/A,0.0008859784283513097,0.007835130970724191,2022,drought
+satellite_images\2022\drought_2022-07-04_cloud2.1.png,Нет пожара,N/A,0.006259630200308166,0.06617873651771956,2022,drought
+satellite_images\2022\drought_2022-07-04_cloud24.1.png,Нет пожара,N/A,0.003181818181818182,0.01934322033898305,2022,drought
+satellite_images\2022\drought_2022-07-11_cloud0.0.png,Нет пожара,N/A,0.01160824345146379,0.10433359013867488,2022,drought
+satellite_images\2022\drought_2022-07-11_cloud0.1.png,Нет пожара,N/A,0.004364406779661017,0.022419106317411404,2022,drought
+satellite_images\2022\drought_2022-07-11_cloud0.6.png,Нет пожара,N/A,0.0012249614791987674,0.006057395993836672,2022,drought
+satellite_images\2022\drought_2022-07-11_cloud2.6.png,Нет пожара,N/A,0.0014734206471494608,0.01638482280431433,2022,drought
+satellite_images\2022\drought_2022-07-14_cloud20.3.png,Нет пожара,N/A,0.0017392141756548537,0.08112095531587057,2022,drought
+satellite_images\2022\drought_2022-07-16_cloud27.0.png,Нет пожара,N/A,0.0002349768875192604,0.029961479198767335,2022,drought
+satellite_images\2022\drought_2022-07-21_cloud19.9.png,Нет пожара,N/A,0.003025808936825886,0.021030431432973805,2022,drought
+satellite_images\2022\drought_2022-07-21_cloud8.8.png,Нет пожара,N/A,0.00923151001540832,0.13669106317411403,2022,drought
+satellite_images\2022\drought_2022-07-26_cloud0.0.png,Нет пожара,N/A,0.005801232665639445,0.014200693374422188,2022,drought
+satellite_images\2022\drought_2022-08-03_cloud26.1.png,Нет пожара,N/A,0.0009668721109399076,0.08844953775038521,2022,drought
+satellite_images\2022\drought_2022-08-03_cloud29.4.png,Нет пожара,N/A,0.0009052388289676425,0.016292372881355932,2022,drought
+satellite_images\2022\drought_2022-08-05_cloud0.0.png,Нет пожара,N/A,0.003176040061633282,0.0024903697996918337,2022,drought
+satellite_images\2022\drought_2022-08-08_cloud17.4.png,Нет пожара,N/A,0.001346302003081664,0.008054699537750384,2022,drought
+satellite_images\2022\drought_2022-08-08_cloud20.5.png,Нет пожара,N/A,0.001652542372881356,0.04778697996918336,2022,drought
+satellite_images\2022\drought_2022-08-10_cloud0.5.png,Нет пожара,N/A,0.0042161016949152546,0.0018817411402157166,2022,drought
+satellite_images\2022\drought_2022-08-10_cloud12.8.png,Нет пожара,N/A,0.004637904468412943,0.01947226502311248,2022,drought
+satellite_images\2022\drought_2022-08-10_cloud24.3.png,Нет пожара,N/A,0.026764252696456086,0.2183628659476117,2022,drought
+satellite_images\2022\drought_2022-08-10_cloud7.4.png,Нет пожара,N/A,0.0071417565485362095,0.041074730354391374,2022,drought
+satellite_images\2022\drought_2022-08-15_cloud3.2.png,Нет пожара,N/A,0.012860169491525424,0.020772342064714944,2022,drought
+satellite_images\2022\drought_2022-08-15_cloud3.3.png,Нет пожара,N/A,0.07059514637904468,0.09483050847457627,2022,drought
+satellite_images\2022\drought_2022-08-15_cloud4.0.png,Нет пожара,N/A,0.005150231124807396,0.01739406779661017,2022,drought
+satellite_images\2022\drought_2022-08-15_cloud4.2.png,Нет пожара,N/A,0.004004237288135593,0.003106702619414484,2022,drought
+satellite_images\2022\drought_2022-08-25_cloud0.0.png,Нет пожара,N/A,0.08107858243451464,0.01671417565485362,2022,drought
+satellite_images\2022\drought_2022-08-28_cloud0.0.png,Нет пожара,N/A,0.004192989214175655,0.0008570878274268105,2022,drought
+satellite_images\2022\drought_2022-08-28_cloud0.2.png,Нет пожара,N/A,0.0851328967642527,0.006650616332819723,2022,drought
+satellite_images\2022\drought_2022-08-28_cloud0.4.png,Нет пожара,N/A,0.018817411402157164,0.0017719568567026193,2022,drought
+satellite_images\2022\drought_2022-08-30_cloud0.0.png,Нет пожара,N/A,0.019023497688751927,0.0027908320493066257,2022,drought
+satellite_images\2022\nbr_2022-06-01_cloud21.2.png,Пожар,N/A,0.00599191063174114,0.17804121725731895,2022,nbr
+satellite_images\2022\nbr_2022-06-09_cloud0.0.png,Пожар,N/A,0.00013674884437596302,0.12964560862865948,2022,nbr
+satellite_images\2022\nbr_2022-06-09_cloud1.0.png,Пожар,N/A,0.00039098613251155627,0.22132896764252696,2022,nbr
+satellite_images\2022\nbr_2022-06-09_cloud9.6.png,Пожар,N/A,0.0011691063174114021,0.6649903697996918,2022,nbr
+satellite_images\2022\nbr_2022-06-21_cloud7.1.png,Нет пожара,N/A,4.6224961479198765e-05,0.045643297380585514,2022,nbr
+satellite_images\2022\nbr_2022-06-24_cloud10.1.png,Пожар,N/A,0.0007916024653312789,0.2224075500770416,2022,nbr
+satellite_images\2022\nbr_2022-06-24_cloud12.1.png,Нет пожара,N/A,0.00017334360554699537,0.04524268104776579,2022,nbr
+satellite_images\2022\nbr_2022-06-24_cloud18.2.png,Пожар,N/A,0.0002754237288135593,0.15860169491525425,2022,nbr
+satellite_images\2022\nbr_2022-06-24_cloud19.3.png,Пожар,N/A,0.0006895223420647149,0.7737037750385208,2022,nbr
+satellite_images\2022\nbr_2022-07-01_cloud0.0.png,Пожар,N/A,0.0003929121725731895,0.15547187981510016,2022,nbr
+satellite_images\2022\nbr_2022-07-01_cloud2.5.png,Пожар,N/A,0.0016968412942989213,0.749291217257319,2022,nbr
+satellite_images\2022\nbr_2022-07-01_cloud26.2.png,Нет пожара,N/A,0.000150231124807396,0.04463020030816641,2022,nbr
+satellite_images\2022\nbr_2022-07-04_cloud0.0.png,Нет пожара,N/A,0.00022727272727272727,0.04405046224961479,2022,nbr
+satellite_images\2022\nbr_2022-07-04_cloud12.9.png,Пожар,N/A,0.0007665639445300462,0.21781587057010784,2022,nbr
+satellite_images\2022\nbr_2022-07-04_cloud2.1.png,Пожар,N/A,0.0006067026194144838,0.7532935285053929,2022,nbr
+satellite_images\2022\nbr_2022-07-04_cloud24.1.png,Пожар,N/A,0.00032742681047765793,0.15542372881355931,2022,nbr
+satellite_images\2022\nbr_2022-07-11_cloud0.0.png,Пожар,N/A,0.0028312788906009246,0.7332530816640986,2022,nbr
+satellite_images\2022\nbr_2022-07-11_cloud0.1.png,Пожар,N/A,0.0008166409861325116,0.15084360554699539,2022,nbr
+satellite_images\2022\nbr_2022-07-11_cloud0.6.png,Нет пожара,N/A,0.000853235747303544,0.041380970724191064,2022,nbr
+satellite_images\2022\nbr_2022-07-11_cloud2.6.png,Пожар,N/A,0.0010015408320493066,0.21524653312788905,2022,nbr
+satellite_images\2022\nbr_2022-07-14_cloud20.3.png,Пожар,N/A,0.0007338212634822804,0.15651771956856703,2022,nbr
+satellite_images\2022\nbr_2022-07-16_cloud27.0.png,Пожар,N/A,0.00039676425269645607,0.04531587057010786,2022,nbr
+satellite_images\2022\nbr_2022-07-21_cloud19.9.png,Пожар,N/A,0.0008802003081664099,0.15137904468412944,2022,nbr
+satellite_images\2022\nbr_2022-07-21_cloud8.8.png,Пожар,N/A,0.0021147919876733437,0.751213405238829,2022,nbr
+satellite_images\2022\nbr_2022-07-26_cloud0.0.png,Пожар,N/A,0.0007222650231124807,0.15110169491525424,2022,nbr
+satellite_images\2022\nbr_2022-08-03_cloud26.1.png,Пожар,N/A,0.0006163328197226503,0.22375,2022,nbr
+satellite_images\2022\nbr_2022-08-03_cloud29.4.png,Нет пожара,N/A,0.0002812018489984592,0.04548728813559322,2022,nbr
+satellite_images\2022\nbr_2022-08-05_cloud0.0.png,Нет пожара,N/A,0.0003736517719568567,0.04014445300462249,2022,nbr
+satellite_images\2022\nbr_2022-08-08_cloud17.4.png,Нет пожара,N/A,0.00044298921417565483,0.04242295839753467,2022,nbr
+satellite_images\2022\nbr_2022-08-08_cloud20.5.png,Пожар,N/A,0.001086286594761171,0.21475539291217258,2022,nbr
+satellite_images\2022\nbr_2022-08-10_cloud0.5.png,Нет пожара,N/A,0.001741140215716487,0.037093605546995374,2022,nbr
+satellite_images\2022\nbr_2022-08-10_cloud12.8.png,Пожар,N/A,0.0010939907550077041,0.21306240369799692,2022,nbr
+satellite_images\2022\nbr_2022-08-10_cloud24.3.png,Пожар,N/A,0.0024499229583975347,0.7403890600924499,2022,nbr
+satellite_images\2022\nbr_2022-08-10_cloud7.4.png,Пожар,N/A,0.0009418335901386749,0.14919491525423728,2022,nbr
+satellite_images\2022\nbr_2022-08-15_cloud3.2.png,Пожар,N/A,0.000922573189522342,0.13568374422187982,2022,nbr
+satellite_images\2022\nbr_2022-08-15_cloud3.3.png,Пожар,N/A,0.0020993836671802774,0.6175808936825886,2022,nbr
+satellite_images\2022\nbr_2022-08-15_cloud4.0.png,Пожар,N/A,0.00018104776579352851,0.2058224191063174,2022,nbr
+satellite_images\2022\nbr_2022-08-15_cloud4.2.png,Нет пожара,N/A,0.0004699537750385208,0.03930662557781202,2022,nbr
+satellite_images\2022\nbr_2022-08-25_cloud0.0.png,Пожар,N/A,0.002201463790446841,0.5997149460708783,2022,nbr
+satellite_images\2022\nbr_2022-08-28_cloud0.0.png,Нет пожара,N/A,0.0004391371340523883,0.03935285053929122,2022,nbr
+satellite_images\2022\nbr_2022-08-28_cloud0.2.png,Пожар,N/A,0.002051232665639445,0.5943027734976888,2022,nbr
+satellite_images\2022\nbr_2022-08-28_cloud0.4.png,Пожар,N/A,0.0005758859784283513,0.1283802003081664,2022,nbr
+satellite_images\2022\nbr_2022-08-30_cloud0.0.png,Пожар,N/A,0.0004603235747303544,0.127211093990755,2022,nbr
+satellite_images\2022\natural_2022-06-01_cloud21.2.png,Нет пожара,N/A,0.0,0.08981702619414483,2022,natural
+satellite_images\2022\natural_2022-06-09_cloud0.0.png,Нет пожара,N/A,0.0,9.63020030816641e-06,2022,natural
+satellite_images\2022\natural_2022-06-09_cloud1.0.png,Нет пожара,N/A,0.0,9.244992295839753e-05,2022,natural
+satellite_images\2022\natural_2022-06-09_cloud9.6.png,Нет пожара,N/A,0.0,6.741140215716486e-05,2022,natural
+satellite_images\2022\natural_2022-06-21_cloud7.1.png,Нет пожара,N/A,0.0,4.815100154083205e-05,2022,natural
+satellite_images\2022\natural_2022-06-24_cloud10.1.png,Нет пожара,N/A,0.0,0.024637904468412943,2022,natural
+satellite_images\2022\natural_2022-06-24_cloud12.1.png,Нет пожара,N/A,0.0,0.003934899845916795,2022,natural
+satellite_images\2022\natural_2022-06-24_cloud18.2.png,Нет пожара,N/A,0.0,0.029609013867488442,2022,natural
+satellite_images\2022\natural_2022-06-24_cloud19.3.png,Нет пожара,N/A,0.0,0.15230161787365176,2022,natural
+satellite_images\2022\natural_2022-07-01_cloud0.0.png,Нет пожара,N/A,0.0,0.00010978428351309708,2022,natural
+satellite_images\2022\natural_2022-07-01_cloud2.5.png,Нет пожара,N/A,0.0,0.0005489214175654854,2022,natural
+satellite_images\2022\natural_2022-07-01_cloud26.2.png,Нет пожара,N/A,0.0,0.00011556240369799692,2022,natural
+satellite_images\2022\natural_2022-07-04_cloud0.0.png,Нет пожара,N/A,0.0,0.0,2022,natural
+satellite_images\2022\natural_2022-07-04_cloud12.9.png,Нет пожара,N/A,0.0,0.00010015408320493066,2022,natural
+satellite_images\2022\natural_2022-07-04_cloud2.1.png,Нет пожара,N/A,0.0,0.0005296610169491525,2022,natural
+satellite_images\2022\natural_2022-07-04_cloud24.1.png,Нет пожара,N/A,0.0,6.933744221879815e-05,2022,natural
+satellite_images\2022\natural_2022-07-11_cloud0.0.png,Нет пожара,N/A,0.0,0.00033705701078582436,2022,natural
+satellite_images\2022\natural_2022-07-11_cloud0.1.png,Нет пожара,N/A,0.0,6.163328197226502e-05,2022,natural
+satellite_images\2022\natural_2022-07-11_cloud0.6.png,Нет пожара,N/A,0.0,0.0014734206471494608,2022,natural
+satellite_images\2022\natural_2022-07-11_cloud2.6.png,Нет пожара,N/A,0.0,0.0026117103235747305,2022,natural
+satellite_images\2022\natural_2022-07-14_cloud20.3.png,Нет пожара,N/A,0.0,0.044427966101694916,2022,natural
+satellite_images\2022\natural_2022-07-16_cloud27.0.png,Нет пожара,N/A,0.0,0.02340909090909091,2022,natural
+satellite_images\2022\natural_2022-07-21_cloud19.9.png,Нет пожара,N/A,0.0,0.0036228813559322035,2022,natural
+satellite_images\2022\natural_2022-07-21_cloud8.8.png,Нет пожара,N/A,1.926040061633282e-06,0.058118258859784284,2022,natural
+satellite_images\2022\natural_2022-07-26_cloud0.0.png,Нет пожара,N/A,0.0,0.00011363636363636364,2022,natural
+satellite_images\2022\natural_2022-08-03_cloud26.1.png,Нет пожара,N/A,0.0,0.07814137134052389,2022,natural
+satellite_images\2022\natural_2022-08-03_cloud29.4.png,Нет пожара,N/A,0.0,0.01338020030816641,2022,natural
+satellite_images\2022\natural_2022-08-05_cloud0.0.png,Нет пожара,N/A,0.0,0.0,2022,natural
+satellite_images\2022\natural_2022-08-08_cloud17.4.png,Нет пожара,N/A,0.0,0.005454545454545455,2022,natural
+satellite_images\2022\natural_2022-08-08_cloud20.5.png,Нет пожара,N/A,0.0,0.04523497688751926,2022,natural
+satellite_images\2022\natural_2022-08-10_cloud0.5.png,Нет пожара,N/A,0.0,7.126348228043144e-05,2022,natural
+satellite_images\2022\natural_2022-08-10_cloud12.8.png,Нет пожара,N/A,0.0,0.00988251155624037,2022,natural
+satellite_images\2022\natural_2022-08-10_cloud24.3.png,Нет пожара,N/A,0.0,0.13016949152542373,2022,natural
+satellite_images\2022\natural_2022-08-10_cloud7.4.png,Нет пожара,N/A,0.0,0.023975346687211095,2022,natural
+satellite_images\2022\natural_2022-08-15_cloud3.2.png,Нет пожара,N/A,0.0,0.006070878274268105,2022,natural
+satellite_images\2022\natural_2022-08-15_cloud3.3.png,Нет пожара,N/A,1.926040061633282e-06,0.03079930662557781,2022,natural
+satellite_images\2022\natural_2022-08-15_cloud4.0.png,Нет пожара,N/A,0.0,0.0075154083204930664,2022,natural
+satellite_images\2022\natural_2022-08-15_cloud4.2.png,Нет пожара,N/A,0.0,0.0008628659476117103,2022,natural
+satellite_images\2022\natural_2022-08-25_cloud0.0.png,Нет пожара,N/A,0.0,0.00043143297380585517,2022,natural
+satellite_images\2022\natural_2022-08-28_cloud0.0.png,Нет пожара,N/A,0.0,0.0,2022,natural
+satellite_images\2022\natural_2022-08-28_cloud0.2.png,Нет пожара,N/A,0.0,0.0004776579352850539,2022,natural
+satellite_images\2022\natural_2022-08-28_cloud0.4.png,Нет пожара,N/A,0.0,0.00013097072419106318,2022,natural
+satellite_images\2022\natural_2022-08-30_cloud0.0.png,Нет пожара,N/A,0.0,0.000150231124807396,2022,natural
+satellite_images\2023\fire_2023-06-01_cloud0.0.png,Нет пожара,N/A,0.007686825885978428,0.1026560092449923,2023,fire
+satellite_images\2023\fire_2023-06-04_cloud0.5.png,Нет пожара,N/A,0.00035824345146379046,0.002927580893682589,2023,fire
+satellite_images\2023\fire_2023-06-04_cloud0.6.png,Нет пожара,N/A,0.006758474576271187,0.006664098613251156,2023,fire
+satellite_images\2023\fire_2023-06-04_cloud1.9.png,Нет пожара,N/A,0.00015215716486902928,0.017080123266563944,2023,fire
+satellite_images\2023\fire_2023-06-04_cloud2.1.png,Нет пожара,N/A,0.005884052388289676,0.027336286594761172,2023,fire
+satellite_images\2023\fire_2023-06-06_cloud0.0.png,Нет пожара,N/A,0.00023882896764252696,0.006456086286594762,2023,fire
+satellite_images\2023\fire_2023-06-06_cloud1.1.png,Нет пожара,N/A,5.3929121725731896e-05,0.040772342064714945,2023,fire
+satellite_images\2023\fire_2023-06-06_cloud1.3.png,Нет пожара,N/A,0.00487095531587057,0.018314714946070877,2023,fire
+satellite_images\2023\fire_2023-06-06_cloud3.0.png,Нет пожара,N/A,0.0033012326656394453,0.11863636363636364,2023,fire
+satellite_images\2023\fire_2023-06-09_cloud1.9.png,Нет пожара,N/A,0.0017257318952234207,0.016492681047765793,2023,fire
+satellite_images\2023\fire_2023-06-09_cloud3.7.png,Нет пожара,N/A,0.0008956086286594761,0.01781009244992296,2023,fire
+satellite_images\2023\fire_2023-06-09_cloud4.4.png,Нет пожара,N/A,0.003984976887519261,0.034739984591679506,2023,fire
+satellite_images\2023\fire_2023-06-09_cloud6.3.png,Нет пожара,N/A,1.5408320493066255e-05,0.010916795069337442,2023,fire
+satellite_images\2023\fire_2023-06-11_cloud0.9.png,Нет пожара,N/A,0.00832819722650231,0.03682781201848998,2023,fire
+satellite_images\2023\fire_2023-06-11_cloud13.9.png,Нет пожара,N/A,0.0017507704160246533,0.05095531587057011,2023,fire
+satellite_images\2023\fire_2023-06-11_cloud8.0.png,Нет пожара,N/A,0.023314714946070878,0.304270030816641,2023,fire
+satellite_images\2023\fire_2023-06-14_cloud2.1.png,Нет пожара,N/A,0.0023324345146379043,0.008757704160246533,2023,fire
+satellite_images\2023\fire_2023-06-14_cloud5.2.png,Нет пожара,N/A,2.6964560862865948e-05,0.0037731124807395995,2023,fire
+satellite_images\2023\fire_2023-06-14_cloud5.4.png,Нет пожара,N/A,0.013264637904468413,0.022571263482280432,2023,fire
+satellite_images\2023\fire_2023-06-14_cloud6.9.png,Нет пожара,N/A,0.02855161787365177,0.08533513097072419,2023,fire
+satellite_images\2023\fire_2023-06-16_cloud17.1.png,Нет пожара,N/A,9.63020030816641e-06,0.013291602465331278,2023,fire
+satellite_images\2023\fire_2023-06-19_cloud1.7.png,Нет пожара,N/A,0.0,0.00363828967642527,2023,fire
+satellite_images\2023\fire_2023-06-19_cloud19.6.png,Нет пожара,N/A,0.00041795069337442216,0.015543143297380586,2023,fire
+satellite_images\2023\fire_2023-06-26_cloud17.8.png,Нет пожара,N/A,0.011251926040061633,0.33909861325115565,2023,fire
+satellite_images\2023\fire_2023-06-26_cloud18.1.png,Нет пожара,N/A,0.0007068567026194145,0.05413713405238829,2023,fire
+satellite_images\2023\fire_2023-06-26_cloud2.8.png,Нет пожара,N/A,0.004622496147919877,0.06347072419106317,2023,fire
+satellite_images\2023\fire_2023-06-26_cloud3.3.png,Нет пожара,N/A,1.3482280431432974e-05,0.016658320493066255,2023,fire
+satellite_images\2023\fire_2023-07-09_cloud26.6.png,Нет пожара,N/A,1.1556240369799691e-05,0.15328967642526964,2023,fire
+satellite_images\2023\fire_2023-07-11_cloud24.7.png,Нет пожара,N/A,0.0,0.009522342064714947,2023,fire
+satellite_images\2023\fire_2023-07-11_cloud4.5.png,Нет пожара,N/A,0.0013077812018489985,0.05238828967642527,2023,fire
+satellite_images\2023\fire_2023-07-14_cloud0.0.png,Нет пожара,N/A,1.926040061633282e-05,0.005038520801232666,2023,fire
+satellite_images\2023\fire_2023-07-14_cloud0.1.png,Нет пожара,N/A,0.0,0.0036979969183359015,2023,fire
+satellite_images\2023\fire_2023-07-14_cloud11.9.png,Нет пожара,N/A,0.0029083204930662556,0.014687981510015408,2023,fire
+satellite_images\2023\fire_2023-07-14_cloud14.0.png,Нет пожара,N/A,0.002977657935285054,0.04789291217257319,2023,fire
+satellite_images\2023\fire_2023-07-14_cloud27.2.png,Нет пожара,N/A,0.005487288135593221,0.04131741140215717,2023,fire
+satellite_images\2023\fire_2023-07-14_cloud8.3.png,Нет пожара,N/A,0.01262326656394453,0.11422380585516179,2023,fire
+satellite_images\2023\fire_2023-07-16_cloud18.9.png,Нет пожара,N/A,0.008052773497688752,0.40633281972265023,2023,fire
+satellite_images\2023\fire_2023-07-16_cloud27.8.png,Нет пожара,N/A,0.0017122496147919876,0.09770030816640986,2023,fire
+satellite_images\2023\fire_2023-07-19_cloud0.0.png,Нет пожара,N/A,0.00019645608628659475,0.007449922958397534,2023,fire
+satellite_images\2023\fire_2023-07-19_cloud0.4.png,Нет пожара,N/A,0.0017103235747303544,0.013915639445300462,2023,fire
+satellite_images\2023\fire_2023-07-19_cloud1.6.png,Нет пожара,N/A,0.013212634822804315,0.12284476117103235,2023,fire
+satellite_images\2023\fire_2023-07-19_cloud5.2.png,Нет пожара,N/A,0.003224191063174114,0.027962249614791986,2023,fire
+satellite_images\2023\fire_2023-07-21_cloud1.9.png,Нет пожара,N/A,0.0008050847457627119,0.03218990755007704,2023,fire
+satellite_images\2023\fire_2023-07-21_cloud10.2.png,Нет пожара,N/A,0.0054930662557781205,0.27318952234206473,2023,fire
+satellite_images\2023\fire_2023-07-21_cloud2.7.png,Нет пожара,N/A,0.002369029275808937,0.04082049306625578,2023,fire
+satellite_images\2023\fire_2023-07-21_cloud7.9.png,Нет пожара,N/A,2.6964560862865948e-05,0.00896186440677966,2023,fire
+satellite_images\2023\fire_2023-07-26_cloud0.5.png,Нет пожара,N/A,0.0023016178736517717,0.04099191063174114,2023,fire
+satellite_images\2023\fire_2023-07-26_cloud4.0.png,Нет пожара,N/A,0.01078004622496148,0.26140408320493064,2023,fire
+satellite_images\2023\fire_2023-07-26_cloud6.0.png,Нет пожара,N/A,0.00087442218798151,0.03039291217257319,2023,fire
+satellite_images\2023\fire_2023-07-26_cloud6.7.png,Нет пожара,N/A,5.5855161787365175e-05,0.010254237288135593,2023,fire
+satellite_images\2023\fire_2023-07-29_cloud1.8.png,Нет пожара,N/A,0.0,0.001590909090909091,2023,fire
+satellite_images\2023\fire_2023-07-29_cloud6.1.png,Нет пожара,N/A,0.0024576271186440676,0.06391371340523883,2023,fire
+satellite_images\2023\fire_2023-07-29_cloud7.5.png,Нет пожара,N/A,0.0011248073959938367,0.004418335901386749,2023,fire
+satellite_images\2023\fire_2023-07-29_cloud8.5.png,Нет пожара,N/A,6.548536209553159e-05,0.031887519260400614,2023,fire
+satellite_images\2023\fire_2023-08-03_cloud28.4.png,Нет пожара,N/A,0.001735362095531587,0.010864791987673343,2023,fire
+satellite_images\2023\fire_2023-08-03_cloud3.2.png,Нет пожара,N/A,1.1556240369799691e-05,0.0034572419106317412,2023,fire
+satellite_images\2023\fire_2023-08-05_cloud17.4.png,Нет пожара,N/A,0.00010400616332819723,0.011529275808936826,2023,fire
+satellite_images\2023\fire_2023-08-05_cloud24.0.png,Нет пожара,N/A,0.000710708782742681,0.0363771186440678,2023,fire
+satellite_images\2023\fire_2023-08-08_cloud18.2.png,Нет пожара,N/A,0.0004603235747303544,0.0032492295839753466,2023,fire
+satellite_images\2023\fire_2023-08-08_cloud27.4.png,Нет пожара,N/A,0.0023805855161787366,0.032906394453004625,2023,fire
+satellite_images\2023\fire_2023-08-08_cloud5.1.png,Нет пожара,N/A,0.011334745762711864,0.0663771186440678,2023,fire
+satellite_images\2023\fire_2023-08-08_cloud6.5.png,Нет пожара,N/A,0.0019087057010785825,0.012977657935285054,2023,fire
+satellite_images\2023\fire_2023-08-18_cloud1.8.png,Нет пожара,N/A,0.0,0.007301617873651772,2023,fire
+satellite_images\2023\fire_2023-08-18_cloud23.2.png,Нет пожара,N/A,0.005473805855161788,0.19808359013867488,2023,fire
+satellite_images\2023\fire_2023-08-18_cloud27.7.png,Нет пожара,N/A,0.00010015408320493066,0.05224961479198768,2023,fire
+satellite_images\2023\fire_2023-08-18_cloud3.4.png,Нет пожара,N/A,0.001666024653312789,0.0199711093990755,2023,fire
+satellite_images\2023\fire_2023-08-20_cloud0.0.png,Нет пожара,N/A,0.0015966872110939907,0.016664098613251157,2023,fire
+satellite_images\2023\fire_2023-08-20_cloud0.8.png,Нет пожара,N/A,0.0021340523882896765,0.01917372881355932,2023,fire
+satellite_images\2023\fire_2023-08-20_cloud2.4.png,Нет пожара,N/A,0.010435285053929122,0.11645993836671803,2023,fire
+satellite_images\2023\fire_2023-08-23_cloud0.0.png,Нет пожара,N/A,0.0021224961479198766,0.009104391371340524,2023,fire
+satellite_images\2023\fire_2023-08-23_cloud0.9.png,Нет пожара,N/A,0.0010227272727272728,0.008010400616332819,2023,fire
+satellite_images\2023\fire_2023-08-23_cloud2.3.png,Нет пожара,N/A,0.00023112480739599384,0.0030758859784283514,2023,fire
+satellite_images\2023\fire_2023-08-30_cloud0.4.png,Нет пожара,N/A,0.0002773497688751926,0.005755007704160247,2023,fire
+satellite_images\2023\fire_2023-08-30_cloud0.7.png,Нет пожара,N/A,0.002159090909090909,0.016176810477657934,2023,fire
+satellite_images\2023\fire_2023-08-30_cloud10.0.png,Нет пожара,N/A,0.0013983050847457628,0.017357473035439136,2023,fire
+satellite_images\2023\fire_2023-08-30_cloud3.0.png,Нет пожара,N/A,0.008875192604006163,0.1111806625577812,2023,fire
+satellite_images\2023\drought_2023-06-01_cloud0.0.png,Нет пожара,N/A,0.07031587057010785,0.00810477657935285,2023,drought
+satellite_images\2023\drought_2023-06-04_cloud0.5.png,Нет пожара,N/A,0.002561633281972265,0.0008224191063174114,2023,drought
+satellite_images\2023\drought_2023-06-04_cloud0.6.png,Нет пожара,N/A,0.03433359013867488,0.0013443759630200308,2023,drought
+satellite_images\2023\drought_2023-06-04_cloud1.9.png,Нет пожара,N/A,0.0023362865947611712,0.004281587057010786,2023,drought
+satellite_images\2023\drought_2023-06-04_cloud2.1.png,Нет пожара,N/A,0.06449345146379044,0.002846687211093991,2023,drought
+satellite_images\2023\drought_2023-06-06_cloud0.0.png,Нет пожара,N/A,0.001577426810477658,0.002199537750385208,2023,drought
+satellite_images\2023\drought_2023-06-06_cloud1.1.png,Нет пожара,N/A,0.0010901386748844377,0.014088983050847458,2023,drought
+satellite_images\2023\drought_2023-06-06_cloud1.3.png,Нет пожара,N/A,0.024374036979969184,0.004699537750385208,2023,drought
+satellite_images\2023\drought_2023-06-06_cloud3.0.png,Нет пожара,N/A,0.0413135593220339,0.019244992295839754,2023,drought
+satellite_images\2023\drought_2023-06-09_cloud1.9.png,Нет пожара,N/A,0.008056625577812018,0.010088597842835131,2023,drought
+satellite_images\2023\drought_2023-06-09_cloud3.7.png,Нет пожара,N/A,0.0003505392912172573,0.008653697996918336,2023,drought
+satellite_images\2023\drought_2023-06-09_cloud4.4.png,Нет пожара,N/A,0.026444530046224962,0.014911402157164869,2023,drought
+satellite_images\2023\drought_2023-06-09_cloud6.3.png,Нет пожара,N/A,6.548536209553159e-05,0.008449537750385209,2023,drought
+satellite_images\2023\drought_2023-06-11_cloud0.9.png,Нет пожара,N/A,0.007047380585516179,0.010945685670261942,2023,drought
+satellite_images\2023\drought_2023-06-11_cloud13.9.png,Нет пожара,N/A,0.010812788906009245,0.03241525423728814,2023,drought
+satellite_images\2023\drought_2023-06-11_cloud8.0.png,Нет пожара,N/A,0.03556047765793528,0.14122496147919877,2023,drought
+satellite_images\2023\drought_2023-06-14_cloud2.1.png,Нет пожара,N/A,0.008694144838212636,0.0015735747303543914,2023,drought
+satellite_images\2023\drought_2023-06-14_cloud5.2.png,Нет пожара,N/A,0.0004295069337442219,0.0004295069337442219,2023,drought
+satellite_images\2023\drought_2023-06-14_cloud5.4.png,Нет пожара,N/A,0.01058744221879815,0.004890215716486903,2023,drought
+satellite_images\2023\drought_2023-06-14_cloud6.9.png,Нет пожара,N/A,0.03447419106317411,0.020177195685670262,2023,drought
+satellite_images\2023\drought_2023-06-16_cloud17.1.png,Нет пожара,N/A,0.000313944530046225,0.006438751926040062,2023,drought
+satellite_images\2023\drought_2023-06-19_cloud1.7.png,Нет пожара,N/A,0.0005104006163328197,0.00045647149460708783,2023,drought
+satellite_images\2023\drought_2023-06-19_cloud19.6.png,Нет пожара,N/A,0.0020011556240369798,0.006201848998459168,2023,drought
+satellite_images\2023\drought_2023-06-26_cloud17.8.png,Нет пожара,N/A,0.013393682588597843,0.18727272727272729,2023,drought
+satellite_images\2023\drought_2023-06-26_cloud18.1.png,Нет пожара,N/A,0.0029198767334360554,0.0287904468412943,2023,drought
+satellite_images\2023\drought_2023-06-26_cloud2.8.png,Нет пожара,N/A,0.005450693374422188,0.032900616332819724,2023,drought
+satellite_images\2023\drought_2023-06-26_cloud3.3.png,Нет пожара,N/A,0.0005469953775038521,0.010350539291217258,2023,drought
+satellite_images\2023\drought_2023-07-09_cloud26.6.png,Нет пожара,N/A,1.5408320493066255e-05,0.1425520030816641,2023,drought
+satellite_images\2023\drought_2023-07-11_cloud24.7.png,Нет пожара,N/A,0.0007415254237288136,0.005589368258859784,2023,drought
+satellite_images\2023\drought_2023-07-11_cloud4.5.png,Нет пожара,N/A,0.0070570107858243455,0.029818952234206473,2023,drought
+satellite_images\2023\drought_2023-07-14_cloud0.0.png,Нет пожара,N/A,0.0005778120184899846,0.0016852850539291217,2023,drought
+satellite_images\2023\drought_2023-07-14_cloud0.1.png,Нет пожара,N/A,0.00013674884437596302,0.0009784283513097072,2023,drought
+satellite_images\2023\drought_2023-07-14_cloud11.9.png,Нет пожара,N/A,0.00901386748844376,0.009358628659476117,2023,drought
+satellite_images\2023\drought_2023-07-14_cloud14.0.png,Нет пожара,N/A,0.00921995377503852,0.030758859784283513,2023,drought
+satellite_images\2023\drought_2023-07-14_cloud27.2.png,Нет пожара,N/A,0.01284668721109399,0.025724191063174116,2023,drought
+satellite_images\2023\drought_2023-07-14_cloud8.3.png,Нет пожара,N/A,0.026481124807395996,0.0462037750385208,2023,drought
+satellite_images\2023\drought_2023-07-16_cloud18.9.png,Нет пожара,N/A,0.01684899845916795,0.28486517719568566,2023,drought
+satellite_images\2023\drought_2023-07-16_cloud27.8.png,Нет пожара,N/A,0.005082819722650231,0.07700693374422188,2023,drought
+satellite_images\2023\drought_2023-07-19_cloud0.0.png,Нет пожара,N/A,0.000710708782742681,0.0021841294298921418,2023,drought
+satellite_images\2023\drought_2023-07-19_cloud0.4.png,Нет пожара,N/A,0.005057781201848998,0.005107858243451464,2023,drought
+satellite_images\2023\drought_2023-07-19_cloud1.6.png,Нет пожара,N/A,0.019582049306625576,0.019075500770416025,2023,drought
+satellite_images\2023\drought_2023-07-19_cloud5.2.png,Нет пожара,N/A,0.004786209553158706,0.007831278890600925,2023,drought
+satellite_images\2023\drought_2023-07-21_cloud1.9.png,Нет пожара,N/A,0.005548921417565486,0.022438366718027736,2023,drought
+satellite_images\2023\drought_2023-07-21_cloud10.2.png,Нет пожара,N/A,0.021469568567026195,0.1500808936825886,2023,drought
+satellite_images\2023\drought_2023-07-21_cloud2.7.png,Нет пожара,N/A,0.009035053929121725,0.017650231124807396,2023,drought
+satellite_images\2023\drought_2023-07-21_cloud7.9.png,Нет пожара,N/A,0.0009553158705701078,0.003875192604006163,2023,drought
+satellite_images\2023\drought_2023-07-26_cloud0.5.png,Нет пожара,N/A,0.006053543913713405,0.014479969183359014,2023,drought
+satellite_images\2023\drought_2023-07-26_cloud4.0.png,Нет пожара,N/A,0.024817026194144838,0.09251540832049307,2023,drought
+satellite_images\2023\drought_2023-07-26_cloud6.0.png,Нет пожара,N/A,0.004755392912172573,0.015225346687211094,2023,drought
+satellite_images\2023\drought_2023-07-26_cloud6.7.png,Нет пожара,N/A,0.0007453775038520802,0.0037384437596302005,2023,drought
+satellite_images\2023\drought_2023-07-29_cloud1.8.png,Нет пожара,N/A,0.0012673343605546995,0.0018181818181818182,2023,drought
+satellite_images\2023\drought_2023-07-29_cloud6.1.png,Нет пожара,N/A,0.03235169491525424,0.051352080123266565,2023,drought
+satellite_images\2023\drought_2023-07-29_cloud7.5.png,Нет пожара,N/A,0.006639060092449923,0.0031201848998459168,2023,drought
+satellite_images\2023\drought_2023-07-29_cloud8.5.png,Нет пожара,N/A,0.0033359013867488444,0.029684129429892143,2023,drought
+satellite_images\2023\drought_2023-08-03_cloud28.4.png,Нет пожара,N/A,0.011906779661016949,0.005525808936825886,2023,drought
+satellite_images\2023\drought_2023-08-03_cloud3.2.png,Нет пожара,N/A,0.002020416024653313,0.0025635593220338982,2023,drought
+satellite_images\2023\drought_2023-08-05_cloud17.4.png,Нет пожара,N/A,0.0013097072419106317,0.008875192604006163,2023,drought
+satellite_images\2023\drought_2023-08-05_cloud24.0.png,Нет пожара,N/A,0.006771956856702619,0.027578967642526965,2023,drought
+satellite_images\2023\drought_2023-08-08_cloud18.2.png,Нет пожара,N/A,0.0014310477657935286,0.002486517719568567,2023,drought
+satellite_images\2023\drought_2023-08-08_cloud27.4.png,Нет пожара,N/A,0.007263097072419106,0.01927195685670262,2023,drought
+satellite_images\2023\drought_2023-08-08_cloud5.1.png,Нет пожара,N/A,0.06448959938366718,0.018160631741140215,2023,drought
+satellite_images\2023\drought_2023-08-08_cloud6.5.png,Нет пожара,N/A,0.009784283513097073,0.008761556240369799,2023,drought
+satellite_images\2023\drought_2023-08-18_cloud1.8.png,Нет пожара,N/A,7.126348228043144e-05,0.005835901386748844,2023,drought
+satellite_images\2023\drought_2023-08-18_cloud23.2.png,Нет пожара,N/A,0.02383859784283513,0.1401791217257319,2023,drought
+satellite_images\2023\drought_2023-08-18_cloud27.7.png,Нет пожара,N/A,0.003484206471494607,0.044951848998459165,2023,drought
+satellite_images\2023\drought_2023-08-18_cloud3.4.png,Нет пожара,N/A,0.006325115562403698,0.01147342064714946,2023,drought
+satellite_images\2023\drought_2023-08-20_cloud0.0.png,Нет пожара,N/A,0.010508474576271187,0.00789291217257319,2023,drought
+satellite_images\2023\drought_2023-08-20_cloud0.8.png,Нет пожара,N/A,0.009597457627118644,0.012862095531587058,2023,drought
+satellite_images\2023\drought_2023-08-20_cloud2.4.png,Нет пожара,N/A,0.05041795069337442,0.04594375963020031,2023,drought
+satellite_images\2023\drought_2023-08-23_cloud0.0.png,Нет пожара,N/A,0.010154083204930662,0.006288520801232666,2023,drought
+satellite_images\2023\drought_2023-08-23_cloud0.9.png,Нет пожара,N/A,0.008349383667180278,0.0038559322033898304,2023,drought
+satellite_images\2023\drought_2023-08-23_cloud2.3.png,Нет пожара,N/A,0.0007819722650231125,0.0024094761171032358,2023,drought
+satellite_images\2023\drought_2023-08-30_cloud0.4.png,Нет пожара,N/A,0.0008012326656394453,0.0028852080123266564,2023,drought
+satellite_images\2023\drought_2023-08-30_cloud0.7.png,Нет пожара,N/A,0.010562403697996919,0.007681047765793528,2023,drought
+satellite_images\2023\drought_2023-08-30_cloud10.0.png,Нет пожара,N/A,0.006640986132511556,0.006161402157164869,2023,drought
+satellite_images\2023\drought_2023-08-30_cloud3.0.png,Нет пожара,N/A,0.033536209553158704,0.02228235747303544,2023,drought
+satellite_images\2023\nbr_2023-06-01_cloud0.0.png,Пожар,N/A,0.0012384437596302002,0.5376964560862866,2023,nbr
+satellite_images\2023\nbr_2023-06-04_cloud0.5.png,Нет пожара,N/A,0.0001290446841294299,0.03883859784283513,2023,nbr
+satellite_images\2023\nbr_2023-06-04_cloud0.6.png,Пожар,N/A,5.007704160246533e-05,0.0922226502311248,2023,nbr
+satellite_images\2023\nbr_2023-06-04_cloud1.9.png,Пожар,N/A,0.0002561633281972265,0.21708204930662559,2023,nbr
+satellite_images\2023\nbr_2023-06-04_cloud2.1.png,Пожар,N/A,0.0011113251155624036,0.549711093990755,2023,nbr
+satellite_images\2023\nbr_2023-06-06_cloud0.0.png,Нет пожара,N/A,4.815100154083205e-05,0.03833397534668721,2023,nbr
+satellite_images\2023\nbr_2023-06-06_cloud1.1.png,Пожар,N/A,0.00016371340523882897,0.2168971494607088,2023,nbr
+satellite_images\2023\nbr_2023-06-06_cloud1.3.png,Пожар,N/A,7.126348228043144e-05,0.09806432973805855,2023,nbr
+satellite_images\2023\nbr_2023-06-06_cloud3.0.png,Пожар,N/A,0.001979969183359014,0.571380970724191,2023,nbr
+satellite_images\2023\nbr_2023-06-09_cloud1.9.png,Пожар,N/A,3.4668721109399075e-05,0.12954160246533128,2023,nbr
+satellite_images\2023\nbr_2023-06-09_cloud3.7.png,Пожар,N/A,0.00011171032357473035,0.21293335901386748,2023,nbr
+satellite_images\2023\nbr_2023-06-09_cloud4.4.png,Пожар,N/A,0.0008705701078582435,0.5984187211093991,2023,nbr
+satellite_images\2023\nbr_2023-06-09_cloud6.3.png,Нет пожара,N/A,3.4668721109399075e-05,0.04456471494607088,2023,nbr
+satellite_images\2023\nbr_2023-06-11_cloud0.9.png,Пожар,N/A,4.044684129429892e-05,0.1944106317411402,2023,nbr
+satellite_images\2023\nbr_2023-06-11_cloud13.9.png,Пожар,N/A,7.896764252696455e-05,0.13117873651771958,2023,nbr
+satellite_images\2023\nbr_2023-06-11_cloud8.0.png,Пожар,N/A,0.0004892141756548536,0.6134687981510015,2023,nbr
+satellite_images\2023\nbr_2023-06-14_cloud2.1.png,Пожар,N/A,7.126348228043144e-05,0.11924306625577812,2023,nbr
+satellite_images\2023\nbr_2023-06-14_cloud5.2.png,Нет пожара,N/A,4.6224961479198765e-05,0.042727272727272725,2023,nbr
+satellite_images\2023\nbr_2023-06-14_cloud5.4.png,Пожар,N/A,0.00012134052388289677,0.1732858243451464,2023,nbr
+satellite_images\2023\nbr_2023-06-14_cloud6.9.png,Пожар,N/A,0.000313944530046225,0.5915870570107858,2023,nbr
+satellite_images\2023\nbr_2023-06-16_cloud17.1.png,Нет пожара,N/A,3.6594761171032355e-05,0.04389252696456086,2023,nbr
+satellite_images\2023\nbr_2023-06-19_cloud1.7.png,Нет пожара,N/A,5.778120184899846e-06,0.04465716486902928,2023,nbr
+satellite_images\2023\nbr_2023-06-19_cloud19.6.png,Пожар,N/A,5.2003081664098616e-05,0.14865369799691833,2023,nbr
+satellite_images\2023\nbr_2023-06-26_cloud17.8.png,Пожар,N/A,0.0023073959938366717,0.7247785053929122,2023,nbr
+satellite_images\2023\nbr_2023-06-26_cloud18.1.png,Пожар,N/A,0.00030238828967642527,0.15212057010785823,2023,nbr
+satellite_images\2023\nbr_2023-06-26_cloud2.8.png,Пожар,N/A,0.0005701078582434515,0.18963983050847458,2023,nbr
+satellite_images\2023\nbr_2023-06-26_cloud3.3.png,Пожар,N/A,0.0003871340523882897,0.04385785824345147,2023,nbr
+satellite_images\2023\nbr_2023-07-09_cloud26.6.png,Пожар,N/A,0.008320493066255779,0.1758397534668721,2023,nbr
+satellite_images\2023\nbr_2023-07-11_cloud24.7.png,Нет пожара,N/A,0.00025038520801232665,0.044872881355932204,2023,nbr
+satellite_images\2023\nbr_2023-07-11_cloud4.5.png,Пожар,N/A,0.0005142526964560863,0.1950520030816641,2023,nbr
+satellite_images\2023\nbr_2023-07-14_cloud0.0.png,Нет пожара,N/A,7.896764252696455e-05,0.04410439137134052,2023,nbr
+satellite_images\2023\nbr_2023-07-14_cloud0.1.png,Нет пожара,N/A,7.896764252696455e-05,0.037251540832049304,2023,nbr
+satellite_images\2023\nbr_2023-07-14_cloud11.9.png,Пожар,N/A,0.00014445300462249616,0.08400616332819723,2023,nbr
+satellite_images\2023\nbr_2023-07-14_cloud14.0.png,Пожар,N/A,0.00024075500770416025,0.18123073959938366,2023,nbr
+satellite_images\2023\nbr_2023-07-14_cloud27.2.png,Пожар,N/A,1.1556240369799691e-05,0.13377118644067795,2023,nbr
+satellite_images\2023\nbr_2023-07-14_cloud8.3.png,Пожар,N/A,0.0008339753466872111,0.6924865177195686,2023,nbr
+satellite_images\2023\nbr_2023-07-16_cloud18.9.png,Пожар,N/A,0.0019221879815100153,0.7274017719568567,2023,nbr
+satellite_images\2023\nbr_2023-07-16_cloud27.8.png,Пожар,N/A,0.00034283513097072417,0.19710323574730354,2023,nbr
+satellite_images\2023\nbr_2023-07-19_cloud0.0.png,Нет пожара,N/A,0.0008397534668721109,0.042569337442218795,2023,nbr
+satellite_images\2023\nbr_2023-07-19_cloud0.4.png,Пожар,N/A,0.0006144067796610169,0.15057781201849,2023,nbr
+satellite_images\2023\nbr_2023-07-19_cloud1.6.png,Пожар,N/A,0.0022842835130970724,0.6917777349768875,2023,nbr
+satellite_images\2023\nbr_2023-07-19_cloud5.2.png,Пожар,N/A,0.0010285053929121725,0.18197033898305084,2023,nbr
+satellite_images\2023\nbr_2023-07-21_cloud1.9.png,Пожар,N/A,0.0003640215716486903,0.15258474576271186,2023,nbr
+satellite_images\2023\nbr_2023-07-21_cloud10.2.png,Пожар,N/A,0.0023324345146379043,0.7161536979969183,2023,nbr
+satellite_images\2023\nbr_2023-07-21_cloud2.7.png,Пожар,N/A,0.000389060092449923,0.18868451463790448,2023,nbr
+satellite_images\2023\nbr_2023-07-21_cloud7.9.png,Нет пожара,N/A,0.00016756548536209554,0.043507318952234204,2023,nbr
+satellite_images\2023\nbr_2023-07-26_cloud0.5.png,Пожар,N/A,0.0005431432973805855,0.18523305084745761,2023,nbr
+satellite_images\2023\nbr_2023-07-26_cloud4.0.png,Пожар,N/A,0.0023728813559322033,0.6866352080123267,2023,nbr
+satellite_images\2023\nbr_2023-07-26_cloud6.0.png,Пожар,N/A,0.0005797380585516179,0.15088405238828967,2023,nbr
+satellite_images\2023\nbr_2023-07-26_cloud6.7.png,Нет пожара,N/A,0.00015600924499229585,0.04295839753466872,2023,nbr
+satellite_images\2023\nbr_2023-07-29_cloud1.8.png,Нет пожара,N/A,0.0005546995377503852,0.04285246533127889,2023,nbr
+satellite_images\2023\nbr_2023-07-29_cloud6.1.png,Пожар,N/A,0.0031510015408320493,0.6920974576271186,2023,nbr
+satellite_images\2023\nbr_2023-07-29_cloud7.5.png,Пожар,N/A,0.000984206471494607,0.1898786594761171,2023,nbr
+satellite_images\2023\nbr_2023-07-29_cloud8.5.png,Пожар,N/A,0.001666024653312789,0.14772727272727273,2023,nbr
+satellite_images\2023\nbr_2023-08-03_cloud28.4.png,Пожар,N/A,0.0006779661016949153,0.18834938366718026,2023,nbr
+satellite_images\2023\nbr_2023-08-03_cloud3.2.png,Нет пожара,N/A,0.00043528505392912174,0.043345531587057014,2023,nbr
+satellite_images\2023\nbr_2023-08-05_cloud17.4.png,Нет пожара,N/A,0.0014445300462249614,0.041552388289676424,2023,nbr
+satellite_images\2023\nbr_2023-08-05_cloud24.0.png,Пожар,N/A,0.0012942989214175654,0.14606702619414483,2023,nbr
+satellite_images\2023\nbr_2023-08-08_cloud18.2.png,Нет пожара,N/A,0.000423728813559322,0.043066255778120184,2023,nbr
+satellite_images\2023\nbr_2023-08-08_cloud27.4.png,Пожар,N/A,0.000703004622496148,0.1866429121725732,2023,nbr
+satellite_images\2023\nbr_2023-08-08_cloud5.1.png,Пожар,N/A,0.0025558551617873653,0.5972862095531587,2023,nbr
+satellite_images\2023\nbr_2023-08-08_cloud6.5.png,Пожар,N/A,0.0010901386748844377,0.1350924499229584,2023,nbr
+satellite_images\2023\nbr_2023-08-18_cloud1.8.png,Нет пожара,N/A,0.0007588597842835131,0.04381548536209553,2023,nbr
+satellite_images\2023\nbr_2023-08-18_cloud23.2.png,Пожар,N/A,0.003054699537750385,0.6900173343605547,2023,nbr
+satellite_images\2023\nbr_2023-08-18_cloud27.7.png,Пожар,N/A,0.0015427580893682589,0.14854969183359013,2023,nbr
+satellite_images\2023\nbr_2023-08-18_cloud3.4.png,Пожар,N/A,0.0005200308166409862,0.18919298921417566,2023,nbr
+satellite_images\2023\nbr_2023-08-20_cloud0.0.png,Пожар,N/A,0.000778120184899846,0.18036594761171032,2023,nbr
+satellite_images\2023\nbr_2023-08-20_cloud0.8.png,Пожар,N/A,0.0009765023112480739,0.13952812018489985,2023,nbr
+satellite_images\2023\nbr_2023-08-20_cloud2.4.png,Пожар,N/A,0.0028389830508474575,0.6464695685670262,2023,nbr
+satellite_images\2023\nbr_2023-08-23_cloud0.0.png,Пожар,N/A,0.0009399075500770416,0.1406067026194145,2023,nbr
+satellite_images\2023\nbr_2023-08-23_cloud0.9.png,Пожар,N/A,0.0006047765793528505,0.1866429121725732,2023,nbr
+satellite_images\2023\nbr_2023-08-23_cloud2.3.png,Нет пожара,N/A,0.000799306625577812,0.04220146379044684,2023,nbr
+satellite_images\2023\nbr_2023-08-30_cloud0.4.png,Нет пожара,N/A,0.0011190292758089368,0.042490369799691834,2023,nbr
+satellite_images\2023\nbr_2023-08-30_cloud0.7.png,Пожар,N/A,0.0005161787365177196,0.14225539291217257,2023,nbr
+satellite_images\2023\nbr_2023-08-30_cloud10.0.png,Пожар,N/A,0.0007800462249614792,0.19031779661016948,2023,nbr
+satellite_images\2023\nbr_2023-08-30_cloud3.0.png,Пожар,N/A,0.0021147919876733437,0.6696629429892141,2023,nbr
+satellite_images\2023\natural_2023-06-01_cloud0.0.png,Нет пожара,N/A,0.0,0.0009765023112480739,2023,natural
+satellite_images\2023\natural_2023-06-04_cloud0.5.png,Нет пожара,N/A,0.0,0.0,2023,natural
+satellite_images\2023\natural_2023-06-04_cloud0.6.png,Нет пожара,N/A,0.0,0.00011363636363636364,2023,natural
+satellite_images\2023\natural_2023-06-04_cloud1.9.png,Нет пожара,N/A,0.0,9.052388289676426e-05,2023,natural
+satellite_images\2023\natural_2023-06-04_cloud2.1.png,Нет пожара,N/A,0.0,0.0010400616332819723,2023,natural
+satellite_images\2023\natural_2023-06-06_cloud0.0.png,Нет пожара,N/A,0.0,0.0002657935285053929,2023,natural
+satellite_images\2023\natural_2023-06-06_cloud1.1.png,Нет пожара,N/A,0.0,0.0009553158705701078,2023,natural
+satellite_images\2023\natural_2023-06-06_cloud1.3.png,Нет пожара,N/A,0.0,0.0012422958397534669,2023,natural
+satellite_images\2023\natural_2023-06-06_cloud3.0.png,Нет пожара,N/A,3.852080123266564e-06,0.007842835130970725,2023,natural
+satellite_images\2023\natural_2023-06-09_cloud1.9.png,Нет пожара,N/A,0.0,0.03171995377503852,2023,natural
+satellite_images\2023\natural_2023-06-09_cloud3.7.png,Нет пожара,N/A,0.0,0.008023882896764253,2023,natural
+satellite_images\2023\natural_2023-06-09_cloud4.4.png,Нет пожара,N/A,0.0,0.03159090909090909,2023,natural
+satellite_images\2023\natural_2023-06-09_cloud6.3.png,Нет пожара,N/A,0.0,0.011692989214175655,2023,natural
+satellite_images\2023\natural_2023-06-11_cloud0.9.png,Нет пожара,N/A,0.0,0.0003505392912172573,2023,natural
+satellite_images\2023\natural_2023-06-11_cloud13.9.png,Нет пожара,N/A,0.0,0.016086286594761173,2023,natural
+satellite_images\2023\natural_2023-06-11_cloud8.0.png,Нет пожара,N/A,0.0,0.07079545454545455,2023,natural
+satellite_images\2023\natural_2023-06-14_cloud2.1.png,Нет пожара,N/A,0.0,0.0004256548536209553,2023,natural
+satellite_images\2023\natural_2023-06-14_cloud5.2.png,Нет пожара,N/A,0.0,0.0,2023,natural
+satellite_images\2023\natural_2023-06-14_cloud5.4.png,Нет пожара,N/A,0.0,6.741140215716486e-05,2023,natural
+satellite_images\2023\natural_2023-06-14_cloud6.9.png,Нет пожара,N/A,0.0,0.010321648690292758,2023,natural
+satellite_images\2023\natural_2023-06-16_cloud17.1.png,Нет пожара,N/A,0.0,0.0030585516178736516,2023,natural
+satellite_images\2023\natural_2023-06-19_cloud1.7.png,Нет пожара,N/A,0.0,0.0,2023,natural
+satellite_images\2023\natural_2023-06-19_cloud19.6.png,Нет пожара,N/A,0.0,0.0030835901386748843,2023,natural
+satellite_images\2023\natural_2023-06-26_cloud17.8.png,Нет пожара,N/A,0.0,0.08463790446841295,2023,natural
+satellite_images\2023\natural_2023-06-26_cloud18.1.png,Нет пожара,N/A,0.0,0.016623651771956856,2023,natural
+satellite_images\2023\natural_2023-06-26_cloud2.8.png,Нет пожара,N/A,0.0,0.014171802773497688,2023,natural
+satellite_images\2023\natural_2023-06-26_cloud3.3.png,Нет пожара,N/A,0.0,0.005444915254237288,2023,natural
+satellite_images\2023\natural_2023-07-09_cloud26.6.png,Нет пожара,N/A,7.704160246533127e-06,0.14164676425269646,2023,natural
+satellite_images\2023\natural_2023-07-11_cloud24.7.png,Нет пожара,N/A,0.0,0.0,2023,natural
+satellite_images\2023\natural_2023-07-11_cloud4.5.png,Нет пожара,N/A,0.0,0.006610169491525424,2023,natural
+satellite_images\2023\natural_2023-07-14_cloud0.0.png,Нет пожара,N/A,0.0,0.0,2023,natural
+satellite_images\2023\natural_2023-07-14_cloud0.1.png,Нет пожара,N/A,0.0,0.0,2023,natural
+satellite_images\2023\natural_2023-07-14_cloud11.9.png,Нет пожара,N/A,0.0,0.007024268104776579,2023,natural
+satellite_images\2023\natural_2023-07-14_cloud14.0.png,Нет пожара,N/A,0.0,0.01915446841294299,2023,natural
+satellite_images\2023\natural_2023-07-14_cloud27.2.png,Нет пожара,N/A,0.0,0.013058551617873651,2023,natural
+satellite_images\2023\natural_2023-07-14_cloud8.3.png,Нет пожара,N/A,1.1556240369799691e-05,0.018160631741140215,2023,natural
+satellite_images\2023\natural_2023-07-16_cloud18.9.png,Нет пожара,N/A,0.0,0.1151213405238829,2023,natural
+satellite_images\2023\natural_2023-07-16_cloud27.8.png,Нет пожара,N/A,0.0,0.04986517719568567,2023,natural
+satellite_images\2023\natural_2023-07-19_cloud0.0.png,Нет пожара,N/A,0.0,1.926040061633282e-06,2023,natural
+satellite_images\2023\natural_2023-07-19_cloud0.4.png,Нет пожара,N/A,0.0,9.437596302003082e-05,2023,natural
+satellite_images\2023\natural_2023-07-19_cloud1.6.png,Нет пожара,N/A,0.0,0.0005238828967642527,2023,natural
+satellite_images\2023\natural_2023-07-19_cloud5.2.png,Нет пожара,N/A,0.0,8.474576271186441e-05,2023,natural
+satellite_images\2023\natural_2023-07-21_cloud1.9.png,Нет пожара,N/A,0.0,0.008120184899845917,2023,natural
+satellite_images\2023\natural_2023-07-21_cloud10.2.png,Нет пожара,N/A,5.778120184899846e-06,0.07674884437596302,2023,natural
+satellite_images\2023\natural_2023-07-21_cloud2.7.png,Нет пожара,N/A,1.926040061633282e-06,0.0035496918335901385,2023,natural
+satellite_images\2023\natural_2023-07-21_cloud7.9.png,Нет пожара,N/A,0.0,5.778120184899846e-05,2023,natural
+satellite_images\2023\natural_2023-07-26_cloud0.5.png,Нет пожара,N/A,0.0,0.0002041602465331279,2023,natural
+satellite_images\2023\natural_2023-07-26_cloud4.0.png,Нет пожара,N/A,0.0,0.013463020030816642,2023,natural
+satellite_images\2023\natural_2023-07-26_cloud6.0.png,Нет пожара,N/A,0.0,0.001706471494607088,2023,natural
+satellite_images\2023\natural_2023-07-26_cloud6.7.png,Нет пожара,N/A,0.0,7.704160246533127e-06,2023,natural
+satellite_images\2023\natural_2023-07-29_cloud1.8.png,Нет пожара,N/A,0.0,0.0004468412942989214,2023,natural
+satellite_images\2023\natural_2023-07-29_cloud6.1.png,Нет пожара,N/A,0.0,0.0411979969183359,2023,natural
+satellite_images\2023\natural_2023-07-29_cloud7.5.png,Нет пожара,N/A,0.0,0.0009687981510015408,2023,natural
+satellite_images\2023\natural_2023-07-29_cloud8.5.png,Нет пожара,N/A,0.0,0.02315100154083205,2023,natural
+satellite_images\2023\natural_2023-08-03_cloud28.4.png,Нет пожара,N/A,0.0,0.0007164869029275809,2023,natural
+satellite_images\2023\natural_2023-08-03_cloud3.2.png,Нет пожара,N/A,0.0,1.5408320493066255e-05,2023,natural
+satellite_images\2023\natural_2023-08-05_cloud17.4.png,Нет пожара,N/A,0.0,0.004135208012326657,2023,natural
+satellite_images\2023\natural_2023-08-05_cloud24.0.png,Нет пожара,N/A,0.0,0.011706471494607087,2023,natural
+satellite_images\2023\natural_2023-08-08_cloud18.2.png,Нет пожара,N/A,0.0,0.0,2023,natural
+satellite_images\2023\natural_2023-08-08_cloud27.4.png,Нет пожара,N/A,0.0,0.01012326656394453,2023,natural
+satellite_images\2023\natural_2023-08-08_cloud5.1.png,Нет пожара,N/A,0.0,0.003800077041602465,2023,natural
+satellite_images\2023\natural_2023-08-08_cloud6.5.png,Нет пожара,N/A,0.0,0.0004275808936825886,2023,natural
+satellite_images\2023\natural_2023-08-18_cloud1.8.png,Нет пожара,N/A,0.0,0.0016352080123266564,2023,natural
+satellite_images\2023\natural_2023-08-18_cloud23.2.png,Нет пожара,N/A,1.926040061633282e-06,0.09422187981510015,2023,natural
+satellite_images\2023\natural_2023-08-18_cloud27.7.png,Нет пожара,N/A,0.0,0.0299826656394453,2023,natural
+satellite_images\2023\natural_2023-08-18_cloud3.4.png,Нет пожара,N/A,1.926040061633282e-06,0.003152927580893683,2023,natural
+satellite_images\2023\natural_2023-08-20_cloud0.0.png,Нет пожара,N/A,0.0,7.126348228043144e-05,2023,natural
+satellite_images\2023\natural_2023-08-20_cloud0.8.png,Нет пожара,N/A,0.0,0.0,2023,natural
+satellite_images\2023\natural_2023-08-20_cloud2.4.png,Нет пожара,N/A,0.0,1.1556240369799691e-05,2023,natural
+satellite_images\2023\natural_2023-08-23_cloud0.0.png,Нет пожара,N/A,0.0,0.0,2023,natural
+satellite_images\2023\natural_2023-08-23_cloud0.9.png,Нет пожара,N/A,0.0,4.6224961479198765e-05,2023,natural
+satellite_images\2023\natural_2023-08-23_cloud2.3.png,Нет пожара,N/A,0.0,0.0,2023,natural
+satellite_images\2023\natural_2023-08-30_cloud0.4.png,Нет пожара,N/A,0.0,0.0,2023,natural
+satellite_images\2023\natural_2023-08-30_cloud0.7.png,Нет пожара,N/A,0.0,0.0,2023,natural
+satellite_images\2023\natural_2023-08-30_cloud10.0.png,Нет пожара,N/A,0.0,5.778120184899846e-05,2023,natural
+satellite_images\2023\natural_2023-08-30_cloud3.0.png,Нет пожара,N/A,0.0,0.00020801232665639447,2023,natural

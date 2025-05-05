@@ -64,7 +64,7 @@ def generate_grid(aoi, grid_size):
 grid_cells = generate_grid(aoi, GRID_SIZE)
 
 def haversine_distance(lat1, lon1, lat2, lon2):
-    R = 6371.0  # Earth radius in kilometers
+    R = 6371.0
     dlat = radians(lat2 - lat1)
     dlon = radians(lon2 - lon1)
     a = sin(dlat / 2) ** 2 + cos(radians(lat1)) * cos(radians(lat2)) * sin(dlon / 2) ** 2
@@ -110,21 +110,21 @@ def process_images_by_day(start_date, end_date, grid_cells):
                 cell_geometry = stat['geometry']
                 properties = stat['properties']
 
-                lon, lat = cell_geometry['coordinates'][0][0]  # Assuming simple polygons
+                lon, lat = cell_geometry['coordinates'][0][0]
                 closest_distance = haversine_distance(lat, lon, REFERENCE_POINT[1], REFERENCE_POINT[0])
 
-                humidity = properties.get('B11', None)
-                temperature = properties.get('B12', None)
-                fire_index = properties.get('B8', None)
+                humidity = properties.get('B11', None) # SWIR (Shortwave IR) - 1610 нм
+                temperature = properties.get('B12', None) # SWIR - 2190 нм
+                fire_index = properties.get('B8', None) # Near Infrared (NIR) - 842 нм
 
                 fire_status = 0  # Default: No fire
 
-                if fire_index is not None and fire_index > 0:  # Ensure fire_index is valid
-                    fire_index_normalized = fire_index / 10000  # Normalize to reflectance
+                if fire_index is not None and fire_index > 0:
+                    fire_index_normalized = fire_index / 10000
                     log(f"Raw Fire Index: {fire_index}, Normalized: {fire_index_normalized}")
 
-                    if 0 <= fire_index_normalized <= 1:  # Valid reflectance range
-                        if fire_index_normalized > 0.2:  # Adjust threshold based on analysis
+                    if 0 <= fire_index_normalized <= 1:
+                        if fire_index_normalized > 0.2:
                             fire_status = 1
                         else:
                             log(f"Fire index {fire_index_normalized} below threshold.")
