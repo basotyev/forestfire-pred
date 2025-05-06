@@ -1,0 +1,7 @@
+place,requested_date,actual_date,model,prediction,probability
+region_1,2023-07-15,2023-07-14,rf,1,0.73
+region_1,2023-07-15,2023-07-14,svm,1,0.9709
+region_2,2023-08-10,2023-08-08,rf,1,0.68
+region_2,2023-08-10,2023-08-08,svm,1,0.9709
+region_3,2023-06-20,2023-06-19,rf,1,0.65
+region_3,2023-06-20,2023-06-19,svm,1,0.9709
