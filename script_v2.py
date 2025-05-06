@@ -1,7 +1,4 @@
 import ee
-import pandas as pd
-from datetime import datetime, timedelta
-from math import radians, sin, cos, sqrt, atan2
 import sys
 import os
 import requests
@@ -9,6 +6,28 @@ from PIL import Image
 import io
 import concurrent.futures
 import threading
+import numpy as np
+
+
+def crop_black_border_pil(pil_img, threshold=10):
+    """
+    Обрезает чёрные границы у изображения на основе яркости.
+
+    :param pil_img: исходное изображение (PIL.Image)
+    :param threshold: порог яркости (по шкале 0–255), ниже которого пиксель считается "чёрным"
+    :return: обрезанное изображение (PIL.Image)
+    """
+    np_img = np.array(pil_img.convert("L"))
+    mask = np_img > threshold
+
+    coords = np.argwhere(mask)
+    if coords.size == 0:
+        return pil_img
+
+    y0, x0 = coords.min(axis=0)
+    y1, x1 = coords.max(axis=0) + 1
+
+    return pil_img.crop((x0, y0, x1, y1))
 
 ee.Initialize(project='forestfire-pred')
 
@@ -226,10 +245,13 @@ def save_image(image_data, vis_type, file_prefix):
             if image_data['cloud_percent'] is not None:
                 cloud_info = f"_cloud{image_data['cloud_percent']:.1f}"
 
-            year_dir = os.path.join(OUTPUT_DIR, year)    
+            year_dir = os.path.join(OUTPUT_DIR, year)
             img_path = os.path.join(year_dir, f"{file_prefix}_{date_str}{cloud_info}.png")
-            with open(img_path, 'wb') as f:
-                f.write(response.content)
+
+            img_pil = Image.open(io.BytesIO(response.content))
+            cropped_img = crop_black_border_pil(img_pil)
+            cropped_img.save(img_path)
+
             log(f"Saved {file_prefix} image: {img_path}")
             return True
         else:
