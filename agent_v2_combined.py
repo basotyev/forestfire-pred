@@ -7,12 +7,10 @@ import pickle
 import glob
 import matplotlib.pyplot as plt
 import seaborn as sns
-from tqdm import tqdm
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.svm import SVC
 from sklearn.metrics import classification_report, confusion_matrix, accuracy_score
 from sklearn.preprocessing import StandardScaler
-from sklearn.utils import resample
 
 DATA_DIR = "satellite_images"
 

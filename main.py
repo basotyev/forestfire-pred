@@ -11,7 +11,6 @@ from PIL import Image
 from datetime import datetime, timedelta
 from sklearn.preprocessing import StandardScaler
 
-# --- Инициализация Earth Engine ---
 ee.Initialize(project='forestfire-pred')
 
 IMAGE_SIZE = 800
@@ -47,7 +46,7 @@ def get_images_for_location(place_coords, year, month, day):
         collection = ee.ImageCollection('COPERNICUS/S2_HARMONIZED') \
             .filterBounds(aoi) \
             .filterDate(date_str, (try_date + timedelta(days=1)).strftime('%Y-%m-%d')) \
-            .filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', 40)) \
+            .filter(ee.Filter.lt('CLOUDY_PIXEL_PERCENTAGE', 100)) \
             .sort('CLOUDY_PIXEL_PERCENTAGE')
 
         size = collection.size().getInfo()
@@ -201,9 +200,9 @@ def process_location_set(locations):
 
 def main():
     locations = [
-        ("region_1", [[80.1, 50.4], [81.2, 50.3], [81.1, 51.2]], 2023, 7, 15),
-        ("region_2", [[79.5, 49.9], [80.6, 50.0], [80.0, 50.7]], 2023, 8, 10),
-        ("region_3", [[78.2, 48.9], [79.3, 49.0], [78.8, 49.7]], 2023, 6, 20),
+        ("region_1", [[80.107, 50.482], [81.214, 50.335], [81.159, 51.207]], 2018, 5, 21), # Abay region 21.05.2018 forestfire
+        ("region_2", [[80.107, 50.482], [81.214, 50.335], [81.159, 51.207]], 2023, 6, 6), # Abay region 06.06.2023 forestfire
+        ("region_3", [[75.40, 46.63], [75.46, 46.689], [75.55, 46.597]], 2024, 6, 12), # Almaty region, Balkhash district 12.06.2024 forestfire
     ]
 
     df = process_location_set(locations)
